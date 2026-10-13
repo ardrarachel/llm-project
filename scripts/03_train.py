@@ -15,12 +15,84 @@ import time
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+import matplotlib.pyplot as plt
 import torch
 
 from src.latent_model.batching import make_group
 from src.latent_model.loading import load_backbone
 from src.latent_model.model import LatentCVAE
 from src.utils import ensure_dir, get_device, hf_login_if_possible, load_config, load_jsonl, save_json, set_seed
+
+
+def plot_and_save_metrics(log, output_dir="llm-project", filename="traingraph.png"):
+    """Generates a clean 4-panel report plot from training logs and saves it."""
+    os.makedirs(output_dir, exist_ok=True)
+    save_path = os.path.join(output_dir, filename)
+
+    train_steps = [entry for entry in log if "recon_per_token" in entry]
+    val_steps = [entry for entry in log if "val" in entry and entry["val"]]
+
+    if not train_steps:
+        return
+
+    steps = [e["step"] for e in train_steps]
+    losses = [e["loss"] for e in train_steps]
+    recon = [e["recon_per_token"] for e in train_steps]
+    kl_grp = [e["kl_group"] for e in train_steps]
+    kl_inst = [e["kl_instance"] for e in train_steps]
+    betas = [e["beta"] for e in train_steps]
+
+    fig, axes = plt.subplots(2, 2, figsize=(12, 8), dpi=300)
+    plt.subplots_adjust(hspace=0.3, wspace=0.25)
+
+    # 1. Total Loss (Train + Val)
+    axes[0, 0].plot(steps, losses, label="Train DG-ELBo Loss", color="#1f77b4", linewidth=1.5)
+    if val_steps:
+        val_s = [e["step"] for e in val_steps]
+        val_l = [e["val"]["loss"] for e in val_steps]
+        axes[0, 0].plot(val_s, val_l, label="Val Loss", color="#d62728", marker="o", linestyle="--", linewidth=1.5)
+    axes[0, 0].set_title("DG-ELBo Loss", fontsize=11, fontweight="bold")
+    axes[0, 0].set_xlabel("Steps")
+    axes[0, 0].set_ylabel("Loss")
+    axes[0, 0].grid(True, linestyle=":", alpha=0.6)
+    axes[0, 0].legend()
+
+    # 2. Reconstruction Loss
+    axes[0, 1].plot(steps, recon, label="Recon / Token", color="#2ca02c", linewidth=1.5)
+    axes[0, 1].set_title("Reconstruction Loss per Token", fontsize=11, fontweight="bold")
+    axes[0, 1].set_xlabel("Steps")
+    axes[0, 1].set_ylabel("Cross Entropy")
+    axes[0, 1].grid(True, linestyle=":", alpha=0.6)
+    axes[0, 1].legend()
+
+    # 3. KL Divergence (Group vs. Instance)
+    axes[1, 0].plot(steps, kl_grp, label="KL (Group)", color="#9467bd", linewidth=1.5)
+    axes[1, 0].plot(steps, kl_inst, label="KL (Instance)", color="#8c564b", linestyle="--", linewidth=1.2)
+    axes[1, 0].set_title("KL Divergence", fontsize=11, fontweight="bold")
+    axes[1, 0].set_xlabel("Steps")
+    axes[1, 0].set_ylabel("KL")
+    axes[1, 0].grid(True, linestyle=":", alpha=0.6)
+    axes[1, 0].legend()
+
+    # 4. Beta Schedule & Active Latent Units
+    ax_beta = axes[1, 1]
+    ax_beta.plot(steps, betas, label="Beta (KL Weight)", color="#ff7f0e", linewidth=1.5)
+    ax_beta.set_title("Beta Schedule & Validation Active Units", fontsize=11, fontweight="bold")
+    ax_beta.set_xlabel("Steps")
+    ax_beta.set_ylabel("Beta", color="#ff7f0e")
+    ax_beta.tick_params(axis="y", labelcolor="#ff7f0e")
+    ax_beta.grid(True, linestyle=":", alpha=0.6)
+
+    if val_steps and "active_units" in val_steps[0]["val"]:
+        ax_act = ax_beta.twinx()
+        val_s = [e["step"] for e in val_steps]
+        val_act = [e["val"]["active_units"] for e in val_steps]
+        ax_act.plot(val_s, val_act, label="Active Units (>0.01 var)", color="#17becf", marker="s", linestyle="-.")
+        ax_act.set_ylabel("Active Units", color="#17becf")
+        ax_act.tick_params(axis="y", labelcolor="#17becf")
+
+    plt.savefig(save_path, bbox_inches="tight")
+    plt.close()
 
 
 @torch.no_grad()
@@ -135,6 +207,10 @@ def train(cfg, resume=False):
         torch.save({"model": model.trainable_state(), "opt": opt.state_dict(), "scaler": scaler.state_dict(),
                     "epoch": epoch + 1, "step": step, "best_val": best_val, "log": log}, last_path)
         save_json(log, os.path.join(out_dir, "train_log.json"))
+
+        # Save and update graph after every epoch
+        plot_and_save_metrics(log, output_dir="llm-project", filename="traingraph.png")
+
     print("Training finished.")
 
 
