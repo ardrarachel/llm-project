@@ -1,0 +1,9 @@
+# Kaggle already has torch + transformers. Extra packages needed:
+faiss-cpu
+sentence-transformers
+nltk
+pyyaml
+tqdm
+requests
+huggingface_hub
+# optional: wandb
