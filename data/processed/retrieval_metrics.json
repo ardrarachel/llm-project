@@ -1,0 +1,23 @@
+{
+  "train": {
+    "precision": 0.028782730250859877,
+    "recall": 0.11143619848671335,
+    "span_hit_rate": 0.16333333333333333,
+    "doc_hit_rate": 0.9966666666666667,
+    "num_queries": 300
+  },
+  "val": {
+    "precision": 0.023363042038189768,
+    "recall": 0.11982016053463132,
+    "span_hit_rate": 0.2,
+    "doc_hit_rate": 1.0,
+    "num_queries": 40
+  },
+  "test": {
+    "precision": 0.014267385353577838,
+    "recall": 0.056318607614256354,
+    "span_hit_rate": 0.125,
+    "doc_hit_rate": 0.975,
+    "num_queries": 40
+  }
+}

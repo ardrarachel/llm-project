@@ -1,0 +1,1547 @@
+[
+  {
+    "qid": "q3689",
+    "query": "Consider the Software License and Maintenance Agreement between D2 Technologies, Inc. and Summa Four Inc.; Are any of the licenses granted under this contract irrevocable or perpetual?",
+    "gold": [
+      {
+        "doc": "cuad/SUMMAFOURINC_06_19_1998-EX-10.3-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 4555,
+        "end": 4794,
+        "answer": "(i)      Subject to the terms and conditions of this  Agreement, D2 hereby grants LICENSEE a perpetual non-exclusive, worldwide license, to use Licensed Technology in Object Code format only as an incorporated part of the Licensee Product.",
+        "text": "(i)      Subject to the terms and conditions of this  Agreement, D2 hereby grants LICENSEE a perpetual non-exclusive, worldwide license, to use Licensed Technology in Object Code format only as an incorporated part of the Licensee Product."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/SUMMAFOURINC_06_19_1998-EX-10.3-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 1848,
+        "end": 2360,
+        "text": "are License                                           D2 Technologies, Inc. and Maintenance Agreement       August 4, 1997                      CONFIDENTIAL\n\n  2\n\n      1.6      \"New Version\" in this Agreement shall mean a new release of Licensed Technology that provides significant performance enhancements, including new releases of software product optimized for different members of the same DSP processor family which is based on the same core architecture and instruction set.\n\n      1.7      \"Defect\" sha",
+        "score": 0.7809613943099976
+      },
+      {
+        "doc": "cuad/SUMMAFOURINC_06_19_1998-EX-10.3-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "1                                                                    EXHIBIT 10.3\n\n                SOFTWARE LICENSE AND MAINTENANCE AGREEMENT\n\n      This Software license and maintenance agreement (\"Agreement\") is entered into effective as of August 4, 1997 (the \"Effective Date\") by and between D2 Technologies, Inc., a California corporation with offices at 104 West Anapamu Street, Santa Barbara, CA 93101 (\"D2\"), and Summa Four Inc., a Delaware corporation with offices at 25 Sundial Avenue, Manchester, New ",
+        "score": 0.76636803150177
+      },
+      {
+        "doc": "cuad/SUMMAFOURINC_06_19_1998-EX-10.3-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 4158,
+        "end": 4670,
+        "text": "e Licensed Source Code made by LICENSEE pursuant to the license in Article 2.2 below, subject always to D2's ownership rights in the underlying Licensed Technology.\n\nSoftware License                                           D2 Technologies, Inc. and Maintenance Agreement       August 4, 1997                      CONFIDENTIAL\n\n3\n\n\n\n\n\n      2.2      License to LICENSEE.\n\n                        (i)      Subject to the terms and conditions of this  Agreement, D2 hereby grants LICENSEE a perpetual non-exclusiv",
+        "score": 0.7618924379348755
+      }
+    ]
+  },
+  {
+    "qid": "q1183",
+    "query": "Consider the License and Development Agreement between Bioeq IP AG and Coherus BioSciences, Inc. for Ranibizumab Biosimilar; Does this contract provide for joint intellectual property ownership?",
+    "gold": [
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 66338,
+        "end": 66897,
+        "answer": "As between the Parties, the Parties shall jointly own all Inventions (including Improvements) developed, conceived or reduced to practice jointly by or on behalf of both Bioeq and Licensee (such Inventions, Joint Inventions, and such Improvements, Joint Improvements), and all Intellectual Property Rights and Know-How therein. Each Party hereby assigns to the other Party a joint equal and undivided interest in and to all Joint Inventions (including Joint Improvements) to effect such joint ownership of such Joint Inventions (including Joint Improvements).",
+        "text": "As between the Parties, the Parties shall jointly own all Inventions (including Improvements) developed, conceived or reduced to practice jointly by or on behalf of both Bioeq and Licensee (such Inventions, Joint Inventions, and such Improvements, Joint Improvements), and all Intellectual Property Rights and Know-How therein. Each Party hereby assigns to the other Party a joint equal and undivided interest in and to all Joint Inventions (including Joint Improvements) to effect such joint ownership of such Joint Inventions (including Joint Improvements)."
+      },
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 67150,
+        "end": 67767,
+        "answer": "For those countries where a specific license is required for a joint owner of a Joint Invention or Joint Improvement to practice such Joint Invention or Joint Improvement, in such country, each Party hereby grants to the other Party a perpetual, irrevocable, non-exclusive, worldwide, royalty-free, fully paid-up license, transferable and sublicensable, under such Party's right, title and interest in and to such Joint Invention or Joint Improvement to freely exploit such Joint Invention or Joint Improvement in such country, subject to the terms and conditions of this Agreement and the licenses granted hereunder.",
+        "text": "For those countries where a specific license is required for a joint owner of a Joint Invention or Joint Improvement to practice such Joint Invention or Joint Improvement, in such country, each Party hereby grants to the other Party a perpetual, irrevocable, non-exclusive, worldwide, royalty-free, fully paid-up license, transferable and sublicensable, under such Party's right, title and interest in and to such Joint Invention or Joint Improvement to freely exploit such Joint Invention or Joint Improvement in such country, subject to the terms and conditions of this Agreement and the licenses granted hereunder."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "0-K, 2/27/2020\n\n\n\n\n\nConfidential Execution Version LICENSE AND DEVELOPMENT AGREEMENT\n\nThis LICENSE AND DEVELOPMENT AGREEMENT (this Agreement) is entered into effective as of Nov. 02, 2019 (the Effective Date) by and between Bioeq IP AG, having its place of business at [***] (Bioeq) and Coherus BioSciences, Inc., having its principal place of business at 333 Twin Dolphin Drive, Suite 600, Redwood City, CA, 94065, USA (Licensee).\n\nBioeq and Licensee shall also each individually be referred to herein as a Part",
+        "score": 0.8157004117965698
+      },
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 1848,
+        "end": 2360,
+        "text": " each individually be referred to herein as a Party, and shall be referred to jointly as the Parties.\n\nRECITALS\n\nWHEREAS, Bioeq is a specialized biosimilar company;\n\nWHEREAS, Bioeq is the owner or exclusive licensee of all right, title and interest to certain products which are being developed as biosimilars to pharmaceutical products comprising the monoclonal antibody fragment Ranibizumab and currently marketed in the field of ophthalmology under the brand name Lucentis®;\n\nWHEREAS, Licensee is a company fo",
+        "score": 0.7994409203529358
+      },
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 97020,
+        "end": 97532,
+        "text": "tle [***] to terminate the [***] Agreement.\n\n12.2.2 Bioeq has the right to grant the licenses and rights it purports to grant pursuant to this Agreement.\n\nSource: COHERUS BIOSCIENCES, INC., 10-K, 2/27/2020\n\n\n\n\n\nConfidential Execution Version 12.2.3 Bioeq is not aware of any pending or threatened litigation, nor has it received any written communications from Third Parties alleging that the Licensed Patents existing as of the Effective Date are invalid or unenforceable or that the exploitation of the License",
+        "score": 0.775668740272522
+      }
+    ]
+  },
+  {
+    "qid": "q381",
+    "query": "Consider the Non-Exclusive License Agreement between The Johns Hopkins University and Virtuoso Surgical, Inc. for Commercial Development of Surgical Products; What licenses are granted under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 4120,
+        "end": 4514,
+        "answer": "Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD.",
+        "text": "Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 6.2 NON-EXCLUSIVE LICENSE AGREEMENT BETWEEN THE JOHNS HOPKINS UNIVERSITY & VIRTUOSO SURGICAL, INC.\n\nJHU Agreement: A29889\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n1\n\nMay 3, 2016 NON-EXCLUSIVE LICENSE AGREEMENT- FOR SALES This Non-Exclusive License Agreement (hereinafter \"Agreement\") is entered into by and between The Johns Hopkins University (hereinafter \"JHU\"), a corporation of the State of Maryland, having a principal place of business 3400 N. Charles Street, Baltimore, Maryland 2121",
+        "score": 0.8735915422439575
+      },
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 24948,
+        "end": 25460,
+        "text": "oso Name:C. Mark Pickrell Executive Director Title: Attorney-in-Fact Johns Hopkins Technology Ventures Date:5/11/2016 Date:: 5/4/2016\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n11\n\nMay 3, 2016 EXHIBIT A LICENSE FEES and ROYALTY 1. LICENSE FEE 1.1 The license fee due under Paragraph 4.1 is two-thousand dollars ($2000). 1.2 In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the outstanding common and preferred shares on a fully diluted b",
+        "score": 0.7785937786102295
+      },
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 24486,
+        "end": 24998,
+        "text": "gotype or symbol of LICENSEE on JHU's website and on JHU publications as a licensee startup company based upon JHU technology.\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n10\n\nMay 3, 2016 IN WITNESS WHEREOF the respective parties hereto have executed this Agreement by their duly authorized officers on the date appearing below their signatures. THE JOHNS HOPKINS UNIVERSITY VIRTUOSO SURGICAL, INC. By: /s/ Neil Veloso By: /s/ C. Mark Pickrell Neil Veloso Name:C. Mark Pickrell Executive Director Title",
+        "score": 0.7419461011886597
+      }
+    ]
+  },
+  {
+    "qid": "q516",
+    "query": "Consider the Outsourcing Agreement for IT Management Services between Silicon Smelters Pty Ltd and Espacio Information Technology, S.A.; Is there a cap on liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+        "start": 17310,
+        "end": 17434,
+        "answer": "The liability of EIT will be limited to a value equal to contractual value as per clause 7.1 and will not exceed this value.",
+        "text": "The liability of EIT will be limited to a value equal to contractual value as per clause 7.1 and will not exceed this value."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.20\n\n(TRANSLATION) OUTSOURCING AGREEMENT\n\nThis Outsourcing Agreement (hereinafter \"Agreement\") is effective as from the 1st day of January, 2009, by and between:\n\nParties to this agreement\n\nSILICON SMELTERS << Pty >> Ltd, registration nr 1998/019036/07, VAT n° 4310178506, Registered office at Beyersnek Road, PO Box 657 Polokwane - South Africa, represented by Benoit Emile Norbert Ollivier, Managing Director, acting pursuant to the powers granted to him by the Board on the 22nd of May, 2008 (herein",
+        "score": 0.7236873507499695
+      },
+      {
+        "doc": "cuad/FerroglobePlc_20150624_F-4A_EX-10.20_9154746_EX-10.20_Outsourcing Agreement.txt",
+        "start": 25410,
+        "end": 25922,
+        "text": "from the present Agreement that cannot be subjected to arbitration.   14\n\nSource: FERROGLOBE PLC, F-4/A, 6/24/2015\n\n\n\n\n\n17. GOVERNING LAW\n\n  17.1. This Agreement shall be governed by, and construed in accordance with the laws of Spain.\n\n18. IN WITNESS WHEREOF, the parties acknowledge that each has fully read and understood this Agreement, and, intending to be legally bound thereby, executed this Agreement on the date first above written.   SLICON SMELTERS PTY LTD ESPACIO INFORMATION TECHNOLOGY, S.A.\n\n\n\nName",
+        "score": 0.7158876657485962
+      },
+      {
+        "doc": "cuad/QuantumGroupIncFl_20090120_8-K_EX-99.2_3672910_EX-99.2_Hosting Agreement.txt",
+        "start": 91476,
+        "end": 91988,
+        "text": " be liable for any damages arising out of Customer's use of the Customer Component Linux Software or any Open Source Software. Customer receives no express or implied patent or other license from IBM with respect to the Customer Component Linux Software or any Open Source Software. Customer and IBM agree that any modification or creation of derivative works of Linux or Open Source Software is outside the scope of this Agreement. Linux and any other Open Source Software (\"OSS\"), including patches, fixes, and",
+        "score": 0.6998685598373413
+      }
+    ]
+  },
+  {
+    "qid": "q838",
+    "query": "Consider the Co-Branding Agreement between MediaLinx Interactive, L.P. and HealthCentral.com Inc.; What is the expiration date of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 20218,
+        "end": 20297,
+        "answer": "The term of this Agreement shall be for a period of two (2) years (the \"Term\").",
+        "text": "The term of this Agreement shall be for a period of two (2) years (the \"Term\")."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.27\n\n                                                          MediaLinx File No. 952\n\n                         CO-BRANDING CONTENT AGREEMENT                          -----------------------------\n\nTHIS AGREEMENT made as of the 30th day of June 1999\n\nBETWEEN:\n\n          MEDIALINX INTERACTIVE, L.P.,           represented herein by its general partner           MediaLinx Interactive Inc.           a corporation incorporated under the laws           of the Province of Ontario           20 Richmond St",
+        "score": 0.7960894107818604
+      },
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 19866,
+        "end": 20378,
+        "text": "ite shall remain healthyway.sympatico.ca. A separate redirect URL may be set up for the Co-Branded Site, e.g. healthcentral.sympatico.ca.\n\nAll electronic communications to the users of the Co-Branded Site shall be jointly developed, co-branded with each party's respective marks and shall be mutually agreed upon.\n\n11.  TERM & TERMINATION\n\n11.1  Term\n\nThe term of this Agreement shall be for a period of two (2) years (the \"Term\"). The effective date of the start of the Term will be from the Launch Date.\n\n11.2 ",
+        "score": 0.740006685256958
+      },
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 1848,
+        "end": 2360,
+        "text": "X and HCI have agreed to provide certain services and content to each      other in order to mutually develop and integrate content from the HCI Site      into the Sympatico health section, currently known as \"HealthyWay\", of the      Sympatico web site (the \"Co-Branded Site\").\n\nb)   The Parties have agreed that they will mutually approve the design of the      Co-Branded Site and that the launch date of the Co-Branded Site shall be      September 1st, 1999 unless mutually extended by the Parties as agreed ",
+        "score": 0.7313984036445618
+      }
+    ]
+  },
+  {
+    "qid": "q336",
+    "query": "Consider the Sponsored Research and License Agreement between ArTara, Inc. and The University of Iowa for TARA-002 Development; What licenses are granted under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ArtaraTherapeuticsInc_20200110_8-K_EX-10.5_11943350_EX-10.5_License Agreement.txt",
+        "start": 18424,
+        "end": 18583,
+        "answer": "University hereby grants to ArTara an exclusive license to use the Program Data solely for the Project and in Regulatory Filings in the Field in the Territory.",
+        "text": "University hereby grants to ArTara an exclusive license to use the Program Data solely for the Project and in Regulatory Filings in the Field in the Territory."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ArtaraTherapeuticsInc_20200110_8-K_EX-10.5_11943350_EX-10.5_License Agreement.txt",
+        "start": 14784,
+        "end": 15296,
+        "text": "one based on Data Value: Within forty-five (45) days of an approval of the TARA-002 BLA by the FDA, ArTara will pay a one- time approval milestone to University pursuant to the usefulness of the Program Data in TARA-002's BLA filing, as set forth below: Official Feedback from FDA regarding the Program Data Milestone […***…] $[…***…] […***…] $[…***…] […***…] $[…***…] […***…] […***…]\n\n5\n\nSource: ARTARA THERAPEUTICS, INC., 8-K, 1/10/2020\n\n\n\n\n\n3.3 Royalties. Royalties will be payable by ArTara on Net Sales of P",
+        "score": 0.7429666519165039
+      },
+      {
+        "doc": "cuad/ArtaraTherapeuticsInc_20200110_8-K_EX-10.5_11943350_EX-10.5_License Agreement.txt",
+        "start": 28644,
+        "end": 29156,
+        "text": "ditional licenses from any third party needed to perform and fulfill its duties and obligations under this Agreement; and (g) There is no pending litigation and no threatened claims against it that could impair its ability or capacity to perform and fulfill its duties and obligations under this Agreement. 6.3 Indemnification by ArTara. To the extent permitted by law, ArTara agrees to defend, indemnify and hold the University of Iowa Research Foundation, the University, the State of Iowa, the University's Bo",
+        "score": 0.7297822833061218
+      },
+      {
+        "doc": "cuad/ArtaraTherapeuticsInc_20200110_8-K_EX-10.5_11943350_EX-10.5_License Agreement.txt",
+        "start": 462,
+        "end": 974,
+        "text": "and between ArTara, Inc. located at 1 Little West 12t h Street, New York, NY 10014 (\"ArTara\"), and The University of Iowa, located at c/o Division of Sponsored Programs, 2 Gilmore Hall, Iowa City, IA 52242 (\"University\"). ArTara and University may individually be referred to herein as a \"Party,\" and collectively as \"Parties.\" WI T N E S S E T H: WHEREAS, ArTara is engaged in the development of pharmaceutical products for the treatment of serious rare diseases; WHEREAS, University is engaged in clinical rese",
+        "score": 0.7050917148590088
+      }
+    ]
+  },
+  {
+    "qid": "q3812",
+    "query": "Consider the Sponsorship Agreement between Excite, Inc. and NetGrocer, Inc.; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 41136,
+        "end": 41382,
+        "answer": "This Agreement will be governed by and                   construed in accordance with the laws of the State of                   California, notwithstanding the actual state or country of                   residence or incorporation of NetGrocer.",
+        "text": "This Agreement will be governed by and                   construed in accordance with the laws of the State of                   California, notwithstanding the actual state or country of                   residence or incorporation of NetGrocer."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "  NetGrocer wishes to promote use of the NetGrocer Site to Excite's          users by sponsoring the Excite Shopping Channel and purchasing banner          advertising and other promotional links on the Excite Site.\n\n1.       SPONSORSHIP\n\n         a)       Excite will promote NetGrocer in the Excite Shopping Channel                   as follows:\n\n                  i)       For the term of this Agreement, Excite will display                            a text and/or graphic link (consistent with the          ",
+        "score": 0.757554292678833
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 28644,
+        "end": 29156,
+        "text": "          each CPG merchant's co-branded area and a second that sends                   consumers to the portion of the Excite Network that promotes                   the entire CPG program. Excite and NetGrocer agree to                   negotiate in good faith to establish the terms and conditions                   for NetGrocer's participation in Excite's CPG program when                   and if launched.\n\n         b)       Excite currently plans to make available sponsorship                   opportuni",
+        "score": 0.7463153600692749
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 13398,
+        "end": 13910,
+        "text": "hin [*] days, NetGrocer may                    suspend (but not eliminate) its payments of the sponsorship                    and advertising fees described in Section 5(b) and 5(c) until                   the make-good is delivered, at which time NetGrocer will                    resume its payments of the sponsorship and advertising fees.\n\n         h)       Excite will use commercially reasonable efforts to maintain                   the Excite Network and display the promotional placements and           ",
+        "score": 0.7314928770065308
+      }
+    ]
+  },
+  {
+    "qid": "q719",
+    "query": "Consider the Corporate Sponsorship Agreement between Freeze Tag, Inc. and American Diabetes Association for National Get Fit Don't Sit Day; Are the licenses granted under this contract non-transferable?",
+    "gold": [
+      {
+        "doc": "cuad/FreezeTagInc_20180411_8-K_EX-10.1_11139603_EX-10.1_Sponsorship Agreement.txt",
+        "start": 4387,
+        "end": 4555,
+        "answer": "Company may not permit any third party to use the Association Marks without the express prior written approval of the Association, which may be withheld for any reason.",
+        "text": "Company may not permit any third party to use the Association Marks without the express prior written approval of the Association, which may be withheld for any reason."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/FreezeTagInc_20180411_8-K_EX-10.1_11139603_EX-10.1_Sponsorship Agreement.txt",
+        "start": 18942,
+        "end": 19454,
+        "text": "f American Diabetes Association®\" b. \"Freeze Tag is a national sponsor of American Diabetes Association®\" A. 2018 National Get Fit Don't Sit DayTM\n\nNational Get Fit Don't Sit DayT M, (NGFDS) May 2, 2018 is the Association's high-profile wellness day that brings a message around physical activity into the workplace; it is designed to bring awareness about the importance of getting up and moving throughout the day. As a sponsor of the 2018 NGFDS Day event, Company shall include: i. E-Toolkit E-toolkit shall i",
+        "score": 0.8075814843177795
+      },
+      {
+        "doc": "cuad/FreezeTagInc_20180411_8-K_EX-10.1_11139603_EX-10.1_Sponsorship Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.1\n\nCorporate Sponsorship Agreement Between American Diabetes Association and Freeze Tag, Inc. This Agreement (\"Agreement\") is made effective March 22, 2018, by and between Freeze Tag Inc., a Delaware Corporation (\"Company\"), with its principal place of business located at 1720 Bray Central Drive, McKinney, TX 75069 and the American Diabetes Association, Inc. (\"Association\"), an Ohio not-for profit corporation, with its principal place of business located at 2451 Crystal Drive, Suite 900, Arlingto",
+        "score": 0.7841192483901978
+      },
+      {
+        "doc": "cuad/FreezeTagInc_20180411_8-K_EX-10.1_11139603_EX-10.1_Sponsorship Agreement.txt",
+        "start": 18480,
+        "end": 18992,
+        "text": "t \"B\"). All materials containing the Association Marks are subject to advance review and written approval by the Association and Company acknowledges that the Association is the final arbiter in determining whether or not its Marks are suitable to appear on materials. Any display of Association Mark must be accompanied by one of the following relationship statements: a. \"Freeze Tag is a national sponsor of Get Fit Don't Sit DayTM, a wellness engagement day of American Diabetes Association®\" b. \"Freeze Tag i",
+        "score": 0.770696222782135
+      }
+    ]
+  },
+  {
+    "qid": "q2443",
+    "query": "Consider the Collaboration Agreement for Development and Supply of Biosuperior Monoclonal Antibodies between Xencor, Inc. and Boehringer Ingelheim International GmbH; Does this contract include an exclusivity agreement?",
+    "gold": [
+      {
+        "doc": "cuad/XENCORINC_10_25_2013-EX-10.24-COLLABORATION AGREEMENT (3).txt",
+        "start": 64732,
+        "end": 65230,
+        "answer": "Subject to XENCOR's adherence to the obligations under this Agreement, BII hereby grants XENCOR a worldwide, irrevocable, exclusive, sublicensable and royalty free license to use the Process and all reasonably necessary related BII Confidential Information and Know- How, BII Technology and BII Intellectual Property for the sole purpose of making and having made the Product; provided that such license shall become effective only upon complete payment of the Technology Access Fee, as applicable.",
+        "text": "Subject to XENCOR's adherence to the obligations under this Agreement, BII hereby grants XENCOR a worldwide, irrevocable, exclusive, sublicensable and royalty free license to use the Process and all reasonably necessary related BII Confidential Information and Know- How, BII Technology and BII Intellectual Property for the sole purpose of making and having made the Product; provided that such license shall become effective only upon complete payment of the Technology Access Fee, as applicable."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/XENCORINC_10_25_2013-EX-10.24-COLLABORATION AGREEMENT (3).txt",
+        "start": 135366,
+        "end": 135878,
+        "text": "technology to engineer next­generation antibodies, and Boehringer Ingelheim announced today a collaboration agreement for certain Xencor biosuperior monoclonal antibodies. Under the terms of the agreement, Boehringer Ingelheim will provide all manufacturing and product supply from preclinical through Phase I development. Xencor is responsible for preclinical and clinical studies and retains all development and commercial rights to products under the agreement. Upon successful advancement of clinical program",
+        "score": 0.8809593915939331
+      },
+      {
+        "doc": "cuad/XENCORINC_10_25_2013-EX-10.24-COLLABORATION AGREEMENT (3).txt",
+        "start": 135828,
+        "end": 136340,
+        "text": "t. Upon successful advancement of clinical programs beyond Phase 1 development, Boehringer Ingelheim has certain manufacturing rights to supply clinical and commercial material to Xencor. \"Xencor has developed deep portfolio of biosuperior antibodies with the potential for superior clinical and commercial performance, and this collaboration agreement with Boehringer Ingelheim allows us to establish an important relationship with the leading global contract manufacturer of biologics,\" said Bassil Dahiyat, Ph",
+        "score": 0.8665618896484375
+      },
+      {
+        "doc": "cuad/XENCORINC_10_25_2013-EX-10.24-COLLABORATION AGREEMENT (3).txt",
+        "start": 134904,
+        "end": 135416,
+        "text": "ommunications Tel: 619-849-5377 heidi@canalecomm.com   Boehringer Ingelheim and Xencor Enter a Collaboration Agreement for the  Development, Manufacture, and Supply of Biosuperior Monoclonal Antibodies   Antibodies engineered with Xencor's proprietary Xtend™ technology for increasing antibody half­life   MONROVIA, Calif., USA and INGELHEIM, Germany — February 14 , 2012 — Xencor, Inc., a company using its proprietary Protein Design Automation® (PDA) platform technology to engineer next­generation antibodies,",
+        "score": 0.8468590378761292
+      }
+    ]
+  },
+  {
+    "qid": "q385",
+    "query": "Consider the Non-Exclusive License Agreement between The Johns Hopkins University and Virtuoso Surgical, Inc. for Commercial Development of Surgical Products; What are the insurance requirements under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 20211,
+        "end": 20696,
+        "answer": "Prior to first commercial sale of any LICENSED PRODUCT(S) or LICENSED SERVICE(S) as the case may be in any particular country, Company shall establish and maintain, in each country in which Company shall sell LICENSED PRODUCT(S) or LICENSED SERVICE(S), product liability or other appropriate insurance coverage appropriate to the risks involved in marketing LICENSED PRODUCT(S) and/or LICENSED SERVICE(S) and will annually present evidence to JHU that such coverage is being maintained",
+        "text": "Prior to first commercial sale of any LICENSED PRODUCT(S) or LICENSED SERVICE(S) as the case may be in any particular country, Company shall establish and maintain, in each country in which Company shall sell LICENSED PRODUCT(S) or LICENSED SERVICE(S), product liability or other appropriate insurance coverage appropriate to the risks involved in marketing LICENSED PRODUCT(S) and/or LICENSED SERVICE(S) and will annually present evidence to JHU that such coverage is being maintained"
+      },
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 20698,
+        "end": 20909,
+        "answer": "Upon JHU's request, Company will furnish JHU with a Certificate of Insurance of each product liability insurance policy obtained. JHU shall be listed as an additional insured in Company's said insurance policies",
+        "text": "Upon JHU's request, Company will furnish JHU with a Certificate of Insurance of each product liability insurance policy obtained. JHU shall be listed as an additional insured in Company's said insurance policies"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 6.2 NON-EXCLUSIVE LICENSE AGREEMENT BETWEEN THE JOHNS HOPKINS UNIVERSITY & VIRTUOSO SURGICAL, INC.\n\nJHU Agreement: A29889\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n1\n\nMay 3, 2016 NON-EXCLUSIVE LICENSE AGREEMENT- FOR SALES This Non-Exclusive License Agreement (hereinafter \"Agreement\") is entered into by and between The Johns Hopkins University (hereinafter \"JHU\"), a corporation of the State of Maryland, having a principal place of business 3400 N. Charles Street, Baltimore, Maryland 2121",
+        "score": 0.861388087272644
+      },
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 24948,
+        "end": 25460,
+        "text": "oso Name:C. Mark Pickrell Executive Director Title: Attorney-in-Fact Johns Hopkins Technology Ventures Date:5/11/2016 Date:: 5/4/2016\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n11\n\nMay 3, 2016 EXHIBIT A LICENSE FEES and ROYALTY 1. LICENSE FEE 1.1 The license fee due under Paragraph 4.1 is two-thousand dollars ($2000). 1.2 In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the outstanding common and preferred shares on a fully diluted b",
+        "score": 0.781453013420105
+      },
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 24486,
+        "end": 24998,
+        "text": "gotype or symbol of LICENSEE on JHU's website and on JHU publications as a licensee startup company based upon JHU technology.\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n10\n\nMay 3, 2016 IN WITNESS WHEREOF the respective parties hereto have executed this Agreement by their duly authorized officers on the date appearing below their signatures. THE JOHNS HOPKINS UNIVERSITY VIRTUOSO SURGICAL, INC. By: /s/ Neil Veloso By: /s/ C. Mark Pickrell Neil Veloso Name:C. Mark Pickrell Executive Director Title",
+        "score": 0.7276211380958557
+      }
+    ]
+  },
+  {
+    "qid": "q89",
+    "query": "Consider the Co-Branding and Endorsement Licensing Agreement between MusclePharm Corporation, Arnold Schwarzenegger, Marine MP, LLC, and Fitness Publications, Inc.; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 40897,
+        "end": 41222,
+        "answer": "This Agreement may also be terminated by MusclePharm, upon fifteen days prior written notice, if death, or physical disability, physical injury, or other incapacity lasting more than eight (8) weeks, causes Endorser to be unable to perform a material amount of the personal or consulting services described in this Agreement.",
+        "text": "This Agreement may also be terminated by MusclePharm, upon fifteen days prior written notice, if death, or physical disability, physical injury, or other incapacity lasting more than eight (8) weeks, causes Endorser to be unable to perform a material amount of the personal or consulting services described in this Agreement."
+      },
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 68858,
+        "end": 69479,
+        "answer": "The license granted by this Agreement is personal to MusclePharm. Except as set forth below, MusclePharm shall not assign or otherwise transfer, license, sublicense, or delegate any rights or obligations under this Agreement without the express prior written consent of the AS Parties. Neither party shall voluntarily or by operation of law assign or otherwise transfer the rights and/or obligations incurred pursuant to the terms of this Agreement without the prior written consent of the other party. Any attempted assignment or transfer by a party of their rights and/or obligations without such consent shall be void.",
+        "text": "The license granted by this Agreement is personal to MusclePharm. Except as set forth below, MusclePharm shall not assign or otherwise transfer, license, sublicense, or delegate any rights or obligations under this Agreement without the express prior written consent of the AS Parties. Neither party shall voluntarily or by operation of law assign or otherwise transfer the rights and/or obligations incurred pursuant to the terms of this Agreement without the prior written consent of the other party. Any attempted assignment or transfer by a party of their rights and/or obligations without such consent shall be void."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "ENDORSEMENT LICENSING AND CO-BRANDING AGREEMENT   This ENDORSEMENT LICENSING AND CO-BRANDING AGREEMENT is entered into on July 26, 2013 (the \"Effective Date\") by and between Marine MP, LLC (\"Lender\"), for services of Arnold Schwarzenegger (\"Endorser\"), and Fitness Publications, Inc. (\"Fitness\") (collectively, Lender, Endorser, and Fitness are referred to as the \"AS Parties\") and MusclePharm Corporation with its principal place of business in Denver, Colorado and its subsidiaries, (collectively, \"MusclePharm",
+        "score": 0.8222661018371582
+      },
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 924,
+        "end": 1436,
+        "text": ", MusclePharm is engaged in the business of developing and marketing nutritional products for athletes and fitness enthusiasts, and   WHEREAS, MusclePharm from time to time uses consumer, celebrity, and expert endorsements or testimonials to promote MusclePharm Products (as defined in Section 2(b) of this Agreement) in marketing and advertising materials, and   WHEREAS, MusclePharm desires to develop, market, promote and sell in conjunction and in cooperation with the Endorser a unique Arnold Schwarzenegger",
+        "score": 0.7492720484733582
+      },
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 66528,
+        "end": 67040,
+        "text": "be entered into by the AS Parties without MusclePharm's prior written approval.\n\n\n\nSource: MUSCLEPHARM CORP, 10-K/A, 2/8/2017\n\n\n\n\n\n\n\n  16. Exclusivity; Non-Competition:   (a) During the term of this Agreement, or any extensions of this Agreement, Endorser and the Lender hereby agree and warrant that it will not enter into any other endorsement agreement for the use of Endorser's name, image and/or likeness for advertising, marketing and/or endorsement of any other dietary supplements during the Term of this",
+        "score": 0.7307127714157104
+      }
+    ]
+  },
+  {
+    "qid": "q2846",
+    "query": "Consider the Strategic Alliance Agreement between Lightbridge Corporation and Lloyds Register for Nuclear Consulting Services; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 16992,
+        "end": 17080,
+        "answer": "No Party may assign this Agreement without the prior written consent of the other Party.",
+        "text": "No Party may assign this Agreement without the prior written consent of the other Party."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 18942,
+        "end": 19386,
+        "text": " and execution of this Agreement.\n\n[THE REST OF THIS PAGE IS LEFT INTENTIONALLY BLANK]\n\n- 7 -\n\n\n\n\n\nIN WITNESS WHEREOF, the Parties hereto have caused this Agreement to be duly executed as of the day and year first above written.\n\nLightbridge Corporation      By:/s/ James D. Guerra   Name: James D. Guerra   Title: COO\n\nLloyds Register EMEZ      By:/s/ N.D.A.M. Nooren   Name: N.D.A.M. Nooren   Title: AREA Business Manager - Energy MEAA\n\n- 8 -",
+        "score": 0.7639250755310059
+      },
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.26\n\nSTRATEGIC ALLIANCE AGREEMENT\n\nThis STRATEGIC' ALLIANCE AGREEMENT (including the exhibits and schedules hereto, this \"Agreement\") is made and entered into this 16 day of August. 2012 (the \"Effective Date\") by and between Lightbridge Corporation, a Nevada Corporation  (\"Lightbridge\"), and Lloyds Register FNMA, acting through its office in Abu Dhabi (\"Lloyds\" and. together with Lightbridge. the \"Parties\").\n\nBACKGROUND\n\nLightbridge and Lloyds believe  that, by cooperatively combining their consid",
+        "score": 0.7463610768318176
+      },
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 17094,
+        "end": 17606,
+        "text": " Entire Agreement. This Agreement, together with that certain Non-Circumvention and  Confidentiality Agreement, dated December 16, 2011, between Lightbridge and Lloyd's Register Group Services Limited, contains the entire Agreement of the Parties with respect to the transactions contemplated hereby and supersedes all prior understandings and agreements of the Parties with respect to the subject matter hereof.\n\nSection 7.7 Severability. If any provision of this Agreement is held invalid or unenforceable. all",
+        "score": 0.7460945248603821
+      }
+    ]
+  },
+  {
+    "qid": "q3976",
+    "query": "Consider the Hosting and Management Agreement between HealthGate Data Corp., Blackwell Science Limited, and Munksgaard A/S; What licenses are granted under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 9857,
+        "end": 9959,
+        "answer": "Publishers grant to HealthGate a perpetual, royalty-free licence to             use the Specification.",
+        "text": "Publishers grant to HealthGate a perpetual, royalty-free licence to             use the Specification."
+      },
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 16662,
+        "end": 17094,
+        "answer": "HealthGate hereby grants to the Publishers a non-exclusive             non-transferable licence to use the Proprietary Software for the             purposes of this Agreement\n\n            Save in relation to the Publishers' logos, trademarks, and content,             HealthGate may use and/or licence the Proprietary Software for             itself or for others without any compensation or liability to the             Publishers.",
+        "text": "HealthGate hereby grants to the Publishers a non-exclusive             non-transferable licence to use the Proprietary Software for the             purposes of this Agreement\n\n            Save in relation to the Publishers' logos, trademarks, and content,             HealthGate may use and/or licence the Proprietary Software for             itself or for others without any compensation or liability to the             Publishers."
+      },
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 17642,
+        "end": 18531,
+        "answer": "On termination of the provision of the Services by                     HealthGate to the Publishers for whatever reason, HealthGate                     shall at the Publishers' option:\n\n                          (i) grant to the Publishers a non-exclusive                     non-transferable licence to use the Proprietary Software for                     the purposes of using, developing, enhancing and maintaining                     the Site and carrying out any or all of the activities                     previously carried out by HealthGate or on its behalf under                     this Agreement\n\n                          (ii) exercise best endeavours to grant to the                     Publishers a non-exclusive non-transferable licence to use                     the Third Party Software for the Site when and to the extent                     requested by the Publishers.",
+        "text": "On termination of the provision of the Services by                     HealthGate to the Publishers for whatever reason, HealthGate                     shall at the Publishers' option:\n\n                          (i) grant to the Publishers a non-exclusive                     non-transferable licence to use the Proprietary Software for                     the purposes of using, developing, enhancing and maintaining                     the Site and carrying out any or all of the activities                     previously carried out by HealthGate or on its behalf under                     this Agreement\n\n                          (ii) exercise best endeavours to grant to the                     Publishers a non-exclusive non-transferable licence to use                     the Third Party Software for the Site when and to the extent                     requested by the Publishers."
+      },
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 22534,
+        "end": 22671,
+        "answer": "The Publishers grant to HealthGate a royalty-free licence for the             purpose of testing, demonstrating, and evaluating the Site.",
+        "text": "The Publishers grant to HealthGate a royalty-free licence for the             purpose of testing, demonstrating, and evaluating the Site."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.1\n\n                    ELECTRONIC JOURNAL SOFT WARE DEVELOPMENT,                         HOSTING AND MANAGEMENT AGREEMENT\n\n      This AGREEMENT is made the 20 March day of 1998\n\n      BETWEEN\n\n      1. HealthGate Data Corp., a Delaware corporation (\"HealthGate\"), having an       address at 380 Pleasant Street, Malden, Massachusetts, 02148, USA\n\n      AND\n\n      2. Blackwell Science Limited a company registered in England       (\"Blackwell\"), whose registered office is Osney Mead, Oxford OX2 OEL, ",
+        "score": 0.7565673589706421
+      },
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 462,
+        "end": 974,
+        "text": " registered office is Osney Mead, Oxford OX2 OEL,       England, and Munksgaard A/S, a company registered in Denmark       (\"Munksgaard\"), having an address at 35 Norre Sogade, Copenhagen DK-1016,       Denmark (together, Blackwell and Munksgaard shall be referred to as \"the       Publishers\")\n\n      WHEREAS:\n\n      A. Blackwell and Munksgaard, among other business activities, publish       journals;\n\n      B. HealthGate, among other business activities, creates, compiles and       distributes health and bi",
+        "score": 0.7345620393753052
+      },
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 66990,
+        "end": 67502,
+        "text": "------------------------\n\nThis document contains outlines, or \"scenarios,\" of how users will access the Blackwell/Munksgaard Journal Publishing system that HealthGate is currently developing.\n\nThe goal of this project is to provide the high standards of Blackwell/Munksgaard publications and services to existing readers online, as well as develop an audience of new Internet users. Since the focus of this project is to expand readership and usage, the design of this project will be driven by user needs and in",
+        "score": 0.7028075456619263
+      }
+    ]
+  },
+  {
+    "qid": "q3817",
+    "query": "Consider the Sponsorship Agreement between Excite, Inc. and NetGrocer, Inc.; What licenses are granted under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 31714,
+        "end": 31922,
+        "answer": "Each party hereby grants to the other a non-exclusive,                   limited license to use its trademarks, service marks or trade                   names only as specifically described in this Agreement.",
+        "text": "Each party hereby grants to the other a non-exclusive,                   limited license to use its trademarks, service marks or trade                   names only as specifically described in this Agreement."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "  NetGrocer wishes to promote use of the NetGrocer Site to Excite's          users by sponsoring the Excite Shopping Channel and purchasing banner          advertising and other promotional links on the Excite Site.\n\n1.       SPONSORSHIP\n\n         a)       Excite will promote NetGrocer in the Excite Shopping Channel                   as follows:\n\n                  i)       For the term of this Agreement, Excite will display                            a text and/or graphic link (consistent with the          ",
+        "score": 0.784701943397522
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 28644,
+        "end": 29156,
+        "text": "          each CPG merchant's co-branded area and a second that sends                   consumers to the portion of the Excite Network that promotes                   the entire CPG program. Excite and NetGrocer agree to                   negotiate in good faith to establish the terms and conditions                   for NetGrocer's participation in Excite's CPG program when                   and if launched.\n\n         b)       Excite currently plans to make available sponsorship                   opportuni",
+        "score": 0.7607854008674622
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 31416,
+        "end": 31928,
+        "text": "                hereunder.\n\n         b)       Excite will retain all right, title and interest in and to                   its trademarks, service marks and trade names worldwide,                   subject to the limited license granted to NetGrocer                   hereunder.\n\n         c)       Each party hereby grants to the other a non-exclusive,                   limited license to use its trademarks, service marks or trade                   names only as specifically described in this Agreement. All  ",
+        "score": 0.7383415699005127
+      }
+    ]
+  },
+  {
+    "qid": "q683",
+    "query": "Consider the Sponsorship Agreement between Jacksonville Jaguars, LLC and The ARC Group, Inc.; What licenses are granted under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 1697,
+        "end": 2488,
+        "answer": "Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely payment of the Sponsor Fees, Club hereby grants to Sponsor, and Sponsor hereby accepts, solely in the Territory, and during the Term: (i) the right to use the Benefits set forth on Exhibit A and the license and right to use the Team Marks solely in connection with the advertisement and promotion of Sponsor's Dick's Wings and Grill branded restaurants (the \"Sponsor Business\") in accordance with this Agreement; and (ii) the right to use the designation \"Official Wings of the Jacksonville Jaguars\" and such other designations as Club and Sponsor may agree to in a writing from time to time (collectively, the \"Official Designations\"), solely in connection with the Sponsor Business.",
+        "text": "Subject to the terms and conditions of this Agreement, as part of the consideration of the full and timely payment of the Sponsor Fees, Club hereby grants to Sponsor, and Sponsor hereby accepts, solely in the Territory, and during the Term: (i) the right to use the Benefits set forth on Exhibit A and the license and right to use the Team Marks solely in connection with the advertisement and promotion of Sponsor's Dick's Wings and Grill branded restaurants (the \"Sponsor Business\") in accordance with this Agreement; and (ii) the right to use the designation \"Official Wings of the Jacksonville Jaguars\" and such other designations as Club and Sponsor may agree to in a writing from time to time (collectively, the \"Official Designations\"), solely in connection with the Sponsor Business."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.1   JACKSONVILLE JAGUARS SPONSORSHIP AGREEMENT   This Sponsorship Agreement (this \"Agreement\") is entered into as of November 27, 2017 (the \"Execution Date\") by and between Jacksonville Jaguars, LLC, a Delaware limited liability company (\"Club\"), and The ARC Group, Inc., a Florida corporation (owner and operator of Dick's Wings and Grill) (\"Sponsor\"). This Agreement consists of this Sponsorship Agreement and Exhibits A and B hereto, each of which is incorporated into and forms a part of this Agre",
+        "score": 0.7917748689651489
+      },
+      {
+        "doc": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 7392,
+        "end": 7904,
+        "text": "To Sponsor: The ARC Group, Inc.  To Club: Jacksonville Jaguars, LLC  6327-4 Argyle Forest Blvd.   1 EverBank Field Drive  Jacksonville, Florida 32244   Jacksonville, Florida 32202  Attn: Rick Akam   Attn: Scott Massey  Title: CEO   Senior Vice President, Corporate Partnerships  Email: rick@dickswings.com   masseys@nfl.jaguars.com   With a copy to: _________________________  With a copy to: Jacksonville Jaguars, LLC  _________________________   1 EverBank Field Drive  _________________________   Jacksonville",
+        "score": 0.787196695804596
+      },
+      {
+        "doc": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt",
+        "start": 9240,
+        "end": 9752,
+        "text": "epresentative with the intent that it be binding as of the Execution Date.   CLUB:  SPONSOR: JACKSONVILLE JAGUARS, LLC  The ARC Group, Inc.     By: /s/ Scott Massey  By: /s/ Richard W. Akam  Scott Massey   Rick Akam  SVP, Corporate Partnerships   CEO\n\n   Page 2 of 4\n\nSource: ARC GROUP, INC., 8-K, 12/11/2017\n\n\n\n\n\n\n\n  EXHIBIT A   Sponsorship Benefits   For purposes of clarity, the Benefits set forth on this Exhibit A are subject to the terms and conditions of this Agreement, including the Club Approval Rights",
+        "score": 0.7414568662643433
+      }
+    ]
+  },
+  {
+    "qid": "q775",
+    "query": "Consider the Trademark License Agreement between Palmer Square Capital Management LLC and Palmer Square Capital BDC Inc.; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/PalmerSquareCapitalBdcInc_20200116_10-12GA_EX-10.6_11949289_EX-10.6_Trademark License Agreement.txt",
+        "start": 11593,
+        "end": 11698,
+        "answer": "This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York.",
+        "text": "This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/PalmerSquareCapitalBdcInc_20200116_10-12GA_EX-10.6_11949289_EX-10.6_Trademark License Agreement.txt",
+        "start": 14322,
+        "end": 14764,
+        "text": "s duly authorized officer. LICENSOR: PALMER SQUARE CAPITAL MANAGEMENT LLC By: Name: Jeffrey D. Fox Title: Managing Director LICENSEE: PALMER SQUARE CAPITAL BDC INC. By: Name: Scott A. Betz Title: Chief Compliance Officer ACKNOWLEDGED AND AGREED TO PALMER SQUARE BDC ADVISOR LLC By: Name: Jeffrey D. Fox Title: Chief Financial Officer [Signature Page to Trademark License Agreement]\n\nSource: PALMER SQUARE CAPITAL BDC INC., 10-12G/A, 1/16/2020",
+        "score": 0.8078932166099548
+      },
+      {
+        "doc": "cuad/PalmerSquareCapitalBdcInc_20200116_10-12GA_EX-10.6_11949289_EX-10.6_Trademark License Agreement.txt",
+        "start": 924,
+        "end": 1436,
+        "text": ", a Delaware limited liability company (\"Investment Advisor\"), have used the marks \"Palmer Square\", \"Palmer Square Capital\" and derivations thereof (the \"Licensed Mark\") in the United States of America and certain other jurisdictions (collectively, the \"Territory\") in connection with the investment management, investment consultation and investment advisory services they provide; WHEREAS, the Licensee is entering into an investment advisory agreement with Investment Advisor (the \"Advisory Agreement\"), where",
+        "score": 0.7764220237731934
+      },
+      {
+        "doc": "cuad/PalmerSquareCapitalBdcInc_20200116_10-12GA_EX-10.6_11949289_EX-10.6_Trademark License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.6 TRADEMARK LICENSE AGREEMENT This TRADEMARK LICENSE AGREEMENT (this \"Agreement\") is made and effective as of [ ] day of [ ], 2020 (\"Effective Date\"), by and between Palmer Square Capital Management LLC, a Delaware limited liability company (the \"Licensor\"), and Palmer Square Capital BDC Inc., a corporation organized under the laws of the State of Maryland (the \"Licensee\") (each a \"party,\" and collectively, the \"parties\"). RECITALS WHEREAS, Licensee is a newly organized, externally managed, close",
+        "score": 0.7648121118545532
+      }
+    ]
+  },
+  {
+    "qid": "q1132",
+    "query": "Consider the Endorsement Agreement between Healthcare Distribution Specialists LLC and Paul Silas for Clotamin; What are the insurance requirements under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.txt",
+        "start": 11370,
+        "end": 11459,
+        "answer": "HDS agrees to provide and maintain at its own expense, the following insurance coverages:",
+        "text": "HDS agrees to provide and maintain at its own expense, the following insurance coverages:"
+      },
+      {
+        "doc": "cuad/PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.txt",
+        "start": 11466,
+        "end": 11602,
+        "answer": "Commercial General Liability coverage of product liability with limits no less than $1,000,000 per occurrence  and $2,000,000 aggregate.",
+        "text": "Commercial General Liability coverage of product liability with limits no less than $1,000,000 per occurrence  and $2,000,000 aggregate."
+      },
+      {
+        "doc": "cuad/PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.txt",
+        "start": 11609,
+        "end": 11744,
+        "answer": "Umbrella / Excess Liability coverage inclusive of product liability with limits not less than $5,000,000 per  occurrence and aggregate.",
+        "text": "Umbrella / Excess Liability coverage inclusive of product liability with limits not less than $5,000,000 per  occurrence and aggregate."
+      },
+      {
+        "doc": "cuad/PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.txt",
+        "start": 11751,
+        "end": 11843,
+        "answer": "Media Liability insurance with limits not less than $2,000,000 per occurrence and aggregate.",
+        "text": "Media Liability insurance with limits not less than $2,000,000 per occurrence and aggregate."
+      },
+      {
+        "doc": "cuad/PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.txt",
+        "start": 11848,
+        "end": 11926,
+        "answer": "The Celebrity shall be named as an additional insured on coverages A, B and C.",
+        "text": "The Celebrity shall be named as an additional insured on coverages A, B and C."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.1   ENDORSEMENT AGREEMENT    THIS ENDORSEMENT AGREEMENT (the \"Agreement\") is dated as of this ____day of ____________, 2012, but  made effective as of February 20, 2012 (\"Effective Date\") between Healthcare Distribution Specialists LLC (\"HDS\"), a  Delaware corporation, and Paul Silas (\"Celebrity), an individual.    AGREEMENT    1. Engagement. HDS engages Celebrity and Celebrity hereby accepts the engagement to provide for his endorsement of  HDS' product, Clotamin in the United States (Territory\"",
+        "score": 0.7726020812988281
+      },
+      {
+        "doc": "cuad/PharmagenInc_20120803_8-KA_EX-10.1_7693204_EX-10.1_Endorsement Agreement.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "lectively \"Markets\");    B. On HDS' website (www.clotamin.corn) (\"Website\"); and    C. In Clotamin-related press releases.    D. In connection with any HDS' usage of Celebrity Attributes as outlined above in Paragraphs 3(A)-(C), HDS will  feature the following disclaimer in close proximity to said usage: \"PAUL SILAS IS NOT A MEDICAL  AUTHORITY. THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG  ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE OR PREVENT  ANY DISEASE.\"    4. ",
+        "score": 0.6729848384857178
+      },
+      {
+        "doc": "cuad/ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement.txt",
+        "start": 4158,
+        "end": 4670,
+        "text": "OUNT B, N-6, 7/1/2019\n\n\n\n\n\nContract Number: ENDORSEMENT (continued)\n\nThe following words or phrases in this contract are amended as follows. Any reference to: Is amended to read:\n\nThrivent Life Insurance Company Thrivent Financial for Lutherans\n\nthe Company the Society\n\nthe company. the Society\n\nA Stock Life Insurance Company. A Fraternal Benefit Society\n\n625 Fourth Avenue South. 4321 North Ballard Road Minneapolis, MN 55415 Appleton, WI 54919-0001\n\nMinneapolis, MN Appleton, WI\n\nHome Office. Service Center\n",
+        "score": 0.6603649854660034
+      }
+    ]
+  },
+  {
+    "qid": "q2038",
+    "query": "Consider the Outsourcing Agreement for Electronic Data Processing Services between Virtual Item Processing Systems, Inc. and Brokers National Life Assurance Company; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCING AGREEMENT.txt",
+        "start": 32994,
+        "end": 33125,
+        "answer": "This Agreement and performance hereunder shall be governed by the laws of the State of Oklahoma without regard to conflict of laws.",
+        "text": "This Agreement and performance hereunder shall be governed by the laws of the State of Oklahoma without regard to conflict of laws."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCING AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "VIRTUAL ITEM PROCESSING SYSTEMS, INC. 2525 Northwest Expressway, #105   Oklahoma City, Oklahoma 73112\n\nOUTSOURCING AGREEMENT   BETWEEN   VIRTUAL ITEM PROCESSING SYSTEMS, INC.   And   BROKERS NATIONAL LIFE ASSURANCE COMPANY\n\nE - 4\n\n\n\n\n\n\n\nOUTSOURCING AGREEMENT   This Outsourcing Agreement (\" Agreement\") is executed as of this 1 st  day of May 2006, by and between Virtual Item Processing Systems, Inc. (\"VIP\"), with its principal place of office at 2525 NW Expressway, Suite 105 Oklahoma City,  Oklahoma 73112, a",
+        "score": 0.8170647025108337
+      },
+      {
+        "doc": "cuad/PHREESIA,INC_05_28_2019-EX-10.18-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 16632,
+        "end": 17144,
+        "text": "ng Agreement, and all state and federal laws, rules and regulations which govern or otherwise affect the activities of providers of Merchant Processing Services, including, but not limited to, those of the National Automated Clearing House Association (\"NACHA\") and the Federal Trade Commission (\"FTC\"), as any or all of the foregoing may be amended and in effect from time to time.\n\n\"Partnering Organization\" means a hospital, health plan, provider group, provider-hospital organization, independent practice as",
+        "score": 0.6917580366134644
+      },
+      {
+        "doc": "cuad/HfEnterprisesInc_20191223_S-1_EX-10.22_11931299_EX-10.22_Development Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.22   OUTSOURCE TECHNOLOGY DEVELOPMENT AGREEMENT   This Outsource Technology Development Agreement (this \"Agreement\") is entered into and effective as of this 1s t day of March, 2018 (the \"Effective Date\") by and between Document Security Systems, Inc., a corporation organized and existing under the laws of the State of New York (\"DSS\"), and HotApp International Ltd., a corporation organized and existing under the laws of Hong Kong (\"Developer\").   RECITALS:   WHEREAS, DSS is engaged in the busine",
+        "score": 0.6880522966384888
+      }
+    ]
+  },
+  {
+    "qid": "q87",
+    "query": "Consider the Co-Branding and Endorsement Licensing Agreement between MusclePharm Corporation, Arnold Schwarzenegger, Marine MP, LLC, and Fitness Publications, Inc.; Does this contract include any right of first refusal, right of first offer, or right of first negotiation?",
+    "gold": [
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 6804,
+        "end": 7539,
+        "answer": "During the Term (including any renewal Term, if any), in the event that MusclePharm shall determine to develop and introduce a new Product into the market, MusclePharm shall provide the AS Parties with a sample of the name, design, marketing plan and an actual sample of such new Product (the \"Sample\") and the AS Parties shall have a right of first refusal (exercisable by written notice to MusclePharm within 15 days after receipt of the Sample) to include such new Product in the AS Product Line, it being understood that there shall initially be no less than four (4) Products at the start of the Term and thereafter no more than 8 (eight) Products in the AS Product Line without the mutual written agreement of the parties hereto.",
+        "text": "During the Term (including any renewal Term, if any), in the event that MusclePharm shall determine to develop and introduce a new Product into the market, MusclePharm shall provide the AS Parties with a sample of the name, design, marketing plan and an actual sample of such new Product (the \"Sample\") and the AS Parties shall have a right of first refusal (exercisable by written notice to MusclePharm within 15 days after receipt of the Sample) to include such new Product in the AS Product Line, it being understood that there shall initially be no less than four (4) Products at the start of the Term and thereafter no more than 8 (eight) Products in the AS Product Line without the mutual written agreement of the parties hereto."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "ENDORSEMENT LICENSING AND CO-BRANDING AGREEMENT   This ENDORSEMENT LICENSING AND CO-BRANDING AGREEMENT is entered into on July 26, 2013 (the \"Effective Date\") by and between Marine MP, LLC (\"Lender\"), for services of Arnold Schwarzenegger (\"Endorser\"), and Fitness Publications, Inc. (\"Fitness\") (collectively, Lender, Endorser, and Fitness are referred to as the \"AS Parties\") and MusclePharm Corporation with its principal place of business in Denver, Colorado and its subsidiaries, (collectively, \"MusclePharm",
+        "score": 0.8312487006187439
+      },
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 80850,
+        "end": 81362,
+        "text": "ll cooperate fully therewith. MusclePharm shall have the exclusive right, but not the obligation, to prosecute, defend and/or settle at its own cost and expense and in its sole discretion, all actions, proceedings and claims involving an infringement of the MusclePharm trade name, trademarks, and logo even if the matter involves the Licensed Products and to take any other action that its deem proper or necessary in its sole discretion for the protection and preservation of such rights. In its sole option, M",
+        "score": 0.766120433807373
+      },
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 924,
+        "end": 1436,
+        "text": ", MusclePharm is engaged in the business of developing and marketing nutritional products for athletes and fitness enthusiasts, and   WHEREAS, MusclePharm from time to time uses consumer, celebrity, and expert endorsements or testimonials to promote MusclePharm Products (as defined in Section 2(b) of this Agreement) in marketing and advertising materials, and   WHEREAS, MusclePharm desires to develop, market, promote and sell in conjunction and in cooperation with the Endorser a unique Arnold Schwarzenegger",
+        "score": 0.762007474899292
+      }
+    ]
+  },
+  {
+    "qid": "q3307",
+    "query": "Consider the Endorsement Agreement between Holiday RV Superstores, Inc. and Affinity Group, Inc. for Good Sam Branding; Can this contract be terminated for convenience, and under what conditions?",
+    "gold": [
+      {
+        "doc": "cuad/HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 5116,
+        "end": 5490,
+        "answer": "In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 60 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 60-day period, without any further responsibility by either Party except as provided in Section 5.",
+        "text": "In the event that the Company desires to terminate the Agreement prior to the Termination Date, it shall provide AGI with at least 60 days prior written notice of its intention to terminate this Agreement and this Agreement shall so terminate following the expiration of this 60-day period, without any further responsibility by either Party except as provided in Section 5."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.13\n\n                             ENDORSEMENT AGREEMENT\n\n               This Agreement is made as of the 20th day of March 2002, by and between Holiday RV Superstores, Inc., d/b/a Recreation USA (the \"Company\"), a Delaware corporation having its principal office at 200 East Broward Boulevard, Suite 920, Ft. Lauderdale, Florida 33301, and Affinity Group, Inc. (\"AGI\"), a Delaware corporation having its principal office located at 2575 Vista Del Mar Drive, Ventura, California 93001 (each a \"Party\" an",
+        "score": 0.7175177335739136
+      },
+      {
+        "doc": "cuad/HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 4620,
+        "end": 5132,
+        "text": "od Sam logo and name in any fashion.\n\n        2. Endorsement. Subject to the Terms of Section 7 hereof, AGI hereby grants the Company the right to hold the Business out as having the License (the \"Endorsement\").\n\n        3. Term and Termination.\n\n               A. Unless otherwise provided for in this Agreement, the term of this Agreement shall be three years, commencing on the date of this Agreement and expiring on the third anniversary date of this Agreement (the \"Termination\n\n\n\n\n\nDate\"). In the event tha",
+        "score": 0.713738203048706
+      },
+      {
+        "doc": "cuad/HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 4158,
+        "end": 4670,
+        "text": "Good Sam name or logo for any other purpose. In connection with the Approved Use, the Company shall not use the Trademarks or the Good Sam name or logo in any manner that is detrimental to AGI, the Good Sam Club or any of their affiliates or any of their respective goodwill or business. Upon the termination of this Agreement, whether by expiration of its term pursuant to Paragraph 6A or otherwise, the Company shall cease all uses of the Trademarks and the Good Sam logo and name in any fashion.\n\n        2. E",
+        "score": 0.7110612988471985
+      }
+    ]
+  },
+  {
+    "qid": "q3934",
+    "query": "Consider the Supply Agreement between SutroVax, Inc. and Sutro Biopharma, Inc. for Extracts and Custom Reagents; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 97640,
+        "end": 97829,
+        "answer": "This Supply Agreement shall be governed by, and construed and enforced in accordance with, the laws of the State of California, without regard to any conflict of laws rules to the contrary.",
+        "text": "This Supply Agreement shall be governed by, and construed and enforced in accordance with, the laws of the State of California, without regard to any conflict of laws rules to the contrary."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.19\n\nCERTAIN CONFIDENTIAL INFORMATION CONTAINED IN THIS DOCUMENT, MARKED BY [***], HAS BEEN OMITTED BECAUSE IT IS BOTH (I) NOT MATERIAL AND (II) WOULD LIKELY CAUSE COMPETITIVE HARM IF PUBLICLY DISCLOSED.\n\nSUPPLY AGREEMENT\n\nThis SUPPLY AGREEMENT (\"Supply Agreement\") is made as of May 29, 2018 (the \"Effective Date\") by and between SutroVax, Inc., a Delaware corporation having principal offices at 353 Hatch Dr., Foster City, CA 94404 (\"SutroVax\") and Sutro Biopharma, Inc., a Delaware corporation, hav",
+        "score": 0.7910194396972656
+      },
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 42966,
+        "end": 43478,
+        "text": "ed with Custom Reagents. SutroVax shall not prevent Sutro from separately contracting with the contract manufacturer for Manufacture of Custom Reagents for use on its own behalf or on behalf of other third parties.\n\n2.18 Sutro Core Know-How. Notwithstanding anything to the contrary, except as set forth in Section 15.3 of the License Agreement, in no event shall SutroVax, its Affiliates or Sublicensees have the right to access any Sutro Core Know-How (as defined in the License Agreement), whether directly fr",
+        "score": 0.790828287601471
+      },
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "oVax Agreement dated as of October 12, 2015 (the \"License Agreement\").\n\nB. SutroVax is a vaccine company primarily in the business of developing, manufacturing and marketing vaccine products; and\n\nC. SutroVax desires to purchase from Sutro, and Sutro desires to supply to SutroVax, the Extracts and Custom Reagents (as defined below) upon the terms and subject to the conditions set forth herein.\n\nNOW, THEREFORE, in consideration of the covenants, conditions and undertakings hereinafter set forth, and for othe",
+        "score": 0.7908281683921814
+      }
+    ]
+  },
+  {
+    "qid": "q654",
+    "query": "Consider the Sponsorship and Services Agreement between HOF Village, LLC, National Football Museum, Inc., and Constellation NewEnergy, Inc.; What are the audit rights under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.txt",
+        "start": 27293,
+        "end": 27590,
+        "answer": "In January of each calendar year Constellation shall allow, at the written request and expense of the HOF Entities, the HOF Entities the right to audit during normal business hours all relevant Constellation records related to New Business generated during the immediately preceding calendar year.",
+        "text": "In January of each calendar year Constellation shall allow, at the written request and expense of the HOF Entities, the HOF Entities the right to audit during normal business hours all relevant Constellation records related to New Business generated during the immediately preceding calendar year."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.8 EXECUTION COPY CERTAIN INFORMATION HAS BEEN EXCLUDED FROM THIS EXHIBIT BECAUSE IT IS NOT MATERIAL AND WOULD LIKELY CAUSE COMPETITIVE HARM TO THE REGISTRANT IF PUBLICLY DISCLOSED. [***] OR [REDACTED] INDICATES THAT INFORMATION HAS BEEN REDACTED. SPONSORSHIP AND SERVICES AGREEMENT This SPONSORSHIP AND SERVICES AGREEMENT (the \"Agreement\") is made and entered into as of the 19t h day of December, 2018, by and among HOF Village, LLC, a Delaware limited liability company (\"HOFV\"), National Football M",
+        "score": 0.7388187646865845
+      },
+      {
+        "doc": "cuad/GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.txt",
+        "start": 19866,
+        "end": 20378,
+        "text": " of the Center for Excellence and/or any Co-Branded Center for Excellence Logos and otherwise as expressly contemplated by this Agreement. The HOF Entities shall identify Constellation as a sponsor of the Village and shall have the right to use Constellation's Marks in connection with television, radio and print advertising of the Village and events held at the Village. This license expressly prohibits any pass-through rights or the use of Constellation's Marks by any third party, without the express writte",
+        "score": 0.728859543800354
+      },
+      {
+        "doc": "cuad/GpaqAcquisitionHoldingsInc_20200123_S-4A_EX-10.8_11951679_EX-10.8_Service Agreement.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "Parties\". WITNESSETH: WHEREAS, Constellation desires to provide to the HOF Entities, and the HOF Entities desire to obtain from Constellation, certain of Constellation's products and services listed and described in Exhibit A (collectively, the \"Products & Services\") for use in connection with the Johnson Controls Hall of Fame Village in Canton, Ohio (the \"Village\"); and WHEREAS, Constellation desires to become a sponsor of the Village and to obtain the rights set forth herein in connection with such sponso",
+        "score": 0.7174637317657471
+      }
+    ]
+  },
+  {
+    "qid": "q2843",
+    "query": "Consider the Strategic Alliance Agreement between Lightbridge Corporation and Lloyds Register for Nuclear Consulting Services; What is the expiration date of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 13132,
+        "end": 13536,
+        "answer": "This Agreement is effective on the Effective Date and shah continue in effect until the earlier of (a) the fifth (5t h) anniversary of the Effective Date, and (b) termination by either Party for any reason upon thirty (30) days' written notice to the other Party; provided, however, that no Party shall be able to terminate this Agreement so long as such Party is a Defaulting Party under this Agreement.",
+        "text": "This Agreement is effective on the Effective Date and shah continue in effect until the earlier of (a) the fifth (5t h) anniversary of the Effective Date, and (b) termination by either Party for any reason upon thirty (30) days' written notice to the other Party; provided, however, that no Party shall be able to terminate this Agreement so long as such Party is a Defaulting Party under this Agreement."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.26\n\nSTRATEGIC ALLIANCE AGREEMENT\n\nThis STRATEGIC' ALLIANCE AGREEMENT (including the exhibits and schedules hereto, this \"Agreement\") is made and entered into this 16 day of August. 2012 (the \"Effective Date\") by and between Lightbridge Corporation, a Nevada Corporation  (\"Lightbridge\"), and Lloyds Register FNMA, acting through its office in Abu Dhabi (\"Lloyds\" and. together with Lightbridge. the \"Parties\").\n\nBACKGROUND\n\nLightbridge and Lloyds believe  that, by cooperatively combining their consid",
+        "score": 0.7772753238677979
+      },
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 17094,
+        "end": 17606,
+        "text": " Entire Agreement. This Agreement, together with that certain Non-Circumvention and  Confidentiality Agreement, dated December 16, 2011, between Lightbridge and Lloyd's Register Group Services Limited, contains the entire Agreement of the Parties with respect to the transactions contemplated hereby and supersedes all prior understandings and agreements of the Parties with respect to the subject matter hereof.\n\nSection 7.7 Severability. If any provision of this Agreement is held invalid or unenforceable. all",
+        "score": 0.7563051581382751
+      },
+      {
+        "doc": "cuad/LIGHTBRIDGECORP_11_23_2015-EX-10.26-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 18942,
+        "end": 19386,
+        "text": " and execution of this Agreement.\n\n[THE REST OF THIS PAGE IS LEFT INTENTIONALLY BLANK]\n\n- 7 -\n\n\n\n\n\nIN WITNESS WHEREOF, the Parties hereto have caused this Agreement to be duly executed as of the day and year first above written.\n\nLightbridge Corporation      By:/s/ James D. Guerra   Name: James D. Guerra   Title: COO\n\nLloyds Register EMEZ      By:/s/ N.D.A.M. Nooren   Name: N.D.A.M. Nooren   Title: AREA Business Manager - Energy MEAA\n\n- 8 -",
+        "score": 0.73537677526474
+      }
+    ]
+  },
+  {
+    "qid": "q2042",
+    "query": "Consider the Outsourcing Agreement for Electronic Data Processing Services between Virtual Item Processing Systems, Inc. and Brokers National Life Assurance Company; Does this contract include any volume restrictions?",
+    "gold": [
+      {
+        "doc": "cuad/BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCING AGREEMENT.txt",
+        "start": 2240,
+        "end": 2473,
+        "answer": "During the term of this Agreement, VIP shall provide BNL such access as necessary to the VIP System to allow BNL to attach one data communication line and up to seventy (70) addressable data communications devices to said VIP System.",
+        "text": "During the term of this Agreement, VIP shall provide BNL such access as necessary to the VIP System to allow BNL to attach one data communication line and up to seventy (70) addressable data communications devices to said VIP System."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/BNLFINANCIALCORP_03_30_2007-EX-10.8-OUTSOURCING AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "VIRTUAL ITEM PROCESSING SYSTEMS, INC. 2525 Northwest Expressway, #105   Oklahoma City, Oklahoma 73112\n\nOUTSOURCING AGREEMENT   BETWEEN   VIRTUAL ITEM PROCESSING SYSTEMS, INC.   And   BROKERS NATIONAL LIFE ASSURANCE COMPANY\n\nE - 4\n\n\n\n\n\n\n\nOUTSOURCING AGREEMENT   This Outsourcing Agreement (\" Agreement\") is executed as of this 1 st  day of May 2006, by and between Virtual Item Processing Systems, Inc. (\"VIP\"), with its principal place of office at 2525 NW Expressway, Suite 105 Oklahoma City,  Oklahoma 73112, a",
+        "score": 0.7784828543663025
+      },
+      {
+        "doc": "cuad/InvendaCorp_20000828_S-1A_EX-10.2_2588206_EX-10.2_Co-Branding Agreement.txt",
+        "start": 113652,
+        "end": 114164,
+        "text": "d for portions of this agreement. The copy file herewith omits information subject to the confidentiality request. Omissions are designated as [*****]. A complete version of this agreement has been filed separately with the Securities and Exchange Commission.\n\n                                EXHIBIT I\n\n          APPLICATION PROVIDERS DATA RESTRICTED NAMED COMPANIES\n\nSource: INVENDA CORP, S-1/A, 8/28/2000\n\n\n\n\n\n  Netcentives      MyPoints.com      Cybergold      beenz.com      YesMail      Lifeminders      Ne",
+        "score": 0.692217230796814
+      },
+      {
+        "doc": "cuad/IPAYMENT,INC_05_14_2007-EX-10.1-SPONSORSHIP AGREEMENT.txt",
+        "start": 31416,
+        "end": 31928,
+        "text": "nformation necessary in connection with the Application. ISO shall have the right, subject to and pursuant to the terms and conditions of the Merchant Processing Policy, to cause any Eligible Merchant with transaction card volume processing limits up to but not more than $[***] per month, that has been approved by ISO, to be activated immediately in SERVICES' systems. SERVICERS agree to provide ISO with a final approval decision (i.e., acceptance, rejection or required modification of the submitted Applicat",
+        "score": 0.6919307112693787
+      }
+    ]
+  },
+  {
+    "qid": "q1190",
+    "query": "Consider the License and Development Agreement between Bioeq IP AG and Coherus BioSciences, Inc. for Ranibizumab Biosimilar; Is there a covenant not to sue included in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 118800,
+        "end": 119189,
+        "answer": "Bioeq may terminate this Agreement immediately upon written notice to Licensee, if Licensee or any of its Affiliates or sublicensees directly or indirectly challenge the validity or enforceability of, or oppose any extension of or the grant of a supplementary protection certificate with respect to, any Licensed Patent in any legal, court, administrative or other governmental proceeding.",
+        "text": "Bioeq may terminate this Agreement immediately upon written notice to Licensee, if Licensee or any of its Affiliates or sublicensees directly or indirectly challenge the validity or enforceability of, or oppose any extension of or the grant of a supplementary protection certificate with respect to, any Licensed Patent in any legal, court, administrative or other governmental proceeding."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 97020,
+        "end": 97532,
+        "text": "tle [***] to terminate the [***] Agreement.\n\n12.2.2 Bioeq has the right to grant the licenses and rights it purports to grant pursuant to this Agreement.\n\nSource: COHERUS BIOSCIENCES, INC., 10-K, 2/27/2020\n\n\n\n\n\nConfidential Execution Version 12.2.3 Bioeq is not aware of any pending or threatened litigation, nor has it received any written communications from Third Parties alleging that the Licensed Patents existing as of the Effective Date are invalid or unenforceable or that the exploitation of the License",
+        "score": 0.8041887283325195
+      },
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.29 Confidential Execution Version [***] Certain information in this document has been excluded pursuant to Regulation S-K, Item 601(b)(10). Such excluded information is not material and would likely cause competitive harm to the registrant if publicly disclosed.\n\nNOV 02, 2019\n\nBIOEQ IP AG\n\nAND\n\nCOHERUS BIOSCIENCES, INC.\n\nLICENSE AND DEVELOPMENT AGREEMENT\n\nSource: COHERUS BIOSCIENCES, INC., 10-K, 2/27/2020\n\n\n\n\n\nConfidential Execution Version CONTENTS\n\nClause Page\n\n1. DEFINITIONS AND INTERPRETATION",
+        "score": 0.7789535522460938
+      },
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "0-K, 2/27/2020\n\n\n\n\n\nConfidential Execution Version LICENSE AND DEVELOPMENT AGREEMENT\n\nThis LICENSE AND DEVELOPMENT AGREEMENT (this Agreement) is entered into effective as of Nov. 02, 2019 (the Effective Date) by and between Bioeq IP AG, having its place of business at [***] (Bioeq) and Coherus BioSciences, Inc., having its principal place of business at 333 Twin Dolphin Drive, Suite 600, Redwood City, CA, 94065, USA (Licensee).\n\nBioeq and Licensee shall also each individually be referred to herein as a Part",
+        "score": 0.7696353197097778
+      }
+    ]
+  },
+  {
+    "qid": "q2167",
+    "query": "Consider the Reseller Agreement between Galaxy Telecom and Galaxy Telnet SRL for VoIP Products and Services; Is there a covenant not to sue included in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 20484,
+        "end": 20853,
+        "answer": "Telnet acknowledges Galaxy's exclusive ownership of the Galaxy name and logo as well as certain other trademarks and trade names which Galaxy uses in connection with the Products and Services (the \"Trademarked Material\") and agrees that Telnet will not acquire any interest in any of the Trademarked Material by virtue of this Agreement or anything done pursuant to it;",
+        "text": "Telnet acknowledges Galaxy's exclusive ownership of the Galaxy name and logo as well as certain other trademarks and trade names which Galaxy uses in connection with the Products and Services (the \"Trademarked Material\") and agrees that Telnet will not acquire any interest in any of the Trademarked Material by virtue of this Agreement or anything done pursuant to it;"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 18018,
+        "end": 18530,
+        "text": "pressly stated in this Agreement. 8.2 Limitation of Galaxy Liability Galaxy shall have no liability to Telnet, whether in contract, tort (including negligence), strict liability or otherwise, for any special, indirect or consequential damages or for lost profits, in any matter related to this Agreement, including but not limited to any delay or failure by Galaxy to furnish, deliver or provide Products or Services; Galaxy's liability in any matter related to Product shall be limited to the purchase price pai",
+        "score": 0.7906125783920288
+      },
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 5082,
+        "end": 5594,
+        "text": "iform Convention for the Sale of Goods convention, to this Agreement.\n\n2. RELATIONSHIP OF THE PARTIES 2.1 Non-Exclusive Reseller Subject to the terms and conditions of this Agreement, Galaxy hereby appoints Telnet as a non-exclusive authorized reseller of the Products and Services and Telnet hereby accepts the appointment. 2.2 Not a Partnership This Agreement does not and shall not be construed to create a partnership, joint venture, agency or any other business relationship which would authorize either Par",
+        "score": 0.7711911797523499
+      },
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 20790,
+        "end": 21302,
+        "text": "al by virtue of this Agreement or anything done pursuant to it; While this Agreement is in effect, Telnet may indicate to the public its status of being an authorized seller of the Galaxy Products\n\n\n\n\n\nand Services; Except with the prior written consent of Galaxy, Telnet will not adopt or use any of the Trademarked Material, in whole or in part, or any confusingly similar word or symbol, as part of Telnet's name or, to the extent Telnet has knowledge of such use and the power to prevent such use, allow othe",
+        "score": 0.7599141597747803
+      }
+    ]
+  },
+  {
+    "qid": "q2389",
+    "query": "Consider the Promotion Agreement between Ashworth, Inc., Nantz Communications, Inc., and James W. Nantz III; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..txt",
+        "start": 22246,
+        "end": 22425,
+        "answer": "This Agreement and its formation, operation and performance      shall be governed, construed, performed, and enforced in accordance with      the laws of the State of California.",
+        "text": "This Agreement and its formation, operation and performance      shall be governed, construed, performed, and enforced in accordance with      the laws of the State of California."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10(d)\n\nPROMOTION AGREEMENT                        ASHWORTH, INC., JAMES W. NANTZ III                          AND NANTZ COMMUNICATIONS, INC.                                               THIS AGREEMENT is entered into by and among ASHWORTH, INC. (The \"Company\" or \"Ashworth\"), JAMES W. NANTZ III (\"Nantz\") and NANTZ COMMUNICATIONS, INC. (\"Nantz Communications\"), effective as of June 1, 1998.\n\nWHEREAS, the Company desires to retain Nantz Communications and Nantz to provide certain promotional and other",
+        "score": 0.8254593014717102
+      },
+      {
+        "doc": "cuad/ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..txt",
+        "start": 19866,
+        "end": 20378,
+        "text": "pany in writing on or before sixty (60) days\n\nAshworth/Nantz Promotion Agreement - -------------------\n\nafter Nantz Communications has received notice of such merger or consolidation if and only if, by virtue of such merger or consolidation Nantz Communications or Nantz would be in default under or violating any provisions of any agreement to which he or it is subject entered into prior to June 1, 1994.\n\nARBITRATION                                               Unless otherwise mutually agreed to in writing",
+        "score": 0.7908918857574463
+      },
+      {
+        "doc": "cuad/ASHWORTHINC_01_29_1999-EX-10.(D)-PROMOTION AGREEMENT AND NANTZ COMMUNICATIONS, INC..txt",
+        "start": 7854,
+        "end": 8366,
+        "text": "rther, Nantz Communications or Nantz shall have the\n\nAshworth/Nantz Promotion Agreement - -------------------\n\nright to select legal counsel to represent it or him in the event of any such claims or legal proceedings, and the costs of such legal representation shall be paid by the Company.\n\nINSURANCE\n\nThe Company agrees to provide and maintain, at its own expense, advertising and product liability insurance each with limits no less than $5,000,000 and within thirty (30) days from the date hereof, the Compan",
+        "score": 0.7898721694946289
+      }
+    ]
+  },
+  {
+    "qid": "q1174",
+    "query": "Consider the License and Development Agreement between Bioeq IP AG and Coherus BioSciences, Inc. for Ranibizumab Biosimilar; What is the renewal term for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 114807,
+        "end": 115207,
+        "answer": "Except as otherwise specified in this Agreement, the Parties' respective rights and obligations under this Agreement shall commence on the Effective Date and shall remain in full force for ten (10) years after the First Commercial Sale of the first Licensed Product, and shall thereafter automatically renew for an unlimited period of time unless otherwise terminated in accordance with Section 15.2.",
+        "text": "Except as otherwise specified in this Agreement, the Parties' respective rights and obligations under this Agreement shall commence on the Effective Date and shall remain in full force for ten (10) years after the First Commercial Sale of the first Licensed Product, and shall thereafter automatically renew for an unlimited period of time unless otherwise terminated in accordance with Section 15.2."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "0-K, 2/27/2020\n\n\n\n\n\nConfidential Execution Version LICENSE AND DEVELOPMENT AGREEMENT\n\nThis LICENSE AND DEVELOPMENT AGREEMENT (this Agreement) is entered into effective as of Nov. 02, 2019 (the Effective Date) by and between Bioeq IP AG, having its place of business at [***] (Bioeq) and Coherus BioSciences, Inc., having its principal place of business at 333 Twin Dolphin Drive, Suite 600, Redwood City, CA, 94065, USA (Licensee).\n\nBioeq and Licensee shall also each individually be referred to herein as a Part",
+        "score": 0.8185197114944458
+      },
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 17556,
+        "end": 18068,
+        "text": "ield. The Licensed Patents existing as of the Effective Date are listed in Schedule 1.38.\n\n1.39 Licensed Product means the finished dosage forms (including final packaging) of the biosimilars containing Ranibizumab which have been Developed and/or are being Developed by Bioeq to each of the Existing Reference Products ([***]). For clarity, Licensed Products include without limitation Vial Products and PFS Products, and shall extend to any New Products to the extent this Agreement is amended in accordance wi",
+        "score": 0.8029623031616211
+      },
+      {
+        "doc": "cuad/CoherusBiosciencesInc_20200227_10-K_EX-10.29_12021376_EX-10.29_Development Agreement.txt",
+        "start": 97020,
+        "end": 97532,
+        "text": "tle [***] to terminate the [***] Agreement.\n\n12.2.2 Bioeq has the right to grant the licenses and rights it purports to grant pursuant to this Agreement.\n\nSource: COHERUS BIOSCIENCES, INC., 10-K, 2/27/2020\n\n\n\n\n\nConfidential Execution Version 12.2.3 Bioeq is not aware of any pending or threatened litigation, nor has it received any written communications from Third Parties alleging that the Licensed Patents existing as of the Effective Date are invalid or unenforceable or that the exploitation of the License",
+        "score": 0.7875936031341553
+      }
+    ]
+  },
+  {
+    "qid": "q438",
+    "query": "Consider the Product Manufacturing Agreement between Dexcel Ltd. and Kitov Pharma Ltd.; Is there a cap on liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement.txt",
+        "start": 22427,
+        "end": 22713,
+        "answer": "Dexcel's responsibility for Product supplied by it to Kitov failing to meet the Specifications shall be limited to the replacement of the Product or the refund of the Supply Price paid by Kitov for such order, as agreed by the parties, except as otherwise provided under this Agreement.",
+        "text": "Dexcel's responsibility for Product supplied by it to Kitov failing to meet the Specifications shall be limited to the replacement of the Product or the refund of the Supply Price paid by Kitov for such order, as agreed by the parties, except as otherwise provided under this Agreement."
+      },
+      {
+        "doc": "cuad/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement.txt",
+        "start": 48805,
+        "end": 49483,
+        "answer": "Without prejudice to any other limitation (whether effective or not) of either Party's liability, neither Party shall be liable to the other Party (whether in contract, tort (including negligence) or for breach of statutory duty or otherwise) for any loss of profits, use, opportunity, goodwill, business or anticipated savings, for any indirect, incidental, special, indirect, punitive or consequential losses (in each case, irrespective of any negligence or other act, default or omission of a Party (or its employees or agents) and regardless of whether such loss or claim was foreseeable or not and whether the other Party has been informed of the possibility of such loss).",
+        "text": "Without prejudice to any other limitation (whether effective or not) of either Party's liability, neither Party shall be liable to the other Party (whether in contract, tort (including negligence) or for breach of statutory duty or otherwise) for any loss of profits, use, opportunity, goodwill, business or anticipated savings, for any indirect, incidental, special, indirect, punitive or consequential losses (in each case, irrespective of any negligence or other act, default or omission of a Party (or its employees or agents) and regardless of whether such loss or claim was foreseeable or not and whether the other Party has been informed of the possibility of such loss)."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement.txt",
+        "start": 24024,
+        "end": 24536,
+        "text": "atters, and the Quality Agreement shall prevail on any quality related matters.\n\n8\n\nSource: KITOV PHARMA LTD., 20-F, 3/26/2019\n\n\n\n\n\n4.3 Kitov shall have the right (at reasonable intervals, with reasonable prior written notice and during normal business hours, and not more often than annually) to inspect Dexcel's manufacturing facilities used in the manufacture, storage, testing, and/or release for shipment of the Product. 4.4 Kitov shall be responsible for the execution of Product recall and crisis manageme",
+        "score": 0.7944919466972351
+      },
+      {
+        "doc": "cuad/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement.txt",
+        "start": 19404,
+        "end": 19916,
+        "text": " deemed a material breach of this Agreement and shall entitle Dexcel, in its sole discretion, to terminate this Agreement with immediate effect. 3.7 Product Acceptance 3.7.1 The Product supplied by Dexcel to Kitov shall correspond to the respective Product Specifications and the relevant Marketing Authorization and shall be manufactured in compliance with cGMP and the Quality Agreement. 3.7.2 Kitov shall provide Dexcel with written notification of any shortfalls in shipment quantity, and (a) any out-of-spec",
+        "score": 0.7904605865478516
+      },
+      {
+        "doc": "cuad/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement.txt",
+        "start": 57288,
+        "end": 57436,
+        "text": "n of the Product, shall be jointly and equally (50%/50%) owned by Dexcel and Kitov (the \"Joint. IP\"). 19\n\nSource: KITOV PHARMA LTD., 20-F, 3/26/2019",
+        "score": 0.7860186696052551
+      }
+    ]
+  },
+  {
+    "qid": "q2165",
+    "query": "Consider the Reseller Agreement between Galaxy Telecom and Galaxy Telnet SRL for VoIP Products and Services; Are there any services to be provided after the termination of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 24233,
+        "end": 24341,
+        "answer": "Upon termination of this Agreement, Galaxy may, at its sole discretion accept inventory returns of Products.",
+        "text": "Upon termination of this Agreement, Galaxy may, at its sole discretion accept inventory returns of Products."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 14784,
+        "end": 15296,
+        "text": "t; Subject to section 13.2, if Telnet is in breach of any of the terms and conditions of this Agreement, Galaxy shall have the right to suspend or terminate delivery of the Services, in whole or in part, to Telnet and the Subscribers. 7.4 Communication of Termination Galaxy may, at its sole and absolute discretion, provide long distance termination through one or more termination partners. Galaxy shall have the right, at its sole discretion, to reroute the communication traffic originating from Telnet or Su",
+        "score": 0.7559599876403809
+      },
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 7854,
+        "end": 8366,
+        "text": "h implementation of this Agreement and the sale of Products and Services, including without limitation, business licenses, import licenses and foreign exchange permits. Telnet shall keep Galaxy apprised of any change in the status of the licenses, permits and approvals and authorizations as are referred to in subsection 3.7(a) which may materially affect the implementation of this Agreement. 3.8 Notification of Infringement Telnet shall notify Galaxy immediately of any actual, suspected or alleged infringem",
+        "score": 0.749889612197876
+      },
+      {
+        "doc": "cuad/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement.txt",
+        "start": 5082,
+        "end": 5594,
+        "text": "iform Convention for the Sale of Goods convention, to this Agreement.\n\n2. RELATIONSHIP OF THE PARTIES 2.1 Non-Exclusive Reseller Subject to the terms and conditions of this Agreement, Galaxy hereby appoints Telnet as a non-exclusive authorized reseller of the Products and Services and Telnet hereby accepts the appointment. 2.2 Not a Partnership This Agreement does not and shall not be construed to create a partnership, joint venture, agency or any other business relationship which would authorize either Par",
+        "score": 0.7456440329551697
+      }
+    ]
+  },
+  {
+    "qid": "q3968",
+    "query": "Consider the Hosting and Management Agreement between HealthGate Data Corp., Blackwell Science Limited, and Munksgaard A/S; Are there any exceptions to competitive restrictions in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 8636,
+        "end": 8940,
+        "answer": "The Publishers grant HealthGate an exclusive right to carry out the       Services, with the exception that the Publishers shall honour current       contracts with third parties and Publisher may publish and licence content       themselves as long as it does not materially reduce HealthGate's revenue.",
+        "text": "The Publishers grant HealthGate an exclusive right to carry out the       Services, with the exception that the Publishers shall honour current       contracts with third parties and Publisher may publish and licence content       themselves as long as it does not materially reduce HealthGate's revenue."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.1\n\n                    ELECTRONIC JOURNAL SOFT WARE DEVELOPMENT,                         HOSTING AND MANAGEMENT AGREEMENT\n\n      This AGREEMENT is made the 20 March day of 1998\n\n      BETWEEN\n\n      1. HealthGate Data Corp., a Delaware corporation (\"HealthGate\"), having an       address at 380 Pleasant Street, Malden, Massachusetts, 02148, USA\n\n      AND\n\n      2. Blackwell Science Limited a company registered in England       (\"Blackwell\"), whose registered office is Osney Mead, Oxford OX2 OEL, ",
+        "score": 0.7291234731674194
+      },
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 13398,
+        "end": 13910,
+        "text": "ugh the term of this Agreement insofar as it relates to the       Services. HealthGate shall acquire and maintain all necessary equipment       and hardware (collectively the \"Hardware\") for Site. The Hardware shall be       capable of storing the Content, including future issues of the Journals       within the Content. HealthGate shall replace and upgrade such Hardware to       satisfy the requirements of the Specification. The Hardware for the Site       shall include redundancy so that the Site may rema",
+        "score": 0.6850804090499878
+      },
+      {
+        "doc": "cuad/HEALTHGATEDATACORP_11_24_1999-EX-10.1-HOSTING AND MANAGEMENT AGREEMENT (1).txt",
+        "start": 8778,
+        "end": 9290,
+        "text": "t       contracts with third parties and Publisher may publish and licence content       themselves as long as it does not materially reduce HealthGate's revenue.       For the purpose of determining HealthGate's revenue, Use Fees and Article       Fees shall not be taken into account.\n\n3.    Duration\n\n      3.1.  This Agreement shall commence on 1 January 1998. The initial term of             the Services, unless terminated as set out herein, shall continue up             to and including 28 February 2000 ",
+        "score": 0.6769309043884277
+      }
+    ]
+  },
+  {
+    "qid": "q3310",
+    "query": "Consider the Endorsement Agreement between Holiday RV Superstores, Inc. and Affinity Group, Inc. for Good Sam Branding; Does the licensee's affiliates have any licensing rights under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 1596,
+        "end": 2040,
+        "answer": "AGI hereby grants a non-exclusive license (the \"License\") to the Company and its operating subsidiaries now or hereafter existing to use the Good Sam name and logo, including trademarks, trade names, or service marks as designated by AGI (the \"Trademarks\"), in connection with the sale of such new and used vehicles by the Company that have satisfied such criteria and standards as are established from time to time by AGI (the \"Approved Use\").",
+        "text": "AGI hereby grants a non-exclusive license (the \"License\") to the Company and its operating subsidiaries now or hereafter existing to use the Good Sam name and logo, including trademarks, trade names, or service marks as designated by AGI (the \"Trademarks\"), in connection with the sale of such new and used vehicles by the Company that have satisfied such criteria and standards as are established from time to time by AGI (the \"Approved Use\")."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.13\n\n                             ENDORSEMENT AGREEMENT\n\n               This Agreement is made as of the 20th day of March 2002, by and between Holiday RV Superstores, Inc., d/b/a Recreation USA (the \"Company\"), a Delaware corporation having its principal office at 200 East Broward Boulevard, Suite 920, Ft. Lauderdale, Florida 33301, and Affinity Group, Inc. (\"AGI\"), a Delaware corporation having its principal office located at 2575 Vista Del Mar Drive, Ventura, California 93001 (each a \"Party\" an",
+        "score": 0.742775559425354
+      },
+      {
+        "doc": "cuad/MusclepharmCorp_20170208_10-KA_EX-10.38_9893581_EX-10.38_Co-Branding Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "ENDORSEMENT LICENSING AND CO-BRANDING AGREEMENT   This ENDORSEMENT LICENSING AND CO-BRANDING AGREEMENT is entered into on July 26, 2013 (the \"Effective Date\") by and between Marine MP, LLC (\"Lender\"), for services of Arnold Schwarzenegger (\"Endorser\"), and Fitness Publications, Inc. (\"Fitness\") (collectively, Lender, Endorser, and Fitness are referred to as the \"AS Parties\") and MusclePharm Corporation with its principal place of business in Denver, Colorado and its subsidiaries, (collectively, \"MusclePharm",
+        "score": 0.7063896656036377
+      },
+      {
+        "doc": "cuad/CybergyHoldingsInc_20140520_10-Q_EX-10.27_8605784_EX-10.27_Affiliate Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.27\n\nMARKETING AFFILIATE AGREEMENT\n\nBetween:\n\nBirch First Global Investments Inc.\n\nAnd\n\nMount Knowledge Holdings Inc.\n\nDated: May 8, 2014\n\n1\n\nSource: CYBERGY HOLDINGS, INC., 10-Q, 5/20/2014\n\n\n\n\n\n1.\n\n2.\n\n2.1\n\n2.2\n\nThis Marketing Affiliate Agreement (the \"Agreement\") is entered into this 8th day of May 2014, by and between BIRCH FIRST GLOBAL INVESTMENTS INC., a corporation incorporated in the U.S. Virgin Islands, with its main place of business located 9100 Havensight, Port of Sale, Ste. 15/16, St. ",
+        "score": 0.6894405484199524
+      }
+    ]
+  },
+  {
+    "qid": "q322",
+    "query": "Consider the Intellectual Property Rights Agreement between Rare Element Resources Ltd. and Synchron; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+        "start": 10473,
+        "end": 10663,
+        "answer": "Any assignment or agreement or other transaction by Company that fails to be in complete compliance with this Article 3.07 or any other provision of this IP Agreement shall be null and void.",
+        "text": "Any assignment or agreement or other transaction by Company that fails to be in complete compliance with this Article 3.07 or any other provision of this IP Agreement shall be null and void."
+      },
+      {
+        "doc": "cuad/RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+        "start": 22190,
+        "end": 22403,
+        "answer": "Investor will not assign to any Third Party any rights under this IP Agreement not specifically transferable by its terms without the prior written consent of Company, such consent not to be unreasonably withheld.",
+        "text": "Investor will not assign to any Third Party any rights under this IP Agreement not specifically transferable by its terms without the prior written consent of Company, such consent not to be unreasonably withheld."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 4\n\nRare Element Resources Ltd.  EXECUTION COPY   IP Rights Agreement\n\nINTELLECTUAL PROPERTY RIGHTS AGREEMENT   Synchron, a California corporation having a principal place of business at 3550 General Atomics Court, San Diego, CA 92121-1122 (or one or more Affiliates, the \"Investor\"), and Rare Element Resources Ltd., a British Columbia Corporation having a principal place of business at P.O. Box 271049, Littleton, Colorado 80127 (the \"Company\") (Investor and Company each a \"Party\" and together the \"Pa",
+        "score": 0.8121642470359802
+      },
+      {
+        "doc": "cuad/RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+        "start": 9240,
+        "end": 9752,
+        "text": "17\n\n\n\n\n\nRare Element Resources Ltd.  EXECUTION COPY   IP Rights Agreement   3.07 The licenses and other rights of Investor set forth in this IP Agreement are an encumbrance on (and thus run with) the Patents and Technical Information, and shall be enforceable against any entity having or obtaining ownership of, or the right to enforce, any of the Patents and Technical Information or any rights therein. Company shall obligate any Person to whom Company assigns or otherwise confers an ownership interest or ri",
+        "score": 0.7350523471832275
+      },
+      {
+        "doc": "cuad/RareElementResourcesLtd_20171019_SC 13D_EX-99.4_10897534_EX-99.4_Intellectual Property Agreement.txt",
+        "start": 18018,
+        "end": 18530,
+        "text": " EMPLOYEES OR AGENTS, IS HELD LIABLE.\n\nPage 8 of 15\n\nSource: RARE ELEMENT RESOURCES LTD, SC 13D, 10/19/2017\n\n\n\n\n\nRare Element Resources Ltd.  EXECUTION COPY   IP Rights Agreement   6.01 NOTHING IN THIS IP AGREEMENT WILL BE DEEMED TO BE A REPRESENTATION OR WARRANTY BY INVESTOR OF THE ACCURACY, SAFETY OR USEFULNESS FOR ANY PURPOSE OF ANY IMPROVEMENTS AT ANY TIME MADE AVAILABLE BY INVESTOR. INVESTOR WILL HAVE NO LIABILITY WHATSOEVER TO COMPANY OR ANY OTHER PERSON FOR OR ON ACCOUNT OF ANY INJURY, LOSS OR DAMAGE",
+        "score": 0.7345723509788513
+      }
+    ]
+  },
+  {
+    "qid": "q382",
+    "query": "Consider the Non-Exclusive License Agreement between The Johns Hopkins University and Virtuoso Surgical, Inc. for Commercial Development of Surgical Products; Are the licenses granted under this contract non-transferable?",
+    "gold": [
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 4120,
+        "end": 4514,
+        "answer": "Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD.",
+        "text": "Subject to the terms and conditions of this Agreement and to non-exclusive license agreements executed prior to the EFFECTIVE DATE, JHU hereby grants to the Company a non-exclusive, non-transferable license to make, have made, import, offer for sale and sell the LICENSED PRODUCT(S) and the LICENSED SERVICE(S) in the United States and worldwide under the PATENT RIGHT(S) in the LICENSED FIELD."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 6.2 NON-EXCLUSIVE LICENSE AGREEMENT BETWEEN THE JOHNS HOPKINS UNIVERSITY & VIRTUOSO SURGICAL, INC.\n\nJHU Agreement: A29889\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n1\n\nMay 3, 2016 NON-EXCLUSIVE LICENSE AGREEMENT- FOR SALES This Non-Exclusive License Agreement (hereinafter \"Agreement\") is entered into by and between The Johns Hopkins University (hereinafter \"JHU\"), a corporation of the State of Maryland, having a principal place of business 3400 N. Charles Street, Baltimore, Maryland 2121",
+        "score": 0.8430876731872559
+      },
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 24948,
+        "end": 25460,
+        "text": "oso Name:C. Mark Pickrell Executive Director Title: Attorney-in-Fact Johns Hopkins Technology Ventures Date:5/11/2016 Date:: 5/4/2016\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n11\n\nMay 3, 2016 EXHIBIT A LICENSE FEES and ROYALTY 1. LICENSE FEE 1.1 The license fee due under Paragraph 4.1 is two-thousand dollars ($2000). 1.2 In addition, COMPANY shall issue to JHU that number of shares of common stock representing five percent (5%) of the outstanding common and preferred shares on a fully diluted b",
+        "score": 0.7495018243789673
+      },
+      {
+        "doc": "cuad/VirtuosoSurgicalInc_20191227_1-A_EX1A-6 MAT CTRCT_11933379_EX1A-6 MAT CTRCT_License Agreement.txt",
+        "start": 24486,
+        "end": 24998,
+        "text": "gotype or symbol of LICENSEE on JHU's website and on JHU publications as a licensee startup company based upon JHU technology.\n\nSource: VIRTUOSO SURGICAL, INC., 1-A, 12/27/2019\n\n\n\n\n\n10\n\nMay 3, 2016 IN WITNESS WHEREOF the respective parties hereto have executed this Agreement by their duly authorized officers on the date appearing below their signatures. THE JOHNS HOPKINS UNIVERSITY VIRTUOSO SURGICAL, INC. By: /s/ Neil Veloso By: /s/ C. Mark Pickrell Neil Veloso Name:C. Mark Pickrell Executive Director Title",
+        "score": 0.723535418510437
+      }
+    ]
+  },
+  {
+    "qid": "q4041",
+    "query": "Consider the Endorsement Agreement between Square Two Golf, Inc. and Kathy Whitworth with Intellectual Property Rights and Confidentiality Provisions; How is intellectual property ownership assigned in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT - Intellectual Property Rights                 Confidentiality and Non-Use Obligations Agreement.txt",
+        "start": 5692,
+        "end": 6378,
+        "answer": "Recipient hereby assigns and agrees to assign all Recipient's rights in any Intellectual Property to the Company. Recipient hereby grants to the Company power of attorney for the purpose of assigning all Recipient's rights in Intellectual Property to the Company for the purposes of filings, registrations and other formalities deemed necessary by the Company to prosecute, protect, perfect or exploit its ownership and interests in Intellectual Property. Recipient further agrees to execute, acknowledge and deliver any documentation, instruments, specifications or disclosures necessary to assign, prosecute, protect, perfect or exploit the Company ownership of Intellectual Property.",
+        "text": "Recipient hereby assigns and agrees to assign all Recipient's rights in any Intellectual Property to the Company. Recipient hereby grants to the Company power of attorney for the purpose of assigning all Recipient's rights in Intellectual Property to the Company for the purposes of filings, registrations and other formalities deemed necessary by the Company to prosecute, protect, perfect or exploit its ownership and interests in Intellectual Property. Recipient further agrees to execute, acknowledge and deliver any documentation, instruments, specifications or disclosures necessary to assign, prosecute, protect, perfect or exploit the Company ownership of Intellectual Property."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 26334,
+        "end": 26846,
+        "text": "/ KATHY WHITWORTH          ------------------------------          Kathy Whitworth\n\n                                      -9-    10\n\n                                                                  EXECUTION COPY\n\n                                    EXHIBIT A\n\n                          Intellectual Property Rights                 Confidentiality and Non-Use Obligations Agreement\n\n         This Agreement by and between SQUARE TWO GOLF INC., a New Jersey corporation (the \"Company\") and KATHY WHITWORTH, an in",
+        "score": 0.8583328127861023
+      },
+      {
+        "doc": "cuad/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT - Intellectual Property Rights                 Confidentiality and Non-Use Obligations Agreement.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "roperty Rights                 Confidentiality and Non-Use Obligations Agreement\n\n     This Agreement by and between SQUARE TWO GOLF INC., a New Jersey corporation (the \"Company\") and KATHY WHITWORTH, an individual residing at 302 La Mancha Court, Santa Fe, New Mexico 87501 (the \"Recipient\"), is part of the Endorsement Agreement of the parties. In consideration of and as an inducement for the Company entering into said Endorsement Agreement with Recipient:\n\n     (a) Recipient acknowledges and agrees that co",
+        "score": 0.8136931657791138
+      },
+      {
+        "doc": "cuad/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "1\n\n                                  EXHIBIT 10.13\n\n                                                                  EXECUTION COPY\n\n                              ENDORSEMENT AGREEMENT                               ---------------------\n\n         This Endorsement Agreement (\"Agreement\") is made this 13th day of October, 1999 by and between SQUARE TWO GOLF INC., a New Jersey corporation (the \"Company\"), and KATHY WHITWORTH, an individual, with an address at 302 La Mancha Court, Santa Fe, New Mexico, 87501 (",
+        "score": 0.7880906462669373
+      }
+    ]
+  },
+  {
+    "qid": "q3814",
+    "query": "Consider the Sponsorship Agreement between Excite, Inc. and NetGrocer, Inc.; Is there a non-compete clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 17234,
+        "end": 17748,
+        "answer": "For the term of the Agreement, Excite will not enter into any                   agreement to display and shall not display on the Excite Site                   content created by Excite promoting NetGrocer's                   \"Competitors\", content created by NetGrocer's Competitors,                   promotional placements and/or advertising banners from                   NetGrocer's Competitors or make available on the Excite Site                   online supermarket sales offered by NetGrocer's Competitors",
+        "text": "For the term of the Agreement, Excite will not enter into any                   agreement to display and shall not display on the Excite Site                   content created by Excite promoting NetGrocer's                   \"Competitors\", content created by NetGrocer's Competitors,                   promotional placements and/or advertising banners from                   NetGrocer's Competitors or make available on the Excite Site                   online supermarket sales offered by NetGrocer's Competitors"
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 17769,
+        "end": 18260,
+        "answer": "For the purposes of this Agreement, \"Competitors\" means                   online supermarkets, which offer selections of consumer                   packaged goods and groceries comparable to NetGrocer or                   off-Web supermarkets, as listed in Exhibit A. The parties may                   amend Exhibit A from time to time and Excite will not                   unreasonably withhold its consent to the inclusion of bona                   fide Competitors submitted by NetGrocer.",
+        "text": "For the purposes of this Agreement, \"Competitors\" means                   online supermarkets, which offer selections of consumer                   packaged goods and groceries comparable to NetGrocer or                   off-Web supermarkets, as listed in Exhibit A. The parties may                   amend Exhibit A from time to time and Excite will not                   unreasonably withhold its consent to the inclusion of bona                   fide Competitors submitted by NetGrocer."
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 44898,
+        "end": 44996,
+        "answer": "EXHIBIT A\n\n                         LIST OF NETGROCER COMPETITORS\n\nPeapod\n\nShoppers Express/Oncart",
+        "text": "EXHIBIT A\n\n                         LIST OF NETGROCER COMPETITORS\n\nPeapod\n\nShoppers Express/Oncart"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 29106,
+        "end": 29618,
+        "text": " available sponsorship                   opportunities on its WebCrawler Site (located at                   http://www.webcrawler.com) generally similar to the                   opportunity described by this Agreement, with the significant                   exception that merchants will not be granted category                   exclusivity or rights to exclude competitors on the                   WebCrawler Site. Excite and NetGrocer agree to negotiate in                   good faith to establish the terms ",
+        "score": 0.7727900147438049
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "  NetGrocer wishes to promote use of the NetGrocer Site to Excite's          users by sponsoring the Excite Shopping Channel and purchasing banner          advertising and other promotional links on the Excite Site.\n\n1.       SPONSORSHIP\n\n         a)       Excite will promote NetGrocer in the Excite Shopping Channel                   as follows:\n\n                  i)       For the term of this Agreement, Excite will display                            a text and/or graphic link (consistent with the          ",
+        "score": 0.7653781771659851
+      },
+      {
+        "doc": "cuad/NETGROCERINC_07_31_1998-EX-10.15-SPONSORSHIP AGREEMENT.txt",
+        "start": 28644,
+        "end": 29156,
+        "text": "          each CPG merchant's co-branded area and a second that sends                   consumers to the portion of the Excite Network that promotes                   the entire CPG program. Excite and NetGrocer agree to                   negotiate in good faith to establish the terms and conditions                   for NetGrocer's participation in Excite's CPG program when                   and if launched.\n\n         b)       Excite currently plans to make available sponsorship                   opportuni",
+        "score": 0.7539315223693848
+      }
+    ]
+  },
+  {
+    "qid": "q2154",
+    "query": "Consider the Outsourcing Agreement between E.Piphany, Inc. and High Speed Net Solutions, Inc. for Rich Media Advertising Services; Does this contract include an unlimited or all-you-can-eat license?",
+    "gold": [
+      {
+        "doc": "cuad/OASYSMOBILE,INC_07_05_2001-EX-10.17-OUTSOURCING AGREEMENT.txt",
+        "start": 13659,
+        "end": 13803,
+        "answer": "E.piphany allows for unlimited calls to its technical support desk by the HSNS personnel designated under Section 5.7 (\"HSNS Responsibilities.\")",
+        "text": "E.piphany allows for unlimited calls to its technical support desk by the HSNS personnel designated under Section 5.7 (\"HSNS Responsibilities.\")"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/OASYSMOBILE,INC_07_05_2001-EX-10.17-OUTSOURCING AGREEMENT.txt",
+        "start": 21714,
+        "end": 22226,
+        "text": "in the Outsourcing Services to existing and prospective Outsourcing Customers in the ordinary course of HSNS' business.\n\n8.3 USE. During the term of this Agreement, each party shall have the right to indicate to the public that HSNS is an authorized Outsourcing Service provider of E.piphany's Application. HSNS shall use E.piphany's Trademarks solely for purposes of advertisement, promotion, and sale of the Application in conjunction with the Outsourcing Applications and Services and for no other purposes. E",
+        "score": 0.7132419347763062
+      },
+      {
+        "doc": "cuad/OASYSMOBILE,INC_07_05_2001-EX-10.17-OUTSOURCING AGREEMENT.txt",
+        "start": 54978,
+        "end": 55490,
+        "text": "o selected demographics/psychographics via Rich Media Direct delivery mechanisms.\n\nOUTSOURCING SERVICE TITLE AND DESCRIPTION:\n\nHigh Speed Rich Media Direct Service\n\nThe Rich Media Direct service will take (a 15- or 30-second video advertisement) and target to selected 'opt-in' recipient list. The service will compress and package advertisements to provide a compelling advertisement. The High Speed Rich Media Direct Network provides customers dedicated bandwidth and a distributed infrastructure to efficientl",
+        "score": 0.70238196849823
+      },
+      {
+        "doc": "cuad/OASYSMOBILE,INC_07_05_2001-EX-10.17-OUTSOURCING AGREEMENT.txt",
+        "start": 55902,
+        "end": 56414,
+        "text": "n\n\n*        Streaming services\n\nThis service provides complete protection and privacy to your distribution list and all data collected during your campaign.\n\nHOSTED SYSTEMS:  Microsoft NT Server\n\nMARKET:  Persons or Entities who wish to use Rich Media Advertising Services\n\nTERRITORY: HSNS shall have rights under this Agreement to provide Outsourcing Application and Outsourcing Services to Outsourcing Customers globally without restriction contingent upon HSNS providing Outsourcing Services from the Designat",
+        "score": 0.6995601654052734
+      }
+    ]
+  },
+  {
+    "qid": "q848",
+    "query": "Consider the Co-Branding Agreement between MediaLinx Interactive, L.P. and HealthCentral.com Inc.; Is there uncapped liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 32751,
+        "end": 33538,
+        "answer": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE CONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE OBLIGATIONS UNDER SECTION 20, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE,\n\n                                                                              10\n\nSTRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST BUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+        "text": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE CONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE OBLIGATIONS UNDER SECTION 20, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE,\n\n                                                                              10\n\nSTRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST BUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.27\n\n                                                          MediaLinx File No. 952\n\n                         CO-BRANDING CONTENT AGREEMENT                          -----------------------------\n\nTHIS AGREEMENT made as of the 30th day of June 1999\n\nBETWEEN:\n\n          MEDIALINX INTERACTIVE, L.P.,           represented herein by its general partner           MediaLinx Interactive Inc.           a corporation incorporated under the laws           of the Province of Ontario           20 Richmond St",
+        "score": 0.782751202583313
+      },
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 11550,
+        "end": 12062,
+        "text": "y excess inventory that has not been sold is available to be sold by either party. Neither party shall permit advertising on the Co-Branded Site from an entity which is a competitor to the other party. For the purposes of this Agreement, a \"competitor\" to MediaLinx shall be an Internet portal web site and/or an internet service provider. For the purposes of this Agreement, a \"competitor\" to HCI shall be a consumer health based web site. The parties shall define a plan in writing prior to the Launch setting ",
+        "score": 0.7340916395187378
+      },
+      {
+        "doc": "cuad/HealthcentralCom_19991108_S-1A_EX-10.27_6623292_EX-10.27_Co-Branding Agreement.txt",
+        "start": 11088,
+        "end": 11600,
+        "text": "vertising and sponsorships on all pages of the Co-Branded Site to US advertisers (for the purposes of this Agreement, US advertisers shall be advertisers with substantial places of business in the United States). All sponsorship and advertising package deals for the Co-Branded Site will be mutually agreed upon by the parties and shall abide by MediaLinx's and HCI's standard advertising agreement and Canadian and U.S. advertising regulations and standards. Any excess inventory that has not been sold is avail",
+        "score": 0.7205564975738525
+      }
+    ]
+  },
+  {
+    "qid": "q3933",
+    "query": "Consider the Supply Agreement between SutroVax, Inc. and Sutro Biopharma, Inc. for Extracts and Custom Reagents; What is the expiration date of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 80836,
+        "end": 81246,
+        "answer": "The term of this Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31, 2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the Phase 3/Commercial Supply Agreement (the \"Term\"), unless it is terminated earlier in accordance with Section 10.2.",
+        "text": "The term of this Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31, 2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the Phase 3/Commercial Supply Agreement (the \"Term\"), unless it is terminated earlier in accordance with Section 10.2."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.19\n\nCERTAIN CONFIDENTIAL INFORMATION CONTAINED IN THIS DOCUMENT, MARKED BY [***], HAS BEEN OMITTED BECAUSE IT IS BOTH (I) NOT MATERIAL AND (II) WOULD LIKELY CAUSE COMPETITIVE HARM IF PUBLICLY DISCLOSED.\n\nSUPPLY AGREEMENT\n\nThis SUPPLY AGREEMENT (\"Supply Agreement\") is made as of May 29, 2018 (the \"Effective Date\") by and between SutroVax, Inc., a Delaware corporation having principal offices at 353 Hatch Dr., Foster City, CA 94404 (\"SutroVax\") and Sutro Biopharma, Inc., a Delaware corporation, hav",
+        "score": 0.8301849365234375
+      },
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "oVax Agreement dated as of October 12, 2015 (the \"License Agreement\").\n\nB. SutroVax is a vaccine company primarily in the business of developing, manufacturing and marketing vaccine products; and\n\nC. SutroVax desires to purchase from Sutro, and Sutro desires to supply to SutroVax, the Extracts and Custom Reagents (as defined below) upon the terms and subject to the conditions set forth herein.\n\nNOW, THEREFORE, in consideration of the covenants, conditions and undertakings hereinafter set forth, and for othe",
+        "score": 0.8257731199264526
+      },
+      {
+        "doc": "cuad/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT.txt",
+        "start": 80850,
+        "end": 81362,
+        "text": "is Supply Agreement shall begin on the Effective Date first set forth above and shall remain in effect until the later of (a) July 31, 2021 or (b) the date that the Parties enter into the Phase 3/Commercial Supply Agreement and Sutro is supplying to SutroVax each Product under the Phase 3/Commercial Supply Agreement (the \"Term\"), unless it is terminated earlier in accordance with Section 10.2.\n\n10.2 Termination. Notwithstanding anything to the contrary in this Supply Agreement, this Supply Agreement may be ",
+        "score": 0.7797830104827881
+      }
+    ]
+  },
+  {
+    "qid": "q19",
+    "query": "Consider the Video-on-Demand Content License Agreement between Rogers Cable Communications Inc. and EuroMedia Holdings Corp.; What licenses are granted under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.txt",
+        "start": 304,
+        "end": 687,
+        "answer": "Licensor grants to Rogers the non-exclusive license and right to distribute and exhibit in Canada (the \"Territory\") all entertainment programming to which Licensor owns or controls the VOD distribution and exhibition rights in the Territory (collectively, \"Licensed Programs\") to residential subscribers of Rogers' digital cable television service on a Video-on-Demand (\"VOD\") basis.",
+        "text": "Licensor grants to Rogers the non-exclusive license and right to distribute and exhibit in Canada (the \"Territory\") all entertainment programming to which Licensor owns or controls the VOD distribution and exhibition rights in the Territory (collectively, \"Licensed Programs\") to residential subscribers of Rogers' digital cable television service on a Video-on-Demand (\"VOD\") basis."
+      },
+      {
+        "doc": "cuad/EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.txt",
+        "start": 3284,
+        "end": 3540,
+        "answer": "During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the \"License Period\").",
+        "text": "During the Term, Rogers shall have the non-exclusive right to distribute and exhibit each Licensed Program on a VOD basis for a period of ninety (90) consecutive days, or such longer period as may be agreed to by Rogers and Licensor (the \"License Period\")."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.B.01 EXECUTION COPY\n\nVIDEO-ON-DEMAND CONTENT LICENSE AGREEMENT between Rogers Cable Communications Inc. (\"Rogers\") and EuroMedia Holdings Corp. (\"Licensor\") offering EurocinemaSM Video-on-Demand service made as of July 11 , 2006 (the \"Effective Date\") (the \"Agreement\")\n\n  1. RIGHTS GRANTED   Licensor grants to Rogers the non-exclusive license and right to distribute and exhibit in Canada (the \"Territory\") all entertainment programming to which Licensor owns or controls the VOD distribution and ex",
+        "score": 0.840146541595459
+      },
+      {
+        "doc": "cuad/EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.txt",
+        "start": 462,
+        "end": 974,
+        "text": "ensor owns or controls the VOD distribution and exhibition rights in the Territory (collectively, \"Licensed Programs\") to residential subscribers of Rogers' digital cable television service on a Video-on-Demand (\"VOD\") basis. For clarity, the VOD service that Rogers provides to such subscribers shall hereinafter be referred to as the \"ROD Service\".     2. LICENSED PROGRAMS.     (a) Subject to Section 3, Licensor shall forthwith provide to Rogers a comprehensive list (including title, length of program, lice",
+        "score": 0.6957159042358398
+      },
+      {
+        "doc": "cuad/EuromediaHoldingsCorp_20070215_10SB12G_EX-10.B(01)_525118_EX-10.B(01)_Content License Agreement.txt",
+        "start": 15246,
+        "end": 15758,
+        "text": "ervices provided by Licensor hereunder.   -6-\n\nSource: EUROMEDIA HOLDINGS CORP, 10SB12G, 2/15/2007\n\n\n\n\n\n      (b) Rogers shall indemnify Licensor and its affiliates from and against any and all claims, damages, liabilities, costs and expenses (including, without limitation, reasonable legal fees) arising out of or caused by:     (i) any breach by Rogers of any material term of this Agreement; and     (ii) any claim by a Rogers customer, except a claim related to the content of any Licensed Program, trailer ",
+        "score": 0.6936655044555664
+      }
+    ]
+  }
+]

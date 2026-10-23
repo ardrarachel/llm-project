@@ -1,0 +1,1603 @@
+[
+  {
+    "qid": "q195",
+    "query": "Consider the Non-Exclusive Distributor Agreement between iMine Corporation and Sunwai Technology for Cryptocurrency Mining Rigs; Can this contract be terminated for convenience, and under what conditions?",
+    "gold": [
+      {
+        "doc": "cuad/ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.txt",
+        "start": 22828,
+        "end": 23024,
+        "answer": "This Agreement may be terminated by either party for any reason or no reason, whether or not extended beyond the initial term, by giving the other party written notice ninety (90) days in advance.",
+        "text": "This Agreement may be terminated by either party for any reason or no reason, whether or not extended beyond the initial term, by giving the other party written notice ninety (90) days in advance."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.5 NON-EXCLUSIVE DISTRIBUTOR AGREEMENT This Non-Exclusive Distributor Agreement (the \"Agreement\") is made and entered into as of this 19th day of July 2018, by and between iMine Corporation, (hereinafter referred to as \"JRVS\") and SUNWAI Technology, a Taiwanese company, with its principal office at 6th Floor, No. 258, Section 3, Nanjing East Road, Songshan District, Taipei 10051 (hereinafter referred to as the \"Distributor\"). RECITAL WHEREAS, Distributor desires to be, a nonexclusive distributor o",
+        "score": 0.7722529768943787
+      },
+      {
+        "doc": "cuad/ImineCorp_20180725_S-1_EX-10.5_11275970_EX-10.5_Distributor Agreement.txt",
+        "start": 4158,
+        "end": 4670,
+        "text": "rketing, sale, distribution or solicitation of the competitive products is considered to be a material breach of this Agreement. 3.4 Reports. Distributor shall submit periodical reports to iMine to include information on how many buyers or potential buyers were contacted. 3.5 Compliance with Laws. The Distributor shall comply at its own expense with all applicable laws and regulations currently existing in Taiwan relating to the sale, distribution and promotion of the Products. Distributor shall not export,",
+        "score": 0.731757640838623
+      },
+      {
+        "doc": "cuad/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT.txt",
+        "start": 2310,
+        "end": 2822,
+        "text": "r this Agreement  outside of the Territory, except with the prior written consent of Diversinet.     Furthermore, if Reseller terminates the AMC in the manner contemplated in Schedule 3, the exclusive license above shall revert to being a non- exclusive license.    In either case, Reseller will have the non-exclusive right to contract in the rest of the world, excluding the United States. If Reseller identifies End- Users in the United States, with the prior written consent of Diversinet, Reseller may sell ",
+        "score": 0.718905508518219
+      }
+    ]
+  },
+  {
+    "qid": "q2321",
+    "query": "Consider the Transportation Contract between JSC NOC KazakhOil and JSC Karakudukmunay for Crude Oil Export; Does this contract include any volume restrictions?",
+    "gold": [
+      {
+        "doc": "cuad/CHAPARRALRESOURCESINC_03_30_2000-EX-10.66-TRANSPORTATION CONTRACT.txt",
+        "start": 14631,
+        "end": 14774,
+        "answer": "The Company shall have a right to deliver Commodity to the Buyer with a      permissible +/-5% deviation from the number of batches of Commodit",
+        "text": "The Company shall have a right to deliver Commodity to the Buyer with a      permissible +/-5% deviation from the number of batches of Commodit"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 16632,
+        "end": 17144,
+        "text": "inition of Product will not satisfy the obligation to move committed Product volume. All Product barrels moved by Shipper in excess of its Quarterly Volume Commitment will be attributed to Shipper's movements on the Pipeline as a Regular Shipper, subject to the applicable Rules & Regulations of the Tariff.\n\n3.6 The dollar amount of any Quarterly Deficiency Payment paid by Shipper shall constitute prepayment for transportation of Product by Shipper on the Pipeline and will posted as a credit (\"Prepaid Transp",
+        "score": 0.711624264717102
+      },
+      {
+        "doc": "cuad/CHAPARRALRESOURCESINC_03_30_2000-EX-10.66-TRANSPORTATION CONTRACT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.66\n\n                             TRANSPORTATION CONTRACT\n\n        Astana                                         January 31, 2000\n\n                                    PREAMBLE\n\nJSC NOC KazakhOil, hereinafter referred to as the \"Company\", in the person of Executive Marketing Director Ms. A. M. Rakhimbekov, acting on the basis of the Power of Attorney (1) 1-13 dated January 3, 2000, on the one side and JSC Karakudukmunay, hereinafter referred to as the \"Principal\" in the person of General Director ",
+        "score": 0.7100809812545776
+      },
+      {
+        "doc": "cuad/CHAPARRALRESOURCESINC_03_30_2000-EX-10.66-TRANSPORTATION CONTRACT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "for export in batches to the far abroad of crude oil      (\"Commodity\") belonging to the Principal and shall provide such other      services in connection therewith as are provided in this Contract.\n\n1.2  The volume of a batch of Commodity transported hereunder shall be      determined in accordance with the monthly schedules of transit and      distribution of Kazakhstany oil.\n\n                        2. DEFINITIONS AND INTERPRETATION\n\n2.1  As used in the Contract, the following terms have the meanings in",
+        "score": 0.703281044960022
+      }
+    ]
+  },
+  {
+    "qid": "q2438",
+    "query": "Consider the Cooperation Agreement between Allison Transmission Holdings, Inc. and the ValueAct Group; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ALLISONTRANSMISSIONHOLDINGSINC_12_15_2014-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 25249,
+        "end": 25548,
+        "answer": "THIS AGREEMENT SHALL BE GOVERNED IN ALL RESPECTS, INCLUDING WITHOUT LIMITATION VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE APPLICABLE TO CONTRACTS EXECUTED AND TO BE PERFORMED WHOLLY WITHIN SUCH STATE WITHOUT GIVING EFFECT TO THE CHOICE OF LAW PRINCIPLES OF SUCH STATE.",
+        "text": "THIS AGREEMENT SHALL BE GOVERNED IN ALL RESPECTS, INCLUDING WITHOUT LIMITATION VALIDITY, INTERPRETATION AND EFFECT, BY THE LAWS OF THE STATE OF DELAWARE APPLICABLE TO CONTRACTS EXECUTED AND TO BE PERFORMED WHOLLY WITHIN SUCH STATE WITHOUT GIVING EFFECT TO THE CHOICE OF LAW PRINCIPLES OF SUCH STATE."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ALLISONTRANSMISSIONHOLDINGSINC_12_15_2014-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 99.1\n\nCOOPERATION AGREEMENT\n\nThis Cooperation Agreement (this \"Agreement\") dated December 12, 2014, is by and among the persons and entities listed on Schedule A (collectively, the \"ValueAct Group\", and individually a \"member\" of the ValueAct Group), Allison Transmission Holdings, Inc. (the \"Company\") and Gregory P. Spivy, in his individual capacity and as a member of the ValueAct Group (the \"ValueAct Designee\").\n\nWHEREAS, the ValueAct Group currently beneficially owns 19,125,204 shares of the commo",
+        "score": 0.7915308475494385
+      },
+      {
+        "doc": "cuad/ALLISONTRANSMISSIONHOLDINGSINC_12_15_2014-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 18480,
+        "end": 18992,
+        "text": "wns, directly or indirectly, an aggregate of 19,125,204 shares of Common Stock and such shares of Common Stock constitute all of the Common Stock beneficially owned by the ValueAct Group and the ValueAct Affiliates or in which the ValueAct Group or the ValueAct Affiliates have any interest or right to acquire, whether through derivative securities, voting agreements or otherwise; and (d) as of the date of this Agreement, the ValueAct Designee satisfies all of the Conditions.   4\n\n\n\n\n\n5. Termination.\n\n(a) Th",
+        "score": 0.6810370683670044
+      },
+      {
+        "doc": "cuad/ALLISONTRANSMISSIONHOLDINGSINC_12_15_2014-EX-99.1-COOPERATION AGREEMENT.txt",
+        "start": 27258,
+        "end": 27770,
+        "text": "is, IN 46222-3271   Attention: General Counsel\n\nIf to the ValueAct Group:   ValueAct Capital Management, L.P.   One Letterman Drive   Building D, 4t h Floor   San Francisco, CA 94129   Attention: General Counsel\n\n13. Severability. If at any time subsequent to the date hereof, any provision of this Agreement shall be held by any court of competent jurisdiction to be illegal, void or unenforceable, such provision shall be of no force and effect, but the illegality or unenforceability of such provision shall h",
+        "score": 0.6774851083755493
+      }
+    ]
+  },
+  {
+    "qid": "q31",
+    "query": "Consider the Content License Agreement between PSiTech Corporation and Empirical Ventures, Inc.; What is the renewal term for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.txt",
+        "start": 17623,
+        "end": 17946,
+        "answer": "Thereafter, this Agreement shall renew automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term].",
+        "text": "Thereafter, this Agreement shall renew automatically for one (1) additional three (3) year period (the \"Renewal Term\" and collectively, together with the Initial Term, the \"Term\") unless either party provides the other with written notice of non-renewal at least ninety (90) days before the expiration of the Initial Term]."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "CONFIDENTIAL\n\n  PSiTECHCORPORATION   WEBSITE CONTENT LICENSE AGREEMENT     This Content License Agreement (\"Agreement\"), dated as of Feb 10, 2014 (the \"Effective Date\"), is by and between PSiTech Corporation, a BVI Corporation, with offices located at 303, 3rdFl, St. Georges Bldg, 2 Ice House St, Central, Hong Kong(\"Licensor\"), and Empirical Ventures, Inc., a Nevada corporation with offices located at 100, 40 Lake Bellevue Dr, Bellevue, WA(\"Licensee\").     WHEREAS, Licensee owns, operates and controls the L",
+        "score": 0.7986413240432739
+      },
+      {
+        "doc": "cuad/GopageCorp_20140221_10-K_EX-10.1_8432966_EX-10.1_Content License Agreement.txt",
+        "start": 38808,
+        "end": 39320,
+        "text": " Name: Cameron Investments Limited Title: Director\n\n Empirical Ventures, Inc.    By /s/Peter Schulhof Name: Peter Schulhof Title: President\n\n\n\n17\n\nSource: GO-PAGE CORP, 10-K, 2/21/2014\n\n\n\n\n\n\n\n  SCHEDULE 1   LICENSE SCOPE\n\n    Display the Licensed Content on the Licensee Site to actual and prospective customers or End-Users located within Canada, the United States or Mexico engaged in any vertical market business except(i) the offer or brokering of vacation home rentals, and (ii) the offering or sale of any ",
+        "score": 0.7190779447555542
+      },
+      {
+        "doc": "cuad/EcoScienceSolutionsInc_20180406_8-K_EX-10.1_11135398_EX-10.1_Sponsorship Agreement.txt",
+        "start": 7392,
+        "end": 7904,
+        "text": "\nThe Sponsor agrees that upon acceptance, this agreement shall be deemed to form and binding contract between the Sponsor and Promoter. The Sponsor agrees to abide by the terms set forth in the Terms and Conditions of Sponsorship agreement.\n\nAll parties have executed this Agreement through their duly authorized representatives as of the first date written below.\n\nSponsor: Eco Science Solutions, Inc.\n\nBy: /s/Jeffery Taylor Name: Jeffery Taylor Title: CEO Date: 4/01/2018\n\nPromoter: Fruit of Life Productions L",
+        "score": 0.6780880689620972
+      }
+    ]
+  },
+  {
+    "qid": "q987",
+    "query": "Consider the Network Affiliate Agreement between National CineMedia, LLC and Digital Cinema Destinations Corp. for Advertising Services; Is there a clause preventing the solicitation of employees in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 83609,
+        "end": 83967,
+        "answer": "During the Term and for a period of twelve (12) months thereafter Network Affiliate will not, without NCM's prior written  consent, either alone or in concert with others directly or indirectly solicit, entice, induce, or encourage: (i) any employee, contractor or agent of  NCM to terminate his or her employment, contractor or agency relationship with NCM,",
+        "text": "During the Term and for a period of twelve (12) months thereafter Network Affiliate will not, without NCM's prior written  consent, either alone or in concert with others directly or indirectly solicit, entice, induce, or encourage: (i) any employee, contractor or agent of  NCM to terminate his or her employment, contractor or agency relationship with NCM,"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "DIGITAL CINEMA DESTINATIONS CORP.     NETWORK AFFILIATE AGREEMENT     THIS NETWORK AFFILIATE AGREEMENT (this \"Agreement\") is made as of this 14th day of March, 2011 by and between National CineMedia,  LLC, a Delaware limited liability company (\"NCM\"), and Digital Cinema Destinations Corp., a Delaware corporation (\"Network Affiliate\" and with  NCM, each a \"Party\" and collectively, the \"Parties\").     BACKGROUND     WHEREAS, NCM operates a \"Digital Content Network\" of proprietary and third-party hardware and ",
+        "score": 0.8014563918113708
+      },
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 104412,
+        "end": 104924,
+        "text": "      By: /s/ A. Dale Mayo          By: A. Dale Mayo    Name:     Title:\n\n  NATIONAL CINEMEDIA, LLC        By: /s/ Robert W. Brouillette    Name: Robert W. Brouillette    Title: Senior Vice President\n\n  32\n\nSource: DIGITAL CINEMA DESTINATIONS CORP., S-1, 12/20/2011\n\n\n\n\n\n   EXHIBIT A     Services\n\n\n\n   All lobby promotions and other in-theatre promotional activities (excluding the Digital Content Service, the Traditional Content  Program and other on-screen content), but specifically excluding the following ",
+        "score": 0.7780086398124695
+      },
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 44814,
+        "end": 45326,
+        "text": "r all purposes of this Agreement. The parties will cooperate to ensure that NCM does not receive access through Network Affiliate's point-of- sale software to any information of Network Affiliate other than the Point-of-Sale Information.\n\n\n\n  14\n\nSource: DIGITAL CINEMA DESTINATIONS CORP., S-1, 12/20/2011\n\n\n\n\n\n   Section 5.2 Software Restrictions. Network Affiliate acknowledges that the Software and any and all components thereof constitute  valuable trade secrets of NCM or its affiliates or licensors. Accor",
+        "score": 0.7682979702949524
+      }
+    ]
+  },
+  {
+    "qid": "q3666",
+    "query": "Consider the Operations and Maintenance Agreement between Solar Power, Inc. and Solar Tax Partners 1, LLC for Aerojet Facility; What is the renewal term for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONS AND MAINTENANCE AGREEMENT.txt",
+        "start": 13088,
+        "end": 13404,
+        "answer": "This Agreement shall be subject to an automatic extension for consecutive one (1) year periods  thereafter (each, an \"Extension Term\" and together with the Initial Term, the \"Term\"), unless terminated (i) in accordance with its terms or (ii)  upon thirty (30) days' written notice by either Party to the other Party.",
+        "text": "This Agreement shall be subject to an automatic extension for consecutive one (1) year periods  thereafter (each, an \"Extension Term\" and together with the Initial Term, the \"Term\"), unless terminated (i) in accordance with its terms or (ii)  upon thirty (30) days' written notice by either Party to the other Party."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONS AND MAINTENANCE AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 99.5\n\n[*] Designates portions of this document that have been omitted pursuant to a request for confidential treatment filed separately with the  Commission.\n\nOPERATIONS AND MAINTENANCE AGREEMENT\n\nService Provider: Solar Power, Inc.  SEF Host Customer: Aerojet — Phase 1  SEF Site Location: Rancho Cordova, CA\n\nTHIS OPERATIONS AND MAINTENANCE AGREEMENT (this \"Agreement\") is made and entered into as of the latest date referenced on the  signature page below (the \"Effective Date\"), by and between Solar ",
+        "score": 0.8291511535644531
+      },
+      {
+        "doc": "cuad/SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONS AND MAINTENANCE AGREEMENT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "t B hereto for the purposes of providing electric power to the Owner's host customer, Aerojet — Rancho Cordova, CA (the  \"User\");\n\nB. Owner desires to retain the services of Service Provider to operate and manage the SEF and provide scheduled maintenance of the SEF, and  Service Provider is willing to perform such services upon the terms and conditions set forth in this Agreement.\n\nAGREEMENT\n\nIn consideration of the foregoing recitals, the mutual agreements, representations, warranties and covenants set for",
+        "score": 0.7394490242004395
+      },
+      {
+        "doc": "cuad/SPIENERGYCO,LTD_03_09_2011-EX-99.5-OPERATIONS AND MAINTENANCE AGREEMENT.txt",
+        "start": 40194,
+        "end": 40706,
+        "text": "ming Force Majeure shall promptly notify  the other party, specifying in reasonable detail the event of Force Majeure, the expected duration, and the steps such party is taking to remedy any  delay.\n\n[SIGNATURE PAGE FOLLOWS]\n\n8\n\n\n\n\n\n\n\nOperations and Maintenance Agreement Aerojet 1\n\nINTENDING TO BE LEGALLY BOUND, Owner and Service Provider have signed this Agreement through their duly authorized representatives  effective as of the latest date set forth below.\n\n\"OWNER:\"\n\nDate: December 11, 2009\n\nSOLAR TAX PA",
+        "score": 0.738802433013916
+      }
+    ]
+  },
+  {
+    "qid": "q1395",
+    "query": "Consider the Content License Agreement between Beijing Sun Seven Stars Culture Development Limited and You On Demand Holdings, Inc.; Does this contract include any right of first refusal, right of first offer, or right of first negotiation?",
+    "gold": [
+      {
+        "doc": "cuad/IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.txt",
+        "start": 10769,
+        "end": 11044,
+        "answer": "If, during the Term, Licensor develops or obtains the rights to license any live action or animated feature-length motion picture (each an \"Additional Title\"), Licensor shall give Licensee the first right of negotiation for each Additional Title (i.e., the preferred vendor).",
+        "text": "If, during the Term, Licensor develops or obtains the rights to license any live action or animated feature-length motion picture (each an \"Additional Title\"), Licensor shall give Licensee the first right of negotiation for each Additional Title (i.e., the preferred vendor)."
+      },
+      {
+        "doc": "cuad/IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.txt",
+        "start": 11151,
+        "end": 11370,
+        "answer": "hould Licensee agree to be the vendor for an Additional Title, Licensor and Licensee will negotiate in good faith to mutually agree upon the pricing and terms for each Additional Title in an amendment to this Agreement.",
+        "text": "hould Licensee agree to be the vendor for an Additional Title, Licensor and Licensee will negotiate in good faith to mutually agree upon the pricing and terms for each Additional Title in an amendment to this Agreement."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.txt",
+        "start": 34650,
+        "end": 35162,
+        "text": " 8-K, 11/24/2015\n\n\n\n\n\n\n\n  IN WITNESS WHEREOF and intending to be legally bound hereby, the parties have executed this Content License Agreement as of the date first set forth above.   LICENSOR:   BEIJING SUN SEVEN STARS CULTURE DEVELOPMENT LIMITED   By:     Name: Bruno Wu   Title: Chairman & CEO     LICENSEE:   YOU ON DEMAND HOLDINGS, INC.   By:     Name:     Title:       [SIGNATURE PAGE TO CONTENT LICENSE AGREEMENT]\n\n\n\nSource: IDEANOMICS, INC., 8-K, 11/24/2015\n\n\n\n\n\n\n\n  SCHEDULE A   TITLES\n\n\n\nSource: IDEANO",
+        "score": 0.8649239540100098
+      },
+      {
+        "doc": "cuad/IdeanomicsInc_20151124_8-K_EX-10.2_9354744_EX-10.2_Content License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.2   FORM OF CONTENT LICENSE AGREEMENT   THIS CONTENT LICENSE AGREEMENT (this \"Agreement\"), dated as of ___________, 2015 (the \"Effective Date\"), is entered into between Beijing Sun Seven Stars Culture Development Limited, a P.R.C. company with an address at Eastern Fangzheng Road, Southern Dongying Village, Hancunhe Town, Fangshan District, Beijing City, P.R.C. (\"Licensor\"), and YOU ON DEMAND HOLDINGS, INC., a Nevada corporation with an address at 375 Greenwich Street, Suite 516, New York, New Yo",
+        "score": 0.8045567870140076
+      },
+      {
+        "doc": "cuad/UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2.txt",
+        "start": 8316,
+        "end": 8828,
+        "text": "or any reason, the Contractors located by Affiliate  shall  remain  Contractors  of  Network  1.\n\n(A)     RIGHT  OF  FIRST  REFUSAL.  If during the term of this Agreement for any renewal of this Agreement (the \"Right of First Refusal Period\"), Affiliate shall receive (i) any Bona Fide Offer to purchase the revenue due Affiliate under this Agreement  or  Affiliate's company through an asset purchase or merger (in which case  Network  1  shall be subordinate to the Checkfree first refusal right), or (ii) a Bo",
+        "score": 0.7214994430541992
+      }
+    ]
+  },
+  {
+    "qid": "q3778",
+    "query": "Consider the Remarketing Agreement between Nuveen AMT-Free Municipal Credit Income Fund and Nuveen Fund Advisors, LLC; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/NUVEEN - REMARKETING AGREEMENT.txt",
+        "start": 47115,
+        "end": 47465,
+        "answer": "The rights and obligations of the Fund and the Investment Adviser hereunder may not be assigned or delegated to any other person without the prior written consent of the Remarketing Agent. The rights and obligations of the Remarketing Agent hereunder may not be assigned or delegated to any other person without the prior written consent of the Fund.",
+        "text": "The rights and obligations of the Fund and the Investment Adviser hereunder may not be assigned or delegated to any other person without the prior written consent of the Remarketing Agent. The rights and obligations of the Remarketing Agent hereunder may not be assigned or delegated to any other person without the prior written consent of the Fund."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/NUVEEN - REMARKETING AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit s.2\n\nNUVEEN AMT-FREE MUNICIPAL CREDIT INCOME FUND (NVG)\n\nAND\n\nNUVEEN FUND ADVISORS, LLC\n\nAND\n\n[●]\n\nREMARKETING AGREEMENT\n\nDated as of [●]\n\nSeries [●] MuniFund Preferred Shares\n\nVariable Rate Remarketed Mode\n\n(NVG - Series [●] MFP)\n\n\n\n\n\nTable of Contents Page Section 1. Definitions 1 Section 2. Appointment and Obligations of the Remarketing Agent 3 Section 3. Representations, Warranties and Covenants of the Remarketing Agent and the Fund 6 Section 4. Fees and Expenses 7 Section 5. Resignation, Suspen",
+        "score": 0.789792537689209
+      },
+      {
+        "doc": "cuad/NUVEEN - REMARKETING AGREEMENT.txt",
+        "start": 61908,
+        "end": 62420,
+        "text": "\n\nPursuant to [Section 2(d)] [Section 2(e)] [Section 2(f)] of the Remarketing Agreement dated [●] (the \"Remarketing Agreement\"), by and among Nuveen AMT-Free Municipal Credit Income Fund, a closed-end investment company organized as a Massachusetts business trust, Nuveen Fund Advisors, LLC, a registered investment adviser and wholly-owned subsidiary of Nuveen Investments, Inc., and [●] (the \"Remarketing Agent\"), the undersigned Remarketing Agent hereby notifies you of the following information regarding the",
+        "score": 0.7742862701416016
+      },
+      {
+        "doc": "cuad/NUVEEN - REMARKETING AGREEMENT.txt",
+        "start": 55440,
+        "end": 55952,
+        "text": "ABLE RATE REMARKETED MODE (\"VRRM-MFP SHARES\")\n\nTENDER NOTICE\n\nNote: The substance of this notice must be given by the Beneficial Owner or its Agent Member to [●], as Remarketing Agent (the \"Remarketing Agent\"), appointed under the Remarketing Agreement, dated as of [●], between Nuveen AMT-Free Municipal Credit Income Fund, Nuveen Fund Advisors, LLC and the Remarketing Agent, in the manner provided in Schedule 1 hereto by Electronic Means prior to 5:00 p.m., New York City time, on any Business Day. Any Tende",
+        "score": 0.7528078556060791
+      }
+    ]
+  },
+  {
+    "qid": "q2999",
+    "query": "Consider the Collaboration Agreement between Astellas Pharma Inc. and FibroGen, Inc. for Development of Anemia Treatments; Are there any services to be provided after the termination of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT.txt",
+        "start": 48092,
+        "end": 48299,
+        "answer": "Each of Astellas and FG shall retain its records for the minimum period of time required by applicable law in all cases, and for not less than [ * ] following the expiration or termination of this Agreement.",
+        "text": "Each of Astellas and FG shall retain its records for the minimum period of time required by applicable law in all cases, and for not less than [ * ] following the expiration or termination of this Agreement."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT.txt",
+        "start": 153846,
+        "end": 154358,
+        "text": "IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be duly executed and delivered in duplicate originals as of the date first above written.   ASTELLAS PHARMA INC.   FIBROGEN, INC.\n\nBy:   /s/ Toichi Takenaka   By:   /s/ Thomas B. Neff\n\n  Toichi Takenaka President and Chief Executive Officer     Thomas Neff President and Chief Executive Officer\n\nDate:   1.September.05   Date:   23 August 05   -44-\n\n[ * ] = Certain confidential information contained in this document, marked by brackets, has ",
+        "score": 0.7329999208450317
+      },
+      {
+        "doc": "cuad/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT.txt",
+        "start": 8778,
+        "end": 9290,
+        "text": " anemia.\n\nB. Astellas desires to collaborate with FG on the development and commercialization of, and license the rights to use as therapeutics, certain small molecule prolyl hydroxylase inhibitors on the terms and conditions set forth below for use in the Astellas Territory (as defined below).\n\nNOW THEREFORE, for and in consideration of the covenants, conditions, and undertakings hereinafter set forth, it is agreed by and between the parties as follows:\n\nARTICLE 1 DEFINITIONS\n\n1.1 \"Actions\" shall have the ",
+        "score": 0.7290021181106567
+      },
+      {
+        "doc": "cuad/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT.txt",
+        "start": 46662,
+        "end": 47174,
+        "text": "-7201 E-mail:tneff@fibrogen.com Pharmacovigilance Department, QA, RA, and Pharmacovigilance Division Astellas Pharma Inc. [ * ]\n\nThe safety contact persons for each party hereto may be updated from time to time as necessary upon notice to the other party.\n\nARTICLE 5 RECORDKEEPING; PUBLICATION\n\n5.1 Reports and Records. Each of Astellas and FG shall use best efforts to maintain (or cause such records to be maintained) records of the Development Program and FG Development Program, respectively, in sufficient d",
+        "score": 0.715903639793396
+      }
+    ]
+  },
+  {
+    "qid": "q1624",
+    "query": "Consider the Consulting Agreement between Slinger Bag Inc. and Aitan Zacharin for Investor Relations and Corporate Development; Does this contract include any revenue or profit-sharing arrangements?",
+    "gold": [
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 4188,
+        "end": 4428,
+        "answer": "Subject to the following sentence, the Consultant will be entitled to receive up to a one-time bonus of 1,500,000 shares of common stock of the Company promptly after the value of the Company's outstanding stock equals $100 million dollars.",
+        "text": "Subject to the following sentence, the Consultant will be entitled to receive up to a one-time bonus of 1,500,000 shares of common stock of the Company promptly after the value of the Company's outstanding stock equals $100 million dollars."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.7 CONSULTING AGREEMENT THIS AGREEMENT made this 30th day of April (the \"Effective Date\") between Slinger Bag Inc., a Nevada company (the \"Company\") and Aitan Zacharin, an individual residing in Bet Shemesh, Israel (the \"Consultant\") A. The Company is engaging Consultant as a consultant in respect of investor relations, corporate structure, public relations and commercial development. B. The Company and the Consultant wish to formally record the terms and conditions of such engagement. C. Each of ",
+        "score": 0.7939659357070923
+      },
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 32340,
+        "end": 32852,
+        "text": "g Inc. Name: Title: Agreed and accepted: Aitan Zacharin\n\n\n\n\n\n14 Appendix 1 SLINGER BAG INC. EXERCISE NOTICE Reference is made to the Warrant Agreement dated 30 April 2020 between Slinger Bag Inc. (the \"Company\") and Aitan Zacharin (the \"Warrant Agreement\"). In accordance with and pursuant to the Warrant Agreement, the undersigned hereby elects to exercise the Warrant to purchase shares of common stock of the Company as set forth below. Capitalized terms used but not defined herein have the meanings assigned",
+        "score": 0.7504700422286987
+      },
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 19866,
+        "end": 20378,
+        "text": "ED, PLEDGED OR HYPOTHECATED UNLESS AND UNTIL REGISTERED UNDER SAID ACT AND APPLICABLE STATE SECURITIES LAW OR, IN THE OPINION OF LEGAL COUNSEL IN FORM AND SUBSTANCE SATISFACTORY TO THE ISSUER OF THESE SECURITIES, SUCH OFFER, SALE OR TRANSFER, PLEDGE OR HYPOTHECATION IS EXEMPT FROM REGISTRATION. WARRANT TO PURCHASE COMMON STOCK Company: Slinger Bag Inc. Holder: Aitan Zacharin Shares: 1,250,000 shares of the Company's common stock. Class of Stock: common shares of stock of the Company Exercise Price per share",
+        "score": 0.7092734575271606
+      }
+    ]
+  },
+  {
+    "qid": "q2655",
+    "query": "Consider the Joint Venture Agreement between Kiromic Biopharma Inc. and Molipharma S.R.L. for Clinical Trials in Oncology and COVID-19 Vaccine Development; Are there any services to be provided after the termination of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 18073,
+        "end": 18277,
+        "answer": "Upon termination of the contract, the agreement set forth in clause 5 (\"Intellectual property rights and prohibition of transfer to third parties\") and clause 6 (\"Economic rights\") will remain into force.",
+        "text": "Upon termination of the contract, the agreement set forth in clause 5 (\"Intellectual property rights and prohibition of transfer to third parties\") and clause 6 (\"Economic rights\") will remain into force."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 36498,
+        "end": 36610,
+        "text": " April 2020 Kiromic Biopharma Inc. Molipharma s.r.l.\n\nProf Maurizio Chiriva Internati Avv. Giovanni Meliadò -17-",
+        "score": 0.7774494886398315
+      },
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 462,
+        "end": 974,
+        "text": "PhD\n\nAND\n\nMOLIPHARMA S.R.L. an Italian Company stated in Campobasso, Via del Castello n. 3, FISCAL CODE AND VAT NUMBER: 01655870705 in person of the Legal Representative Avv. Giovanni Meliadò;\n\neach a Party and, together, the Parties.\n\nWHEREAS A. Kiromic is a Company active in the fields of:\n\nResearch and development, in the field of immunotherapy, immuno-oncology, infectious diseases, cardiovascular disease, auto immune diseases, inflammatory diseases and gene editing that develops highly effective and saf",
+        "score": 0.7674480676651001
+      },
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 15246,
+        "end": 15758,
+        "text": " 7. ECONOMIC RIGHTS\n\nThe commercial rights arising from the research programs referred to in point 2 are divided as follows:\n\nOncology\n\nAll economics rights are solely owned by Kiromic Biopharma.\n\nKiromic will grant to Molipharma the follows royalties: - *% of the realized turnover by the marketing of Ovarian Cancer research results in Italy; -7-\n\n\n\n\n\n- *% of the realized turnover by the marketing of Ovarian Cancer research results in Europe.\n\nSars-cov-2 - The economic rights for Europa will be an exclusive",
+        "score": 0.756374716758728
+      }
+    ]
+  },
+  {
+    "qid": "q1843",
+    "query": "Consider the Services Agreement between PFS Funds and Potomac Fund Management, Inc. for Investment Fund Management; Can this contract be terminated for convenience, and under what conditions?",
+    "gold": [
+      {
+        "doc": "cuad/PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT.txt",
+        "start": 12564,
+        "end": 12704,
+        "answer": "This Agreement may be terminated without the payment of any penalty by either party upon sixty (60) days' written notice to the other party.",
+        "text": "This Agreement may be terminated without the payment of any penalty by either party upon sixty (60) days' written notice to the other party."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "SERVICES AGREEMENT CONQUER RISK MANAGED VOLATILITY FUND CONQUER RISK TACTICAL ROTATION FUND CONQUER RISK TACTICAL OPPORTUNITIES FUND CONQUER RISK DEFENSIVE BULL FUND\n\nAGREEMENT dated as of June 24, 2020, between PFS Funds (the \"Trust\"), a Massachusetts business trust, and Potomac Fund Management, Inc. (the \"Adviser\"), a Florida Corporation.\n\nWHEREAS, the Trust has been organized to operate as an open-end management investment company registered under the Investment Company Act of 1940 (the \"Act\"); and WHERE",
+        "score": 0.7680109739303589
+      },
+      {
+        "doc": "cuad/PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT.txt",
+        "start": 12936,
+        "end": 13448,
+        "text": "he Management Agreement is assigned or otherwise terminated.\n\n10. The Trust. The term \"PFS Funds\" means and refers to the Trustees from time to time serving under the Trust's Agreement and Declaration of Trust as the same may subsequently thereto have been, or subsequently hereto may be, amended. It is expressly agreed that the obligations of the Trust hereunder shall not be binding upon any of the Trustees, officers, employees, agents or nominees of the Trust, or any shareholders of any series of the Trust",
+        "score": 0.747887372970581
+      },
+      {
+        "doc": "cuad/PFSFUNDS_06_26_2020-EX-99.H OTH MAT CONT-SERVICES AGREEMENT.txt",
+        "start": 14784,
+        "end": 15052,
+        "text": " this Agreement as of the day and year first above written.\n\nPFS Funds By: /s/ Jeffrey R. Provence Print Name: Jeffrey R. Provence Title: Trustee, Secretary and Treasurer Potomac Fund Management, Inc. By: /s/ Manish Khatta Print Name: Manish Khatta Title: President\n\n5",
+        "score": 0.7316614389419556
+      }
+    ]
+  },
+  {
+    "qid": "q2653",
+    "query": "Consider the Joint Venture Agreement between Kiromic Biopharma Inc. and Molipharma S.R.L. for Clinical Trials in Oncology and COVID-19 Vaccine Development; How is intellectual property ownership assigned in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 13033,
+        "end": 13214,
+        "answer": "The Party which is not interested in the application shall undertake to transfer its own share of ownership to the other Party, free of charge once it has obtained the patent title.",
+        "text": "The Party which is not interested in the application shall undertake to transfer its own share of ownership to the other Party, free of charge once it has obtained the patent title."
+      },
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 14719,
+        "end": 14850,
+        "answer": "Kiromic assigns to Molipharma all the rights of publication of the research, unless they are considered confidential for patenting.",
+        "text": "Kiromic assigns to Molipharma all the rights of publication of the research, unless they are considered confidential for patenting."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 15246,
+        "end": 15758,
+        "text": " 7. ECONOMIC RIGHTS\n\nThe commercial rights arising from the research programs referred to in point 2 are divided as follows:\n\nOncology\n\nAll economics rights are solely owned by Kiromic Biopharma.\n\nKiromic will grant to Molipharma the follows royalties: - *% of the realized turnover by the marketing of Ovarian Cancer research results in Italy; -7-\n\n\n\n\n\n- *% of the realized turnover by the marketing of Ovarian Cancer research results in Europe.\n\nSars-cov-2 - The economic rights for Europa will be an exclusive",
+        "score": 0.8150891065597534
+      },
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 14322,
+        "end": 14834,
+        "text": "round of each Party may not be used by the other Party without the express written authorization of the owner.\n\nThe sale, licensing or any other type of agreement providing for the transfer, even temporary, to third parties of intellectual and industrial property rights deriving from the research programs referred to in point 2 is excluded, unless there is prior agreement between the Parties.\n\nKiromic assigns to Molipharma all the rights of publication of the research, unless they are considered confidentia",
+        "score": 0.797141969203949
+      },
+      {
+        "doc": "cuad/KIROMICBIOPHARMA,INC_04_08_2020-EX-10.28-JOINT VENTURE AGREEMENT.txt",
+        "start": 8778,
+        "end": 9290,
+        "text": " in point 2; d. Funding of educational or training initiatives.\n\nSubsequent contributions will be provided by Kiromic to the common fund upon presentation of individual purchase orders and/or proofs of expenditure —which will be paid for each time starting upon the successful IPO (Initial Public Offering) of the Kiromic's common shares.\n\nMolipharma undertakes to financially support the entire research program against sars-cov-2.\n\nBy way of example, Molipharma undertakes to finance the following items, eithe",
+        "score": 0.7805460691452026
+      }
+    ]
+  },
+  {
+    "qid": "q452",
+    "query": "Consider the Manufacturing and Supply Agreement between Pfizer Inc. and Upjohn Inc.; Is there uncapped liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_Manufacturing Agreement_ Supply Agreement.txt",
+        "start": 182126,
+        "end": 183750,
+        "answer": "Except in the event of (i) Third Party Claims subject to a Party's indemnification obligations pursuant to Section 10.1, (ii) Third Party Claims subject to a Party's indemnification obligations pursuant to Section 10.2, (iii) the gross negligence, fraud or willful misconduct of a Party or its Personnel, (iv) a Party's willful breach of this Agreement, (v) a breach of Section 13 or (vi) customer liabilities pursuant to, and subject to the limitations set forth in, Section 2.5(e), neither Party's aggregate liability to the other Party (or its Personnel that are indemnitees under Section 10.1 or Section 10.2, as applicable) under this Agreement for the initial twelve (12) month period immediately following the Effective Date, and for any twelve (12) month period thereafter during the Term, shall exceed, on a cumulative basis, the amount that is one and one half (11∕2) times the aggregate amounts paid or payable pursuant to this Agreement in the preceding twelve (12) month period preceding the loss date by Customer to Manufacturer but solely with respect to the supply hereunder of Product (or Products) for which such corresponding liability arose (the \"Affected Products\") and not any other Products (or if, as of the time the liability arises, this Agreement has not been in effect for twelve (12) months, then the amounts paid or payable by Customer to Manufacturer hereunder during the period from the Effective Date until such time the liability arises, shall be annualized to a full twelve (12) months but solely with respect to the supply hereunder of the Affected Product(s) and not any other Products).",
+        "text": "Except in the event of (i) Third Party Claims subject to a Party's indemnification obligations pursuant to Section 10.1, (ii) Third Party Claims subject to a Party's indemnification obligations pursuant to Section 10.2, (iii) the gross negligence, fraud or willful misconduct of a Party or its Personnel, (iv) a Party's willful breach of this Agreement, (v) a breach of Section 13 or (vi) customer liabilities pursuant to, and subject to the limitations set forth in, Section 2.5(e), neither Party's aggregate liability to the other Party (or its Personnel that are indemnitees under Section 10.1 or Section 10.2, as applicable) under this Agreement for the initial twelve (12) month period immediately following the Effective Date, and for any twelve (12) month period thereafter during the Term, shall exceed, on a cumulative basis, the amount that is one and one half (11∕2) times the aggregate amounts paid or payable pursuant to this Agreement in the preceding twelve (12) month period preceding the loss date by Customer to Manufacturer but solely with respect to the supply hereunder of Product (or Products) for which such corresponding liability arose (the \"Affected Products\") and not any other Products (or if, as of the time the liability arises, this Agreement has not been in effect for twelve (12) months, then the amounts paid or payable by Customer to Manufacturer hereunder during the period from the Effective Date until such time the liability arises, shall be annualized to a full twelve (12) months but solely with respect to the supply hereunder of the Affected Product(s) and not any other Products)."
+      },
+      {
+        "doc": "cuad/UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_Manufacturing Agreement_ Supply Agreement.txt",
+        "start": 183755,
+        "end": 184817,
+        "answer": "NOTWITHSTANDING ANY OTHER PROVISION OF THIS AGREEMENT TO THE CONTRARY, EXCEPT FOR DAMAGES OR CLAIMS ARISING OUT OF (I) A BREACH OF SECTION 13 OF THIS AGREEMENT, (II) CUSTOMER LIABILITIES PURSUANT TO, AND SUBJECT TO THE LIMITATIONS SET FORTH IN, SECTION 2.5(E), (III) A PARTY'S OR ITS PERSONNEL'S GROSS NEGLIGENCE, FRAUD OR WILLFUL MISCONDUCT, (IV) A PARTY'S WILLFUL BREACH OF THIS AGREEMENT, OR (V) A PARTY'S INDEMNIFICATION OBLIGATION WITH RESPECT TO THIRD PARTY CLAIMS UNDER SECTION 10.1 OR SECTION 10.2, IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY OR ANY INDEMNIFIED PARTY HEREUNDER FOR ANY CONSEQUENTIAL DAMAGES, SPECIAL DAMAGES, INCIDENTAL OR INDIRECT DAMAGES, LOSS OF REVENUE OR PROFITS, DIMINUTION IN VALUE, DAMAGES BASED ON MULTIPLE OF REVENUE OR EARNINGS OR OTHER PERFORMANCE METRIC, LOSS OF BUSINESS REPUTATION, PUNITIVE AND EXEMPLARY DAMAGES OR ANY SIMILAR DAMAGES ARISING OR RESULTING FROM OR RELATING TO THIS AGREEMENT, WHETHER SUCH ACTION IS BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT LIABILITY) OR OTHERWISE.",
+        "text": "NOTWITHSTANDING ANY OTHER PROVISION OF THIS AGREEMENT TO THE CONTRARY, EXCEPT FOR DAMAGES OR CLAIMS ARISING OUT OF (I) A BREACH OF SECTION 13 OF THIS AGREEMENT, (II) CUSTOMER LIABILITIES PURSUANT TO, AND SUBJECT TO THE LIMITATIONS SET FORTH IN, SECTION 2.5(E), (III) A PARTY'S OR ITS PERSONNEL'S GROSS NEGLIGENCE, FRAUD OR WILLFUL MISCONDUCT, (IV) A PARTY'S WILLFUL BREACH OF THIS AGREEMENT, OR (V) A PARTY'S INDEMNIFICATION OBLIGATION WITH RESPECT TO THIRD PARTY CLAIMS UNDER SECTION 10.1 OR SECTION 10.2, IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY OR ANY INDEMNIFIED PARTY HEREUNDER FOR ANY CONSEQUENTIAL DAMAGES, SPECIAL DAMAGES, INCIDENTAL OR INDIRECT DAMAGES, LOSS OF REVENUE OR PROFITS, DIMINUTION IN VALUE, DAMAGES BASED ON MULTIPLE OF REVENUE OR EARNINGS OR OTHER PERFORMANCE METRIC, LOSS OF BUSINESS REPUTATION, PUNITIVE AND EXEMPLARY DAMAGES OR ANY SIMILAR DAMAGES ARISING OR RESULTING FROM OR RELATING TO THIS AGREEMENT, WHETHER SUCH ACTION IS BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT LIABILITY) OR OTHERWISE."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_Manufacturing Agreement_ Supply Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 2.6\n\nFINAL VERSION\n\nFORM OF\n\nMANUFACTURING AND SUPPLY AGREEMENT\n\nBY AND BETWEEN\n\nPFIZER INC.\n\nAND\n\nUPJOHN INC.\n\nDATED AS OF [●]\n\nSource: UPJOHN INC, 10-12G, 1/21/2020\n\n\n\n\n\nTABLE OF CONTENTS Page 1.  DEFINITIONS 1\n\n2.  SUPPLY OF PRODUCT 13\n\n2.1   Agreement to Supply 13 2.2   Use of Facility, Equipment, Molds and Tooling 15 2.3   Capacity 15 2.4   Forecasts and Purchase Orders 16 2.5   Failure to Supply 19 2.6   Delivery; Risk of Loss 21 2.7   Procurement of Materials 22 2.8   Product Samples 23 2.9  ",
+        "score": 0.7929344177246094
+      },
+      {
+        "doc": "cuad/UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_Manufacturing Agreement_ Supply Agreement.txt",
+        "start": 4158,
+        "end": 4670,
+        "text": "port Attachment D Anti-Bribery and Anti-Corruption Principles Attachment E Policies Attachment F Example Product Materials Adjustment Calculation Attachment G Example Price Calculation of Volume Change Pricing Adjustment -iv-\n\nSource: UPJOHN INC, 10-12G, 1/21/2020\n\n\n\n\n\nMANUFACTURING AND SUPPLY AGREEMENT\n\nTHIS MANUFACTURING AND SUPPLY AGREEMENT (this \"Agreement\"), dated as of [●] (the \"Effective Date\"), is by and between Pfizer Inc., a Delaware corporation (hereinafter \"Manufacturer\"), and Upjohn Inc., a Del",
+        "score": 0.7652819156646729
+      },
+      {
+        "doc": "cuad/UpjohnInc_20200121_10-12G_EX-2.6_11948692_EX-2.6_Manufacturing Agreement_ Supply Agreement.txt",
+        "start": 224994,
+        "end": 225094,
+        "text": "itle:\n\n[Signature Page to Manufacturing and Supply Agreement]\n\nSource: UPJOHN INC, 10-12G, 1/21/2020",
+        "score": 0.7386951446533203
+      }
+    ]
+  },
+  {
+    "qid": "q3236",
+    "query": "Consider the Distributor Agreement between Comware Technical Services and International Test Systems; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 10021,
+        "end": 10201,
+        "answer": "This Agreement shall be interpreted and      governed by the laws of the State of Texas. Comware agrees to submit to the      jurisdiction of the State of Texas, Bexar County, USA.",
+        "text": "This Agreement shall be interpreted and      governed by the laws of the State of Texas. Comware agrees to submit to the      jurisdiction of the State of Texas, Bexar County, USA."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "DISTRIBUTOR AGREEMENT\n\n1. CERTIFICATION AND IDENTIFICATION:\n\nCOMWARE TECHNICAL SERVICES OF 17922 SKY PARK CIRCLE, SUITE E, IRVINE, CALIFORNIA 92614-6414  (COMWARE) certifies that the Products furnished under this agreement by INTERNATIONAL TEST SYSTEMS, INC. OF 4703 SHAVANO OAK, SUITE 102, SAN ANTONIO, TEXAS 78249 (ITS) will be incorporated by COMWARE as a part of COMWARE'S systems which  COMWARE  sells or leases to  unaffiliated  third  parties in the  regular course of  COMWARE'S  business  and that  COMW",
+        "score": 0.8363281488418579
+      },
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 8778,
+        "end": 9290,
+        "text": "reement,      either ITS or COMWARE shall have the right to terminate this Agreement with      30 days written notice from the other party, for any reason whatsoever.\n\n11.  GOVERNMENT SALES:  COMWARE reserves the right to incorporate,  as extension      of this Agreement,  additional  terms and conditions as may be required for      sale of Products to the US Government.  These terms and conditions  will be      expressly quoted in attachments to subject  purchase  orders.  ITS reserves      the right to re",
+        "score": 0.7092785239219666
+      },
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 10164,
+        "end": 10676,
+        "text": "he State of Texas, Bexar County, USA.\n\nINTERNATIONAL TEST SYSTEMS, INC.        COMWARE TECHNICAL SERVICES\n\nBY                                      BY   -------------------------------         ---------------------------------\n\nPRINTED                                 PRINTED        --------------------------              ----------------------------\n\nTITLE                                   TITLE      ----------------------------            ------------------------------\n\nDATE                                 ",
+        "score": 0.7073827981948853
+      }
+    ]
+  },
+  {
+    "qid": "q2676",
+    "query": "Consider the Agency Agreement for Stock Offering between Alamogordo Financial Corporation, AF Mutual Holding Company, Alamogordo Federal Savings and Loan Association, and Charles Webb & Company; Is there a cap on liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.txt",
+        "start": 132638,
+        "end": 132909,
+        "answer": "It is expressly  agreed that the Agent shall not be liable for any loss, liability,  claim, damage or expense or be required  to  contribute  any amount  which in the  aggregate  exceeds the amount paid (excluding reimbursable expenses) to the Agent under this Agreement.",
+        "text": "It is expressly  agreed that the Agent shall not be liable for any loss, liability,  claim, damage or expense or be required  to  contribute  any amount  which in the  aggregate  exceeds the amount paid (excluding reimbursable expenses) to the Agent under this Agreement."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "ALAMOGORDO FINANCIAL CORPORATION                                 1,101,643 Shares\n\n                                  COMMON STOCK                            (Par Value $.0l Per Share)\n\n                       Subscription Price $10.00 Per Share\n\n                                AGENCY AGREEMENT\n\n                              ___________ __, 2000\n\nCharles Webb & Company, a Division of Keefe, Bruyette & Woods, Inc. 211 Bradenton Avenue Dublin, Ohio 43017\n\nLadies and Gentlemen:\n\n         Alamogordo   Financial  ",
+        "score": 0.7799853682518005
+      },
+      {
+        "doc": "cuad/ALAMOGORDOFINANCIALCORP_12_16_1999-EX-1-AGENCY AGREEMENT.txt",
+        "start": 462,
+        "end": 974,
+        "text": " and Gentlemen:\n\n         Alamogordo   Financial   Corporation,   a  federal   corporation   (the \"Company\"), AF Mutual Holding Company (the \"MHC\") and Alamogordo Federal Savings and Loan Association,  a federally  chartered stock savings and loan association (the  \"Bank\")  with its  deposit  accounts  insured by the  Savings  Association Insurance  Fund  (\"SAIF\")   administered  by  the  Federal   Deposit   Insurance Corporation  (\"FDIC\"),  hereby confirm,  jointly and severally,  their agreement with Char",
+        "score": 0.7659196853637695
+      },
+      {
+        "doc": "cuad/NUVEEN - REMARKETING AGREEMENT.txt",
+        "start": 53130,
+        "end": 53642,
+        "text": " to the Calculation and Paying Agent, to [●].\n\nSection 25. Liability of Officers, Trustees and Shareholders. A copy of the Declaration is on file with the Secretary of the Commonwealth of Massachusetts. This Agreement has been executed on behalf of the Fund by an officer of the Fund in such capacity and not individually and the obligations of the Fund under this Agreement are not binding upon such officer, any of the trustees or the shareholders individually but are binding only upon the assets and property",
+        "score": 0.7231013774871826
+      }
+    ]
+  },
+  {
+    "qid": "q1869",
+    "query": "Consider the Service Agreement between BicycleTX Ltd and Nigel Crockett for Chief Business Officer Position; Does this contract include any right of first refusal, right of first offer, or right of first negotiation?",
+    "gold": [
+      {
+        "doc": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 6235,
+        "end": 6531,
+        "answer": "On or as soon as practicable following the Effective Date, it is intended that you will be granted an option under the Option Plan to acquire 107,417 ordinary shares in the capital of BTL (\"Shares\") (representing approximately 0.6% of the Company's issued share capital as at the Effective Date).",
+        "text": "On or as soon as practicable following the Effective Date, it is intended that you will be granted an option under the Option Plan to acquire 107,417 ordinary shares in the capital of BTL (\"Shares\") (representing approximately 0.6% of the Company's issued share capital as at the Effective Date)."
+      },
+      {
+        "doc": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 6533,
+        "end": 7937,
+        "answer": "In addition, and conditional on completion of a transaction on terms set out below, you will be granted a second option under the Option Plan, such option being one of:\n\n(a) an option to acquire 44,757 Shares (representing approximately 0.25% of the Company's issued share capital as at the Effective Date) granted as soon as practicable following the completion of a transaction approved by the Board on terms which include an upfront payment of at least USD30,000,000 and per product downstream milestone payments of at least USD300,000,000; or\n\n(b) an option to acquire 22,378 Shares (representing approximately 0.125% of the Company's issued share capital as at the Effective Date) granted as soon as practicable following the completion of a transaction approved by the Board on terms which include an upfront payment of USD24,000,000 and per product downstream milestone payments of USD240,000,000; or\n\n(c) an option to acquire such number of Shares (falling between 0.125% and 0.25% of the Company's issued share capital as at the Effective Date as the Board shall determine in its absolute discretion) granted as soon as practicable following completion of a transaction approved by the Board on terms which include an upfront payment greater than USD24,000,000 but less than USD 30,000,000, and per product downstream milestone payments greater than USD240,000,000 but less than USD 300,000,000.",
+        "text": "In addition, and conditional on completion of a transaction on terms set out below, you will be granted a second option under the Option Plan, such option being one of:\n\n(a) an option to acquire 44,757 Shares (representing approximately 0.25% of the Company's issued share capital as at the Effective Date) granted as soon as practicable following the completion of a transaction approved by the Board on terms which include an upfront payment of at least USD30,000,000 and per product downstream milestone payments of at least USD300,000,000; or\n\n(b) an option to acquire 22,378 Shares (representing approximately 0.125% of the Company's issued share capital as at the Effective Date) granted as soon as practicable following the completion of a transaction approved by the Board on terms which include an upfront payment of USD24,000,000 and per product downstream milestone payments of USD240,000,000; or\n\n(c) an option to acquire such number of Shares (falling between 0.125% and 0.25% of the Company's issued share capital as at the Effective Date as the Board shall determine in its absolute discretion) granted as soon as practicable following completion of a transaction approved by the Board on terms which include an upfront payment greater than USD24,000,000 but less than USD 30,000,000, and per product downstream milestone payments greater than USD240,000,000 but less than USD 300,000,000."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/BICYCLETHERAPEUTICSPLC_03_10_2020-EX-10.11-SERVICE AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.11\n\nDATED 26 September 2019\n\nBicycleTX Ltd\n\nand\n\nNigel Crockett\n\n___________________________________________________\n\nSERVICE AGREEMENT\n\n___________________________________________________\n\n\n\n\n\nTHIS AGREEMENT is made on 26 September 2019\n\nBETWEEN:\n\n(1) BICYCLETX LIMITED a company incorporated under the laws of England and Wales (Company Number 11036101) whose registered office is at Building 900 Babraham Research Campus, Babraham, Cambridgeshire, CB22 3AT, United Kingdom (the \"Company\"); and\n\n(2)",
+        "score": 0.7461093664169312
+      },
+      {
+        "doc": "cuad/UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2.txt",
+        "start": 8316,
+        "end": 8828,
+        "text": "or any reason, the Contractors located by Affiliate  shall  remain  Contractors  of  Network  1.\n\n(A)     RIGHT  OF  FIRST  REFUSAL.  If during the term of this Agreement for any renewal of this Agreement (the \"Right of First Refusal Period\"), Affiliate shall receive (i) any Bona Fide Offer to purchase the revenue due Affiliate under this Agreement  or  Affiliate's company through an asset purchase or merger (in which case  Network  1  shall be subordinate to the Checkfree first refusal right), or (ii) a Bo",
+        "score": 0.7198761105537415
+      },
+      {
+        "doc": "cuad/UsioInc_20040428_SB-2_EX-10.11_1723988_EX-10.11_Affiliate Agreement 2.txt",
+        "start": 8778,
+        "end": 9290,
+        "text": "o the Checkfree first refusal right), or (ii) a Bona Fide Offer to acquire or merge with or into Affiliate (in which case Network  1 shall be subordinate to the Checkfree first refusal right), Affiliate shall  immediately  give written notice (the \"Offer Notice\") to Network 1 of the terms  and  conditions  of the Bona Fide Offer, including without limitation the price.  Network  1  shall  have the exclusive right of first refusal to purchase all  or  any part of the revenue due Affiliate or acquire Affiliat",
+        "score": 0.7171180248260498
+      }
+    ]
+  },
+  {
+    "qid": "q3150",
+    "query": "Consider the Distributor Agreement between WatchGuard Technologies, Inc. and European Micro; What is the notice period required to terminate the renewal?",
+    "gold": [
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 12137,
+        "end": 12832,
+        "answer": "The Term will automatically renew for successive additional periods of one (1) year each, provided that: (a) Distributor has made all Guaranteed Minimum Purchases and has complied with the marketing requirements under paragraph 4.1(b); (b) the parties have agreed in writing upon the Guaranteed Minimum Purchase amounts and Product price discounts for the next subsequent one (1) year renewal period; (c) neither party provided the other party with notice of such party's intention not to renew this Agreement at least thirty (30) days prior to any year's Expiration Date; and (d) neither party provided the other party with such notice as may be required pursuant to paragraphs 5.2, 5.3 or 5.4.",
+        "text": "The Term will automatically renew for successive additional periods of one (1) year each, provided that: (a) Distributor has made all Guaranteed Minimum Purchases and has complied with the marketing requirements under paragraph 4.1(b); (b) the parties have agreed in writing upon the Guaranteed Minimum Purchase amounts and Product price discounts for the next subsequent one (1) year renewal period; (c) neither party provided the other party with notice of such party's intention not to renew this Agreement at least thirty (30) days prior to any year's Expiration Date; and (d) neither party provided the other party with such notice as may be required pursuant to paragraphs 5.2, 5.3 or 5.4."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.6\n\n                                  EXHIBIT 10.06\n\n                          WATCHGUARD TECHNOLOGIES, INC.                               DISTRIBUTOR AGREEMENT\n\nThis Agreement is made and entered into effective as of November 5, 1997 (the \"effective Date), by and between WatchGuard Technologies, Inc., a Delaware corporation (\"WGT\"), and European Micro (\"Distributor\"). WGT and Distributor agree as follows:\n\nSection 1. Definitions\n\n\"Add-On Software Modules\" means those computer software programs th",
+        "score": 0.8088688850402832
+      },
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 20790,
+        "end": 21302,
+        "text": "f the date first above written.\n\nDistributor:                               WatchGuard Technologies, Inc.\n\nBy: /s/ LAURENCE GILBERT                   By: /s/ WATCHGUARD    -------------------------                  ------------------------------\n\nTitle: MANAGING DIRECTOR                   Title: VP/SALES\n\nDate Signed: NOVEMBER 5, 1997              Date Signed: NOVEMBER 3, 1997\n\nAddress:  20/24 Church Street              Required Signature:           Altrincham, Cheshire           WA14 4DW, ENGLAND          ",
+        "score": 0.7357659339904785
+      },
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 24024,
+        "end": 24536,
+        "text": "  Europe\n\nSPECIAL TERMS AND CONDITIONS\n\n                                       9\n\nThese Special Terms and Conditions are part of the Distributor Agreement between WatchGuard Technologies, Inc. (\"WGT\") and Distributor (collectively, the \"Agreement\"). Terms that are defined in the Distributor Agreement will have the same meaning when used in these Special Terms and Conditions.\n\nSection A.1 By joint agreement between WGT and Distributor, Distributor may engage in end user sales in the Territory.\n\nIf it is agre",
+        "score": 0.7227669358253479
+      }
+    ]
+  },
+  {
+    "qid": "q989",
+    "query": "Consider the Network Affiliate Agreement between National CineMedia, LLC and Digital Cinema Destinations Corp. for Advertising Services; What happens in the event of a change of control of one of the parties in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 100927,
+        "end": 101227,
+        "answer": "Network Affiliate may not assign or transfer, by operation of law or otherwise, any of its rights under this  Agreement or delegate any of its duties under this Agreement to any third party without NCM's prior written consent, which consent shall not be  unreasonably withheld, conditioned or delayed",
+        "text": "Network Affiliate may not assign or transfer, by operation of law or otherwise, any of its rights under this  Agreement or delegate any of its duties under this Agreement to any third party without NCM's prior written consent, which consent shall not be  unreasonably withheld, conditioned or delayed"
+      },
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 101229,
+        "end": 101458,
+        "answer": "For the purposes of this Agreement, any change of control, merger, consolidation, or acquisition  of all or substantially all of the assets of Network Affiliate (collectively, a \"Change of Control\") shall be deemed an assignment.",
+        "text": "For the purposes of this Agreement, any change of control, merger, consolidation, or acquisition  of all or substantially all of the assets of Network Affiliate (collectively, a \"Change of Control\") shall be deemed an assignment."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "DIGITAL CINEMA DESTINATIONS CORP.     NETWORK AFFILIATE AGREEMENT     THIS NETWORK AFFILIATE AGREEMENT (this \"Agreement\") is made as of this 14th day of March, 2011 by and between National CineMedia,  LLC, a Delaware limited liability company (\"NCM\"), and Digital Cinema Destinations Corp., a Delaware corporation (\"Network Affiliate\" and with  NCM, each a \"Party\" and collectively, the \"Parties\").     BACKGROUND     WHEREAS, NCM operates a \"Digital Content Network\" of proprietary and third-party hardware and ",
+        "score": 0.8106640577316284
+      },
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 16632,
+        "end": 17144,
+        "text": "has been permanently discontinued shall be borne by Network Affiliate.\n\n\n\n  6\n\nSource: DIGITAL CINEMA DESTINATIONS CORP., S-1, 12/20/2011\n\n\n\n\n\n   (b) Acquisitions. Any Network Affiliate theatre built or acquired following the Effective Date shall, upon mutual agreement of  the parties, become a Theatre, and the capital costs of equipping all such new Theatres to receive the Service shall be as mutually agreed.     Section 2.7 Training. Network Affiliate agrees to permit NCM to provide training services to N",
+        "score": 0.7678712606430054
+      },
+      {
+        "doc": "cuad/DigitalCinemaDestinationsCorp_20111220_S-1_EX-10.10_7346719_EX-10.10_Affiliate Agreement.txt",
+        "start": 44814,
+        "end": 45326,
+        "text": "r all purposes of this Agreement. The parties will cooperate to ensure that NCM does not receive access through Network Affiliate's point-of- sale software to any information of Network Affiliate other than the Point-of-Sale Information.\n\n\n\n  14\n\nSource: DIGITAL CINEMA DESTINATIONS CORP., S-1, 12/20/2011\n\n\n\n\n\n   Section 5.2 Software Restrictions. Network Affiliate acknowledges that the Software and any and all components thereof constitute  valuable trade secrets of NCM or its affiliates or licensors. Accor",
+        "score": 0.7660096883773804
+      }
+    ]
+  },
+  {
+    "qid": "q3395",
+    "query": "Consider the Franchise Agreement between Airsopure International Group, Inc. and Franchisee; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT.txt",
+        "start": 56975,
+        "end": 57149,
+        "answer": "This Agreement takes effect upon its acceptance and execution by AIRSOPURE in the State of Texas, and shall be interpreted and construed under the laws of the State of Texas.",
+        "text": "This Agreement takes effect upon its acceptance and execution by AIRSOPURE in the State of Texas, and shall be interpreted and construed under the laws of the State of Texas."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT.txt",
+        "start": 73458,
+        "end": 73869,
+        "text": " hereto have signed this Agreement on the date first above written.\n\nFOR AIRSOPURE (COMPANY):\n\n- --------------------------------------------\n\nFOR FRANCHISEE OF AIRSOPURE:\n\n- --------------------------------------------\n\nASSOCIATE OF FRANCHISEE:\n\n- --------------------------------------------\n\nASSOCIATE'S WORK CAPACITY:\n\n- --------------------------------------------\n\n                                       2",
+        "score": 0.7735347747802734
+      },
+      {
+        "doc": "cuad/AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "[LOGO]\n\n                                    EXHIBIT C\n\n                                    AIRSOPURE                                FRANCHISE AGREEMENT\n\nTHIS AGREEMENT is entered into on this ____ day of ___________, 2000, by and between Airsopure International Group, Inc., a Nevada corporation whose principal place of business is located at 15400 Knoll Trail, Suite 200, Dallas, Texas 75248 (hereinafter \"AIRSOPURE\" or by reference \"we\", \"us\", \"our\"), and You:                                    ,     -------",
+        "score": 0.7659414410591125
+      },
+      {
+        "doc": "cuad/AIRTECHINTERNATIONALGROUPINC_05_08_2000-EX-10.4-FRANCHISE AGREEMENT.txt",
+        "start": 49434,
+        "end": 49946,
+        "text": "u under this Agreement.\n\n16. COVENANTS\n\n16.01. You covenant and agree (or if Your Franchise is a corporation Your controlling shareholder agrees) to supervise and devote Your best efforts to manage and operate the Franchise.\n\n16.02. You acknowledge that, pursuant to this Agreement, You will receive valuable specialized training and confidential and proprietary information of AIRSOPURE, including, without limitation, information regarding the operational, sales, promotional, and marketing methods and techniq",
+        "score": 0.7634011507034302
+      }
+    ]
+  },
+  {
+    "qid": "q2626",
+    "query": "Consider the Strategic Alliance Agreement between Dialog Semiconductor (UK) Ltd and Energous Corporation; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 76836,
+        "end": 77191,
+        "answer": "This Agreement may not be assigned by either party without the express written consent of the other party, which approval will not be unreasonably withheld or delayed, except that either party may (without consent but with notice to the other party) assign this Agreement in its entirety to any successor in the event of a Change of Control of such party.",
+        "text": "This Agreement may not be assigned by either party without the express written consent of the other party, which approval will not be unreasonably withheld or delayed, except that either party may (without consent but with notice to the other party) assign this Agreement in its entirety to any successor in the event of a Change of Control of such party."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "ee charging systems, including antennas, semiconductors, firmware, software, algorithms, and sensors;   WHEREAS concurrently with their execution of this Agreement, DIALOG and ENERGOUS are entering into a separate Securities Purchase Agreement, pursuant to which DIALOG will make an investment in ENERGOUS, and ENERGOUS will issue to DIALOG shares of its common stock and a warrant to purchase its common stock on the terms set forth therein.   WHEREAS DIALOG and ENERGOUS desire to enter into a strategic relati",
+        "score": 0.7854388952255249
+      },
+      {
+        "doc": "cuad/ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 72996,
+        "end": 73508,
+        "text": ", and specifically referring to, this Section 20.   If to ENERGOUS:   Energous Corporation 3590 North First Street Suite 210 San Jose, California 95134 U.S.A. Attn: Brian Sereda, CFO\n\nIf to DIALOG:   Dialog Semiconductor (UK) Ltd 100 Longwater Avenue Green Park Reading, RG2 6GP United Kingdom Attn: Legal Department   20.2 Relationship of Parties. ENERGOUS and DIALOG are independent business entities. Neither party nor its employees, consultants, contractors or agents are agents, employees, partners or joint",
+        "score": 0.7773380875587463
+      },
+      {
+        "doc": "cuad/ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGIC ALLIANCE AGREEMENT.txt",
+        "start": 78540,
+        "end": 79052,
+        "text": "no Royalties or Service Fees will be payable to ENERGOUS hereunder in connection with any Sale to any customer of prototype or sample Licensed Products [***].   * Confidential Treatment Requested\n\n  Page 27\n\n\n\n\n\n\n\n  EXHIBIT C   Example of Letter of Authorization: Mask Set(s) Authorization for Third Party's Product(s)   To whom it may concern   Pursuant to a STRATEGIC ALLIANCE Agreement between Dialog Semiconductor (UK) Ltd and Energous Corporation dated November 6, 2016 (to which [Manufacturing Subcontracto",
+        "score": 0.7760885953903198
+      }
+    ]
+  },
+  {
+    "qid": "q1623",
+    "query": "Consider the Consulting Agreement between Slinger Bag Inc. and Aitan Zacharin for Investor Relations and Corporate Development; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 16439,
+        "end": 16808,
+        "answer": "Except as herein expressly provided, the respective rights and obligations of the Consultant and the Company under this Agreement will not be assignable by either party without the written consent of the other party and will, subject to the foregoing, inure to the benefit of and be binding upon the Consultant and the Company and their permitted successors or assigns.",
+        "text": "Except as herein expressly provided, the respective rights and obligations of the Consultant and the Company under this Agreement will not be assignable by either party without the written consent of the other party and will, subject to the foregoing, inure to the benefit of and be binding upon the Consultant and the Company and their permitted successors or assigns."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.7 CONSULTING AGREEMENT THIS AGREEMENT made this 30th day of April (the \"Effective Date\") between Slinger Bag Inc., a Nevada company (the \"Company\") and Aitan Zacharin, an individual residing in Bet Shemesh, Israel (the \"Consultant\") A. The Company is engaging Consultant as a consultant in respect of investor relations, corporate structure, public relations and commercial development. B. The Company and the Consultant wish to formally record the terms and conditions of such engagement. C. Each of ",
+        "score": 0.7927869558334351
+      },
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 32340,
+        "end": 32852,
+        "text": "g Inc. Name: Title: Agreed and accepted: Aitan Zacharin\n\n\n\n\n\n14 Appendix 1 SLINGER BAG INC. EXERCISE NOTICE Reference is made to the Warrant Agreement dated 30 April 2020 between Slinger Bag Inc. (the \"Company\") and Aitan Zacharin (the \"Warrant Agreement\"). In accordance with and pursuant to the Warrant Agreement, the undersigned hereby elects to exercise the Warrant to purchase shares of common stock of the Company as set forth below. Capitalized terms used but not defined herein have the meanings assigned",
+        "score": 0.778076171875
+      },
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 19404,
+        "end": 19916,
+        "text": "OF, the parties hereto have executed this Agreement effective as of the date and year first above written. Slinger Bag Inc. By: Title: Agreed and accepted: Aitan Zacharin\n\n\n\n\n\n9 Annex A THIS WARRANT AND THE SHARES ISSUABLE HEREUNDER HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933, AS AMENDED (THE \"ACT\"), OR THE SECURITIES LAWS OF ANY STATE AND, EXCEPT AND PURSUANT TO THE PROVISIONS OF ARTICLE 4 BELOW, MAY NOT BE OFFERED, SOLD OR OTHERWISE TRANSFERRED, PLEDGED OR HYPOTHECATED UNLESS AND UNTIL REGIS",
+        "score": 0.7565624713897705
+      }
+    ]
+  },
+  {
+    "qid": "q3155",
+    "query": "Consider the Distributor Agreement between WatchGuard Technologies, Inc. and European Micro; Are the licenses granted under this contract non-transferable?",
+    "gold": [
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 3261,
+        "end": 3827,
+        "answer": "Subject to the terms and conditions of this Agreement, WGT      grants to Distributor a nontransferable license to do the following in the      Territory during the Term:\n\n(a)  market and distribute the Product to resellers;\n\n(b)  demonstrate the Product to potential resellers;\n\n(c)  use the Product internally for the sole purpose of providing this product      support specified in paragraph 4.1(c);\n\n(d)  use and display the Trademarks in connection with marketing and      distributing the Product in the Territory pursuant to paragraphs (a) and      (b) above.",
+        "text": "Subject to the terms and conditions of this Agreement, WGT      grants to Distributor a nontransferable license to do the following in the      Territory during the Term:\n\n(a)  market and distribute the Product to resellers;\n\n(b)  demonstrate the Product to potential resellers;\n\n(c)  use the Product internally for the sole purpose of providing this product      support specified in paragraph 4.1(c);\n\n(d)  use and display the Trademarks in connection with marketing and      distributing the Product in the Territory pursuant to paragraphs (a) and      (b) above."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.6\n\n                                  EXHIBIT 10.06\n\n                          WATCHGUARD TECHNOLOGIES, INC.                               DISTRIBUTOR AGREEMENT\n\nThis Agreement is made and entered into effective as of November 5, 1997 (the \"effective Date), by and between WatchGuard Technologies, Inc., a Delaware corporation (\"WGT\"), and European Micro (\"Distributor\"). WGT and Distributor agree as follows:\n\nSection 1. Definitions\n\n\"Add-On Software Modules\" means those computer software programs th",
+        "score": 0.7589960098266602
+      },
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 27258,
+        "end": 27770,
+        "text": "chGuard Technologies, Inc. (\"WGT\") and Distributor (collectively, the \"Agreement\"). Terms that are defined in the Distributor Agreement will have the same meaning when used in these Standard Distributor Terms.\n\n 1.  Reservation of Rights. The Software is licensed, not sold, to Distributor.      PARAGRAPH 2.2 LICENSE GRANT of the Distributor Agreement sets forth the      entirety of Distributor's rights to use, market, distribute, demonstrate      and otherwise deal with the Product. All rights in and to the",
+        "score": 0.70076584815979
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 52668,
+        "end": 53180,
+        "text": "se the software provided in  connection with the Products only in machine readable form and only in combination with the Products with which such software is  provided. No such software shall be copied or decompiled in whole or in part by Distributor or Customer, and Distributor or  Customer shall not disclose or provide any such software, or any portion thereof, to any third party. Accuray hereby grants to  Customers of Products a non-exclusive, non-transferable and royalty-free license under any Patents o",
+        "score": 0.6985909342765808
+      }
+    ]
+  },
+  {
+    "qid": "q1607",
+    "query": "Consider the Nonexclusive Value Added Distributor Agreement between ScanSource, Inc. and Cisco Systems, Inc.; Does the licensee's affiliates have any licensing rights under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.txt",
+        "start": 75116,
+        "end": 75201,
+        "answer": "An entity may transfer its right to use a certain piece of Software to its Affiliate.",
+        "text": "An entity may transfer its right to use a certain piece of Software to its Affiliate."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.txt",
+        "start": 2310,
+        "end": 2822,
+        "text": ", Inc. (\"Cisco\") By: /s/ Jeffrey E. Yelton By: /s/ Frank A. Calderon Name: Jeffrey E. Yelton Name: Frank A . Calderon Title: VP Merchandising Title: VP, WW Sales Finance\n\nDate: 1/19/07 Date: January 22, 2007\n\nSource: SCANSOURCE, INC., 10-K, 8/22/2019\n\n\n\n\n\nExhibit 10.38\n\nNONEXCLUSIVE VALUE ADDED DISTRIBUTOR AGREEMENT TERMS AND CONDITIONS\n\n1.0 DEFINITIONS.\n\nAffiliate(s) are the entities listed on Exhibit E to this Agreement that are either business units of Distributor (and therefore wholly-owned and a part o",
+        "score": 0.8351125717163086
+      },
+      {
+        "doc": "cuad/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.txt",
+        "start": 16632,
+        "end": 17144,
+        "text": "ICABLE DELIVERY TERMS SET FORTH IN THIS AGREEMENT, CISCO SHALL NOT HAVE ANY\n\nSource: SCANSOURCE, INC., 10-K, 8/22/2019\n\n\n\n\n\nExhibit 10.38\n\nLIABILITY IN CONNECTION WITH SHIPMENT, NOR SHALL THE CARRIER BE DEEMED TO BE AN AGENT OF CISCO.\n\n6.0 PAYMENT. 6.1 Prices for Products shall be those specified in Cisco's then-current Global or Value Added Distributor Price List. [*****] As provided in sub- section 3.2, in its discretion, Cisco may choose to make products or services which are on the Global Price List but",
+        "score": 0.8211039900779724
+      },
+      {
+        "doc": "cuad/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement1.txt",
+        "start": 65604,
+        "end": 66116,
+        "text": "ll rights and licenses of DISTRIBUTOR under this Support Exhibit shall terminate, (b) DISTRIBUTOR shall immediately discontinue all representations that DISTRIBUTOR\n\nSource: SCANSOURCE, INC., 10-K, 8/22/2019\n\n\n\n\n\nExhibit 10.38\n\nprovides maintenance services for Cisco Product, and (c) DISTRIBUTOR access to CCO shall terminate.\n\n6.0 SOFTWARE LICENSE. DISTRIBUTOR acknowledges that it may receive Software as a result of services provided under this Agreement. DISTRIBUTOR agrees that it is licensed to distribute",
+        "score": 0.805361270904541
+      }
+    ]
+  },
+  {
+    "qid": "q3240",
+    "query": "Consider the Distributor Agreement between Comware Technical Services and International Test Systems; Is there a minimum commitment required under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 1757,
+        "end": 1868,
+        "answer": "COMWARE must purchase no less than $22,710.00 worth of Products, in any        combination,  by April 15, 2000.",
+        "text": "COMWARE must purchase no less than $22,710.00 worth of Products, in any        combination,  by April 15, 2000."
+      },
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 4592,
+        "end": 4710,
+        "answer": "In the event COMWARE  purchases an amount less than      $45,420.00, than this Agreement will automatically terminate.",
+        "text": "In the event COMWARE  purchases an amount less than      $45,420.00, than this Agreement will automatically terminate."
+      },
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 4755,
+        "end": 4923,
+        "answer": "COMWARE must purchase order a minimum      of $4,200 worth of Products per month during the Renewal Period TO maintain      the terms and conditions of this  Agreement.",
+        "text": "COMWARE must purchase order a minimum      of $4,200 worth of Products per month during the Renewal Period TO maintain      the terms and conditions of this  Agreement."
+      },
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 4925,
+        "end": 5160,
+        "answer": "In the event COMWARE does not      meet these minimum purchase requirements, this Agreement will automatically      and  immediately  terminate and neither of the parties hereto will have any      further obligations, one to the other.",
+        "text": "In the event COMWARE does not      meet these minimum purchase requirements, this Agreement will automatically      and  immediately  terminate and neither of the parties hereto will have any      further obligations, one to the other."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "DISTRIBUTOR AGREEMENT\n\n1. CERTIFICATION AND IDENTIFICATION:\n\nCOMWARE TECHNICAL SERVICES OF 17922 SKY PARK CIRCLE, SUITE E, IRVINE, CALIFORNIA 92614-6414  (COMWARE) certifies that the Products furnished under this agreement by INTERNATIONAL TEST SYSTEMS, INC. OF 4703 SHAVANO OAK, SUITE 102, SAN ANTONIO, TEXAS 78249 (ITS) will be incorporated by COMWARE as a part of COMWARE'S systems which  COMWARE  sells or leases to  unaffiliated  third  parties in the  regular course of  COMWARE'S  business  and that  COMW",
+        "score": 0.8256902098655701
+      },
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 4158,
+        "end": 4670,
+        "text": "                 $1,198.00\n\n        (INTERNATIONAL TEST SYSTEMS RESERVES THE RIGHT TO CHANGE THE RETAIL         PRICE AT ANY TIME, WITH NOTICE TO COMWARE.)\n\n4.   RENEWAL  PERIOD:  Provided  that COMWARE  purchases a minimum of $45,420.00      worth of  Products,  in any  combination,  during the Initial  Distribution\n\n\n\n\n\n     Period,  this Agreement will automatically renew for an additional 6 months      (the Renewal  Period).  In the event COMWARE  purchases an amount less than      $45,420.00, than this",
+        "score": 0.7384011149406433
+      },
+      {
+        "doc": "cuad/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 4620,
+        "end": 5132,
+        "text": "ses an amount less than      $45,420.00, than this Agreement will automatically terminate.\n\n5.   MINIMUM ORDERS TO MAINTAIN AGREEMENT: COMWARE must purchase order a minimum      of $4,200 worth of Products per month during the Renewal Period TO maintain      the terms and conditions of this  Agreement.  In the event COMWARE does not      meet these minimum purchase requirements, this Agreement will automatically      and  immediately  terminate and neither of the parties hereto will have any      further ob",
+        "score": 0.7202476859092712
+      }
+    ]
+  },
+  {
+    "qid": "q3646",
+    "query": "Consider the Software License and Maintenance Agreement between SFG Financial Corp and 551 FX IB Associates, LLC; Is there a cap on liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 12152,
+        "end": 12445,
+        "answer": "The Licensee agrees that neither the Licensor, nor any of its respective affiliates, employees, officers,  or agents, shall be liable for any loss, damage, cost or expense, (direct or indirect) except for direct  damages arising from the gross negligence of willful misconduct of the Licensor.",
+        "text": "The Licensee agrees that neither the Licensor, nor any of its respective affiliates, employees, officers,  or agents, shall be liable for any loss, damage, cost or expense, (direct or indirect) except for direct  damages arising from the gross negligence of willful misconduct of the Licensor."
+      },
+      {
+        "doc": "cuad/SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 12451,
+        "end": 13175,
+        "answer": "Licensor shall assume no liability, both contingent and otherwise, which may arise out of or be in any  way related to the following; (a) furnishing, performance, maintenance, use of, or inability to use all or  any part of the system, (b) any fault in the delivery or operation of the system, (c) suspension or  termination of the Licensee's ability to use all or part of the system, or any inaccuracies or omissions  in any information or documentation provided, (d) any failure or delay suffered or allegedly suffered  by Licensee in initiating and terminating trades, (e) the termination of all or part of this Licensee  Agreement by the Licensor, (f) the termination or modification of any and all parts of the License.",
+        "text": "Licensor shall assume no liability, both contingent and otherwise, which may arise out of or be in any  way related to the following; (a) furnishing, performance, maintenance, use of, or inability to use all or  any part of the system, (b) any fault in the delivery or operation of the system, (c) suspension or  termination of the Licensee's ability to use all or part of the system, or any inaccuracies or omissions  in any information or documentation provided, (d) any failure or delay suffered or allegedly suffered  by Licensee in initiating and terminating trades, (e) the termination of all or part of this Licensee  Agreement by the Licensor, (f) the termination or modification of any and all parts of the License."
+      },
+      {
+        "doc": "cuad/SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 35668,
+        "end": 36689,
+        "answer": "IN NO EVENT SHALL LICENSOR BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY FOR ANY SPECIAL, INDIRECT,  INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOSS OF USE, DATA, BUSINESS OR PROFITS)  ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE, OPERATION OR PERFORMANCE OF ANY OF THE  LICENSED TECHNOLOGY, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT  (INCLUDING NEGLIGENCE), PRODUCT LIABILITY BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION,  MISREPRESENTATION OR OTHERWISE, AND WHETHER OR NOT LICENSORHAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS  OR DAMAGE (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR LOSS OF DATA, GOODWILL, USE OF MONEY OR USE OF THE LICENSED TECHNOLOGY, INTERRUPTION IN USE OR AVAILABILITY OF DATA, STOPPAGE OF OTHER WORK OR IMPAIRMENT OR OTHER ASSETS), ARISING OUT OF BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, BREACH OF CONTRACT,  MISREPRESENTATION, NEGLIGENCE, STRICT LIABILITY IN TORT, OR OTHERWISE",
+        "text": "IN NO EVENT SHALL LICENSOR BE LIABLE TO LICENSEE OR TO ANY THIRD PARTY FOR ANY SPECIAL, INDIRECT,  INCIDENTAL OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOSS OF USE, DATA, BUSINESS OR PROFITS)  ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE, OPERATION OR PERFORMANCE OF ANY OF THE  LICENSED TECHNOLOGY, WHETHER SUCH LIABILITY ARISES FROM ANY CLAIM BASED UPON CONTRACT, WARRANTY, TORT  (INCLUDING NEGLIGENCE), PRODUCT LIABILITY BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION,  MISREPRESENTATION OR OTHERWISE, AND WHETHER OR NOT LICENSORHAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS  OR DAMAGE (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR LOSS OF DATA, GOODWILL, USE OF MONEY OR USE OF THE LICENSED TECHNOLOGY, INTERRUPTION IN USE OR AVAILABILITY OF DATA, STOPPAGE OF OTHER WORK OR IMPAIRMENT OR OTHER ASSETS), ARISING OUT OF BREACH OR FAILURE OF EXPRESS OR IMPLIED WARRANTY OR CONDITION, BREACH OF CONTRACT,  MISREPRESENTATION, NEGLIGENCE, STRICT LIABILITY IN TORT, OR OTHERWISE"
+      },
+      {
+        "doc": "cuad/SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 37052,
+        "end": 37213,
+        "answer": "IN NO EVENT SHALL LICENSOR'S AGGREGATE CUMULATIVE TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED ONE  HALF OF THE AMOUNT PAID BY THE LICENSEE TO Licensor HEREUNDER.",
+        "text": "IN NO EVENT SHALL LICENSOR'S AGGREGATE CUMULATIVE TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED ONE  HALF OF THE AMOUNT PAID BY THE LICENSEE TO Licensor HEREUNDER."
+      },
+      {
+        "doc": "cuad/SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 43170,
+        "end": 43574,
+        "answer": "NEITHER PARTY WILL BE LIABLE TO THE OTHER FOR DAMAGES OF ANY KIND, INCLUDING  WITHOUT LIMITATION INCIDENTAL OR CONSEQUENTIAL DAMAGES, DAMAGES FOR THE LOSS OF GOODWILL, PROSPECTIVE  PROFITS OR ANTICIPATED INCOME, OR DAMAGES RESULTING FROM ANY EXPENDITURES, INVESTMENTS, LEASES OR  COMMITMENTS MADE BY EITHER PARTY ON ACCOUNT OF THE TERMINATION OR EXPIRATION OF THIS AGREEMENT IN ACCORDANCE WITH ITS TERMS.",
+        "text": "NEITHER PARTY WILL BE LIABLE TO THE OTHER FOR DAMAGES OF ANY KIND, INCLUDING  WITHOUT LIMITATION INCIDENTAL OR CONSEQUENTIAL DAMAGES, DAMAGES FOR THE LOSS OF GOODWILL, PROSPECTIVE  PROFITS OR ANTICIPATED INCOME, OR DAMAGES RESULTING FROM ANY EXPENDITURES, INVESTMENTS, LEASES OR  COMMITMENTS MADE BY EITHER PARTY ON ACCOUNT OF THE TERMINATION OR EXPIRATION OF THIS AGREEMENT IN ACCORDANCE WITH ITS TERMS."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "SOFTWARE LICENSE AND MAINTENANCE AGREEMENT     THIS SOFTWARE LICENSE AND MAINTENANCE AGREEMENT (\"Agreement\") is made and entered into as of this 27th day of April  2009 by and between SFG Financial Corp, a/k/a E-Path FX, a Delaware Corporation whose principal address is 575 Madison Avenue, 8th Floor, New  York, NY 10022 (\"Licensor\"), and 551 FX IB Associates, LLC a Delaware Limited Liability Company, whose principal address is located at 575 Madison Avenue, 8th Floor, New York, NY 10022 (\"Licensee\").     WH",
+        "score": 0.792012631893158
+      },
+      {
+        "doc": "cuad/SFGFINANCIALCORP_05_12_2009-EX-10.1-SOFTWARE LICENSE AND MAINTENANCE AGREEMENT.txt",
+        "start": 50820,
+        "end": 51043,
+        "text": "duly authorized  representatives.\n\n\n\n\n\n\n\n\n\nSFG FINANCIAL CORP. 551 FX IB ASSOCIATES LLC\n\nBy: /s/ Michael C. Caska By: /s/ Fred Miller\n\nName: Michael C. Caska Fred Miller\n\nTitle: Chief Executive Officer Title: Member Manager",
+        "score": 0.7150975465774536
+      },
+      {
+        "doc": "cuad/PhasebioPharmaceuticalsInc_20200330_10-K_EX-10.21_12086810_EX-10.21_Development Agreement.txt",
+        "start": 238392,
+        "end": 238904,
+        "text": "flected on PB's balance sheet in accordance with GAAP except for (i) obligations in connection with this Agreement, and (ii) other Contingent Liabilities incurred in the ordinary course of business that are not material to the business of PB and its subsidiaries, taken as a whole.\n\n13.5 SFJ Representation, Warranty and Covenant. SFJ hereby represents, warrants and covenants that it will have, as and when needed, sufficient funds to satisfy its obligations hereunder.\n\n13.6 DISCLAIMER OF REPRESENTATIONS AND W",
+        "score": 0.680661678314209
+      }
+    ]
+  },
+  {
+    "qid": "q3110",
+    "query": "Consider the Distributor Agreement between Accuray Incorporated and Siemens Aktiengesellschaft for Multiple LINAC and Multi-Modality Purchases; Is there a cap on liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 27076,
+        "end": 27752,
+        "answer": "If a Customer notifies Accuray in writing during the Warranty Period of a defect in a Product that  causes the Product to fail to conform to the foregoing warranty, Accuray shall at its option either repair or replace the non- conforming Product or, if in Accuray's opinion such repair or replacement is not commercially reasonable, Accuray shall  refund a pro-rated portion of the price paid by the Customer for such Product calculated based on a straight-line  depreciation over a 5-year period beginning on the date of delivery. This will be Accuray's sole and exclusive obligation  and such Customer's sole and exclusive remedy in relation to defective Products and parts.",
+        "text": "If a Customer notifies Accuray in writing during the Warranty Period of a defect in a Product that  causes the Product to fail to conform to the foregoing warranty, Accuray shall at its option either repair or replace the non- conforming Product or, if in Accuray's opinion such repair or replacement is not commercially reasonable, Accuray shall  refund a pro-rated portion of the price paid by the Customer for such Product calculated based on a straight-line  depreciation over a 5-year period beginning on the date of delivery. This will be Accuray's sole and exclusive obligation  and such Customer's sole and exclusive remedy in relation to defective Products and parts."
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 27994,
+        "end": 28136,
+        "answer": "This is Accuray's  sole and exclusive obligation and Customer's and Distributor's sole and exclusive remedy in relation to defective software.",
+        "text": "This is Accuray's  sole and exclusive obligation and Customer's and Distributor's sole and exclusive remedy in relation to defective software."
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 28955,
+        "end": 29170,
+        "answer": "This is Accuray's sole and exclusive obligation and Customer's and Distributor's sole  and exclusive remedy in relation to any Safety Update required to be provided by applicable law in the Customer's  jurisdiction.",
+        "text": "This is Accuray's sole and exclusive obligation and Customer's and Distributor's sole  and exclusive remedy in relation to any Safety Update required to be provided by applicable law in the Customer's  jurisdiction."
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 59750,
+        "end": 60079,
+        "answer": "WITHOUT AFFECTING STRICT PRODUCT LIABILITY UNDER MANDATORY APPLICABLE LAW, THE FOREGOING  PROVISIONS OF THIS SECTION SET FORTH ACCURAY'S SOLE AND EXCLUSIVE LIABILITY AND DISTRIBUTOR'S SOLE  AND EXCLUSIVE REMEDY FOR ANY CLAIMS OF INFRINGEMENT OR MISAPPROPRIATION OF INTELLECTUAL PROPERTY  RIGHTS OR PROPRIETARY RIGHTS OF ANY KIND.",
+        "text": "WITHOUT AFFECTING STRICT PRODUCT LIABILITY UNDER MANDATORY APPLICABLE LAW, THE FOREGOING  PROVISIONS OF THIS SECTION SET FORTH ACCURAY'S SOLE AND EXCLUSIVE LIABILITY AND DISTRIBUTOR'S SOLE  AND EXCLUSIVE REMEDY FOR ANY CLAIMS OF INFRINGEMENT OR MISAPPROPRIATION OF INTELLECTUAL PROPERTY  RIGHTS OR PROPRIETARY RIGHTS OF ANY KIND."
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 60778,
+        "end": 61442,
+        "answer": "WITHOUT AFFECTING STRICT PRODUCT LIABILITY UNDER MANDATORY APPLICABLE LAW,  SECTION 10, OR THE RESPECTIVE OBLIGATIONS OF THE PARTIES UNDER THE CONFIDENTIAILITY AGREEMENT AND  EXCEPT FOR BREACHES ASSOCIATED WITH THE UNAUTHORIZED USE OF INTELLECTUAL PROPERTY, IN NO EVENT  SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR  TORT DAMAGES, INCLUDING WITHOUT LIMITATION, ANY DAMAGES RESULTING FROM LOSS OF USE, LOSS OF DATA,  LOSS OF PROFITS OR LOSS OF BUSINESS ARISING OUT OF OR IN CONNECTION WITH THE MATTERS CONTEMPLATED  BY THIS AGREEMENT, WHETHER OR NOT A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+        "text": "WITHOUT AFFECTING STRICT PRODUCT LIABILITY UNDER MANDATORY APPLICABLE LAW,  SECTION 10, OR THE RESPECTIVE OBLIGATIONS OF THE PARTIES UNDER THE CONFIDENTIAILITY AGREEMENT AND  EXCEPT FOR BREACHES ASSOCIATED WITH THE UNAUTHORIZED USE OF INTELLECTUAL PROPERTY, IN NO EVENT  SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR SPECIAL, INCIDENTAL, CONSEQUENTIAL, PUNITIVE OR  TORT DAMAGES, INCLUDING WITHOUT LIMITATION, ANY DAMAGES RESULTING FROM LOSS OF USE, LOSS OF DATA,  LOSS OF PROFITS OR LOSS OF BUSINESS ARISING OUT OF OR IN CONNECTION WITH THE MATTERS CONTEMPLATED  BY THIS AGREEMENT, WHETHER OR NOT A PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 61481,
+        "end": 62564,
+        "answer": "Without affecting Section 10 or the respective obligations of the parties under the Confidentiality Agreement and except  for any liability (i) relating to any breach associated with the unauthorized use of Intellectual Property, (ii) arising from the  intentional breach or willful misconduct of a party, or (iii) arising from the non-compliance with any mandatory applicable law or  regulation, the total aggregate liability of one party to another party for any claim relating to any breach of this Agreement (or any  Purchase Order or other agreement entered into in connection with this Agreement) (a \"Claim\") shall be limited to the aggregate  amount of the purchase prices paid by Distributor to Accuray for Products pursuant to this Agreement (or any Purchase Order or  other Agreement entered into in connection with this Agreement) during the twelve calendar months preceding the date of the  notification to the other party of such Claim less any amounts paid or payable in respect of any other Claim of which the other party  was notified during such twelve month period.",
+        "text": "Without affecting Section 10 or the respective obligations of the parties under the Confidentiality Agreement and except  for any liability (i) relating to any breach associated with the unauthorized use of Intellectual Property, (ii) arising from the  intentional breach or willful misconduct of a party, or (iii) arising from the non-compliance with any mandatory applicable law or  regulation, the total aggregate liability of one party to another party for any claim relating to any breach of this Agreement (or any  Purchase Order or other agreement entered into in connection with this Agreement) (a \"Claim\") shall be limited to the aggregate  amount of the purchase prices paid by Distributor to Accuray for Products pursuant to this Agreement (or any Purchase Order or  other Agreement entered into in connection with this Agreement) during the twelve calendar months preceding the date of the  notification to the other party of such Claim less any amounts paid or payable in respect of any other Claim of which the other party  was notified during such twelve month period."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 1386,
+        "end": 1898,
+        "text": "services.     Accuray and Siemens have entered into that certain Strategic Alliance Agreement, dated as of the date hereof (the \"Strategic Alliance  Agreement\"), and such agreement provides that Accuray and Siemens shall enter into a distribution agreement for Multiple LINAC and Multi- Modality Purchases (as defined below).     Accuray wishes to appoint Distributor (as defined below) as a non-exclusive, worldwide distributor for the Products and Services to  Customer in connection with Multiple LINAC or Mul",
+        "score": 0.8496073484420776
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 7392,
+        "end": 7904,
+        "text": "n connection with Multiple LINAC or Multi-Modality  Purchases:     2.3.1. Opportunity. Once Distributor has identified a Customer opportunity in connection with a Multiple LINAC or Multi-Modality  Purchase, it shall request a Quote from Accuray based on the Product configuration and Services requested by the  Customer and the Accuray Region in which the Customer is located, and shall include such other information regarding the  Customer and the proposed opportunity as Accuray may reasonably request.     2.",
+        "score": 0.7907180786132812
+      },
+      {
+        "doc": "cuad/ACCURAYINC_09_01_2010-EX-10.31-DISTRIBUTOR AGREEMENT.txt",
+        "start": 12474,
+        "end": 12986,
+        "text": " this Agreement; and (ii) has  the required facilities, manpower, capacity, financial strength, and knowledge to market and distribute Accuray's Products and  Services in connection with Multiple LINAC or Multi-Modality Purchases.     3.3. Distributor Personnel. During the Term of this Agreement and any extension thereof, Distributor agrees to use commercially reasonable  efforts to employ qualified sales and technical personnel familiar with the Products and Services, including, without limitation, at  lea",
+        "score": 0.7809171676635742
+      }
+    ]
+  },
+  {
+    "qid": "q2564",
+    "query": "Consider the Limited Power of Attorney between Federated Investment Management Company and Federated Advisory Services Company; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_POWEROF.txt",
+        "start": 8089,
+        "end": 8360,
+        "answer": "This Limited Power of Attorney shall bind and benefit the respective successors and assigns of the Adviser and FASC; provided, however, that FASC shall have no power or authority hereunder to appoint a successor or substitute attorney in fact for the Adviser or any Fund.",
+        "text": "This Limited Power of Attorney shall bind and benefit the respective successors and assigns of the Adviser and FASC; provided, however, that FASC shall have no power or authority hereunder to appoint a successor or substitute attorney in fact for the Adviser or any Fund."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/FEDERATEDGOVERNMENTINCOMESECURITIESINC_04_28_2020-EX-99.SERV AGREE-SERVICES AGREEMENT_SECONDAMENDMENT.txt",
+        "start": 5082,
+        "end": 5466,
+        "text": "the same agreement. IN WITNESS WHEREOF, the parties hereto, through their duly authorized officers, have executed this Second Amendment as of the date first above written. FEDERATED INVESTMENT MANAGEMENT FEDERATED ADVISORY SERVICES COMPANY COMPANY By: /s/ John B. Fisher By: /s/ J. Christopher Donahue Name: John B. Fisher Name: J. Christopher Donahue Title: President Title: Chairman",
+        "score": 0.7414777874946594
+      },
+      {
+        "doc": "cuad/FuelcellEnergyInc_20191106_8-K_EX-10.1_11868007_EX-10.1_Development Agreement.txt",
+        "start": 64680,
+        "end": 65192,
+        "text": "it any Party from approaching any court having competent jurisdiction to seek injunctive relief in case of urgency to prevent disclosure of its Confidential Information.\n\nPage 17 of 31\n\nSource: FUELCELL ENERGY INC, 8-K, 11/6/2019\n\n\n\n\n\nARTICLE 14 - ASSIGNMENT\n\n14.01 Assignment. The Agreement is not assignable, including any assignment by operation of law (including but not limited to as a result of a merger or other corporate action), by either Party without the prior written consent of the other Party. Any ",
+        "score": 0.7233335375785828
+      },
+      {
+        "doc": "cuad/GlobalTechnologiesGroupInc_20050928_10KSB_EX-10.9_4148808_EX-10.9_Content License Agreement.txt",
+        "start": 34188,
+        "end": 34700,
+        "text": "xercising any rights or remedy under this Agreement will not operate as a waiver of any such right or remedy. The parties are independent contractors. Neither party will be deemed to be an employee, agent, partner or legal representative of the other for any purpose and neither will have any right, power or authority to create any obligation or responsibility on behalf of the other. This Agreement will be governed by the laws of the State of Florida without regard to conflicts of law provisions.\n\nSource: GL",
+        "score": 0.7182719707489014
+      }
+    ]
+  },
+  {
+    "qid": "q1382",
+    "query": "Consider the Content Licensing Agreement between Data Call Technologies, Inc. and PLAN_B MEDIA AG; Are there any services to be provided after the termination of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+        "start": 8745,
+        "end": 8921,
+        "answer": "After termination  of  this  contract,  there  shall  be  a  sell-off           period  (defined  in  APPENDIX 2) following the date of termination of           this  contract.",
+        "text": "After termination  of  this  contract,  there  shall  be  a  sell-off           period  (defined  in  APPENDIX 2) following the date of termination of           this  contract."
+      },
+      {
+        "doc": "cuad/DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+        "start": 13793,
+        "end": 13841,
+        "answer": "Sell-off  period:  3  months  after  termination",
+        "text": "Sell-off  period:  3  months  after  termination"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.9\n\n                           CONTENT LICENSING AGREEMENT\n\n                                     between\n\n                          Data Call Technologies, Inc.                              600 Kenrick, Suite B-12                               Houston, Texas 77060\n\n                      hereinafter referred to as \"Licensor\"\n\n                                       and\n\n                                 PLAN_B MEDIA AG                                  Schaafenstr. 25                                  ",
+        "score": 0.8145444989204407
+      },
+      {
+        "doc": "cuad/DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+        "start": 8316,
+        "end": 8828,
+        "text": "his  Agreement  already prior to the date           of  its  fulfillment,  if it becomes evident that the other Party will           commit  a  breach  of  contract  entitling  to  cancellation  of  this           Agreement.\n\n     7.4  Upon termination  or  cancellation  of  this  Agreement  plan_b  shall           cease to use Content for any purpose and delete Content from any files           and  data  storage.\n\n     7.5  After termination  of  this  contract,  there  shall  be  a  sell-off           per",
+        "score": 0.7326284646987915
+      },
+      {
+        "doc": "cuad/DataCallTechnologies_20060918_SB-2A_EX-10.9_944510_EX-10.9_Content License Agreement.txt",
+        "start": 1848,
+        "end": 2360,
+        "text": " right           to  produce,  market  and  distribute  Content  to  End  Users (in the           territory  specified  in appendix 2) through its own and its partner's           platform.\n\n3    OBLIGATIONS  OF  PLAN_B\n\n     3.1  plan_b  will  distribute  Content  to  End  Users  in  the  Territory           through  its  distribution  channels.\n\n     3.2  plan_b  shall  use  reasonable  commercial  efforts  to  market  and           stimulate  interest  in  the  Content  with  its  customers.\n\n     3.3  pl",
+        "score": 0.7093319296836853
+      }
+    ]
+  },
+  {
+    "qid": "q2019",
+    "query": "Consider the Sponsorship Agreement between Excite, Inc. and Vitamin Shoppe Industries Inc. for Promotion on WebCrawler Channels; What is the expiration date of this contract?",
+    "gold": [
+      {
+        "doc": "cuad/VITAMINSHOPPECOMINC_09_13_1999-EX-10.26-SPONSORSHIP AGREEMENT.txt",
+        "start": 33237,
+        "end": 33842,
+        "answer": "Unless terminated earlier in accordance with the                           specific terms of this Agreement, the term of this                           Agreement will begin on the Launch Date and will not                           end until Excite displays a total of [*****]                           impressions of the Client advertising banners and                           promotional placements on the Excite Network as                           described in this Agreement and pushes [*****]                           emails using the email vehicles specified in Exhibit                           B",
+        "text": "Unless terminated earlier in accordance with the                           specific terms of this Agreement, the term of this                           Agreement will begin on the Launch Date and will not                           end until Excite displays a total of [*****]                           impressions of the Client advertising banners and                           promotional placements on the Excite Network as                           described in this Agreement and pushes [*****]                           emails using the email vehicles specified in Exhibit                           B"
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/VITAMINSHOPPECOMINC_09_13_1999-EX-10.26-SPONSORSHIP AGREEMENT.txt",
+        "start": 9240,
+        "end": 9752,
+        "text": "scribed in this Agreement.  Under such                           circumstances, Excite will then exert commercially                           reasonable efforts to modify such co-branded pages to                           reduce such material and adverse effects.\n\n2.               SPONSORSHIP ON THE WEBCRAWLER SHOPPING CHANNEL\n\n              a)       Client will be promoted as the preferred and dominant                           reseller of Vitamins in the Shopping Channel on the                           W",
+        "score": 0.7722358107566833
+      },
+      {
+        "doc": "cuad/VITAMINSHOPPECOMINC_09_13_1999-EX-10.26-SPONSORSHIP AGREEMENT.txt",
+        "start": 2310,
+        "end": 2822,
+        "text": "               Network through promotions and advertising in various portions                  of the Excite Network.\n\nTherefore, the parties agree as follows:\n\n1.               SPONSORSHIP ON THE WEBCRAWLER HEALTH CHANNEL\n\n              a)       Client will be promoted as the preferred and dominant                           reseller of Vitamins in the Health Channel on the                           WebCrawler Site during the term of this Agreement. As                           such, Excite may not display ",
+        "score": 0.7687966227531433
+      },
+      {
+        "doc": "cuad/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT.txt",
+        "start": 5082,
+        "end": 5594,
+        "text": "          anticipate the Commencement Date will be on or about October                  15, 1997.\n\n      c)      The parties' existing agreements regarding sponsorship of the                  WebCrawler Web site (http://webcrawler.com) and all of the                  existing advertising buys on the Excite Network will be                  terminated as of the Commencement Date. Excite will credit                  Sponsor in an amount equal to [****]. This credit will be\n\n\n\n\n\n              applied to reduce ",
+        "score": 0.7462844848632812
+      }
+    ]
+  },
+  {
+    "qid": "q3114",
+    "query": "Consider the Distributor Agreement between Snotarator LLC and SMSA Ballinger Acquisition Corp. for Snotarator Products in South America; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 15546,
+        "end": 15613,
+        "answer": "This Agreement shall be governed by the laws of the State of Texas.",
+        "text": "This Agreement shall be governed by the laws of the State of Texas."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.1     DISTRIBUTOR AGREEMENT\n\nTHIS AGREEMENT is made this 1st day of August, 2013, (the \"Effective Date\"), by and between Snotarator LLC, a Texas limited liability company, with its principal place of business located at 2591 Dallas Parkway, Suite 102, Frisco, Texas  75034  (the \"Company\") and SMSA Ballinger Acquisition Corp., a Nevada corporation, with offices at 12890 Hilltop Road, Argyle, Texas  76226  (the \"Distributor\").\n\nNOW, THEREFORE, in consideration of the promises hereinafter made by th",
+        "score": 0.819826602935791
+      },
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "f their territories and possessions within the continent known as South America (\"Territory\")  (Exhibit \"B\" attached hereto).  Distributor agrees that the Products, including the name Snotarator ™ Nasal Aspirator (the \"Brand\") are the sole property of the Company and Distributor has no interest whatsoever in such Brand and Products, and Distributor shall use the Brand and Products only for so long as the rights granted hereby remains in full force and effect.  Distributor shall not take any actions, or aid ",
+        "score": 0.796657919883728
+      },
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 16170,
+        "end": 16682,
+        "text": "d assigns.  Distributor shall not assign this Agreement or any rights or obligations hereunder without the prior written consent of the Company.\n\nIN WITNESS WHEREOF, the parties have caused this Agreement to be executed by their duly authorized officers as of the date and year indicated above.\n\nSNOTARATOR LLC\n\nBy:/s/ Orsolya Peresztegi Orsolya Peresztegi Title:  President and Manager\n\nDISTRIBUTOR SMSA Ballinger Acquisition Corp.\n\nBy:/s/ Timothy P. Halter Timothy P. Halter Title:  President and Sole Director",
+        "score": 0.7927224636077881
+      }
+    ]
+  },
+  {
+    "qid": "q3087",
+    "query": "Consider the Intellectual Property Agreement between Motorola Solutions, Inc. and Zebra Technologies Corporation; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUAL PROPERTY AGREEMENT.txt",
+        "start": 119140,
+        "end": 119426,
+        "answer": "The Laws of the State of Delaware (without reference to its principles of conflicts of law) shall govern the construction, interpretation and other matters arising out of or in connection with this IP Agreement and its schedules (whether arising in contract, tort, equity or otherwise).",
+        "text": "The Laws of the State of Delaware (without reference to its principles of conflicts of law) shall govern the construction, interpretation and other matters arising out of or in connection with this IP Agreement and its schedules (whether arising in contract, tort, equity or otherwise)."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUAL PROPERTY AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.1\n\nINTELLECTUAL PROPERTY AGREEMENT\n\nTHIS INTELLECTUAL PROPERTY AGREEMENT (this \"IP Agreement\") is entered into as of April 14, 2014 (the \"Effective Date\"), by and between Motorola Solutions, Inc., a Delaware corporation (the \"Seller\"), and Zebra Technologies Corporation, a Delaware corporation (the \"Purchaser\").\n\nRECITALS\n\nWHEREAS, the Seller, directly and through certain of its Affiliates, is engaged in the Business;\n\nWHEREAS, the Seller desires to sell and transfer to the Purchaser, and the Pur",
+        "score": 0.8239840269088745
+      },
+      {
+        "doc": "cuad/ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUAL PROPERTY AGREEMENT.txt",
+        "start": 126588,
+        "end": 127100,
+        "text": "he parties are independent contractors with respect to each other under this IP Agreement. Each party agrees not to hold itself out as having any authority or relationship contrary to this Section 6.13.\n\n[Remainder of Page Intentionally Left Blank]   39\n\n\n\n\n\nIN WITNESS WHEREOF, the parties have duly executed and delivered this Intellectual Property Agreement on the date first written above.   MOTOROLA SOLUTIONS, INC.\n\nBy:   /s/ Anders Gustafsson Name:   Anders Gustafsson Title:   Chief Executive Officer\n\nZE",
+        "score": 0.735828161239624
+      },
+      {
+        "doc": "cuad/ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUAL PROPERTY AGREEMENT.txt",
+        "start": 98868,
+        "end": 99380,
+        "text": "t licensed to each member of the Motorola Group (as defined in the Mobility Intellectual Property License) as of the Initial Closing Date pursuant to the Mobility Intellectual Property License, and (D) Intellectual Property (other than Licensed IP) owned by, or licensed from any Person (other than the Seller Entities) to, a supplier of the Seller Entities that is used by such supplier for the purposes of, and to the extent necessary for, such supplier to manufacture and supply Enterprise Products for the Se",
+        "score": 0.7129726409912109
+      }
+    ]
+  },
+  {
+    "qid": "q2600",
+    "query": "Consider the Joint Venture Contract between Fengfan Group Limited Liability Company and Valence Technology Inc. for Battery Production; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/VALENCETECHNOLOGYINC_02_14_2003-EX-10-JOINT VENTURE CONTRACT.txt",
+        "start": 67710,
+        "end": 67907,
+        "answer": "The formation, validity, interpretation and implementation of this Contract, and any disputes arising under this Contract, shall be governed by the published laws of the People's Republic of China.",
+        "text": "The formation, validity, interpretation and implementation of this Contract, and any disputes arising under this Contract, shall be governed by the published laws of the People's Republic of China."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/VALENCETECHNOLOGYINC_02_14_2003-EX-10-JOINT VENTURE CONTRACT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.3\n\n                             JOINT VENTURE CONTRACT\n\n                          CHAPTER 1 GENERAL PROVISIONS\n\n        In accordance with the Law of the People's Republic of China on Joint Ventures Using Chinese and Foreign Investment (the \"Joint Venture Law\") and other relevant Chinese laws and regulations, Fengfan Group Limited Liability Company and Valence Technology Inc., in accordance with the principle of equality and mutual benefit and through friendly consultations, agree to jointly inve",
+        "score": 0.8427002429962158
+      },
+      {
+        "doc": "cuad/VALENCETECHNOLOGYINC_02_14_2003-EX-10-JOINT VENTURE CONTRACT.txt",
+        "start": 9240,
+        "end": 9752,
+        "text": "Parties hereby agree to establish the Joint Venture Company in accordance with the laws and regulations of the PRC.\n\nArticle 24\n\nName of Joint Venture Company in Chinese characters: [**[VALENCE IN CHINESE] ********]\n\nJoint Venture Company in English:  [FENGFAN - VALENCE BATTERY COMPANY, LTD.]\n\nLegal address of Joint Venture Company: [Baoding City High and New Technology Zone, Baoding City, Hebei Province, the People's Republic of China.]\n\nArticle 25\n\nThe Joint Venture Company shall be an enterprise legal pe",
+        "score": 0.799312949180603
+      },
+      {
+        "doc": "cuad/VALENCETECHNOLOGYINC_02_14_2003-EX-10-JOINT VENTURE CONTRACT.txt",
+        "start": 72996,
+        "end": 73508,
+        "text": "NESS WHEREOF, the duly authorized representative of each Party has signed this Contract in Baoding, People's Republic of China on November 8, 2002.\n\nFENGFAN GROUP LIMITED                       VALENCE TECHNOLOGY, INC. LIABILITY COMPANY\n\nBy: /S/ CHEN MENGLI                         By:  /S/ DEEPAK SWAMY    ----------------------------                --------------------------------\n\nName:  CHEN MENGLI                          Name:  DEEPAK SWAMY\n\nTitle: CHAIRMAN OF THE BOARD                Title: VICE PRESIDE",
+        "score": 0.782353401184082
+      }
+    ]
+  },
+  {
+    "qid": "q3117",
+    "query": "Consider the Distributor Agreement between Snotarator LLC and SMSA Ballinger Acquisition Corp. for Snotarator Products in South America; Is there an anti-assignment clause in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 1593,
+        "end": 1711,
+        "answer": "Distributor shall not assign the rights granted in this Section 1.01 without the prior written consent of the Company.",
+        "text": "Distributor shall not assign the rights granted in this Section 1.01 without the prior written consent of the Company."
+      },
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 16182,
+        "end": 16314,
+        "answer": "Distributor shall not assign this Agreement or any rights or obligations hereunder without the prior written consent of the Company.",
+        "text": "Distributor shall not assign this Agreement or any rights or obligations hereunder without the prior written consent of the Company."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 16170,
+        "end": 16682,
+        "text": "d assigns.  Distributor shall not assign this Agreement or any rights or obligations hereunder without the prior written consent of the Company.\n\nIN WITNESS WHEREOF, the parties have caused this Agreement to be executed by their duly authorized officers as of the date and year indicated above.\n\nSNOTARATOR LLC\n\nBy:/s/ Orsolya Peresztegi Orsolya Peresztegi Title:  President and Manager\n\nDISTRIBUTOR SMSA Ballinger Acquisition Corp.\n\nBy:/s/ Timothy P. Halter Timothy P. Halter Title:  President and Sole Director",
+        "score": 0.8530362844467163
+      },
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.1     DISTRIBUTOR AGREEMENT\n\nTHIS AGREEMENT is made this 1st day of August, 2013, (the \"Effective Date\"), by and between Snotarator LLC, a Texas limited liability company, with its principal place of business located at 2591 Dallas Parkway, Suite 102, Frisco, Texas  75034  (the \"Company\") and SMSA Ballinger Acquisition Corp., a Nevada corporation, with offices at 12890 Hilltop Road, Argyle, Texas  76226  (the \"Distributor\").\n\nNOW, THEREFORE, in consideration of the promises hereinafter made by th",
+        "score": 0.7941220998764038
+      },
+      {
+        "doc": "cuad/BLACKBOXSTOCKSINC_08_05_2014-EX-10.1-DISTRIBUTOR AGREEMENT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "f their territories and possessions within the continent known as South America (\"Territory\")  (Exhibit \"B\" attached hereto).  Distributor agrees that the Products, including the name Snotarator ™ Nasal Aspirator (the \"Brand\") are the sole property of the Company and Distributor has no interest whatsoever in such Brand and Products, and Distributor shall use the Brand and Products only for so long as the rights granted hereby remains in full force and effect.  Distributor shall not take any actions, or aid ",
+        "score": 0.7606089115142822
+      }
+    ]
+  },
+  {
+    "qid": "q1321",
+    "query": "Consider the Collaborative Research, Development and Commercialization Agreement between Revolution Medicines, Inc. and Aventis, Inc. (Sanofi); Does the licensee's affiliates have any licensing rights under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.txt",
+        "start": 74265,
+        "end": 74896,
+        "answer": "Subject to the terms and conditions of this Agreement, Sanofi hereby grants to RevMed a non-exclusive, royalty-free sublicense (which shall only be further sub-licensable (a) to RevMed's Subsidiaries, (b) to the Permitted Contractors or Researchers, and (c) solely with Sanofi's prior written consent, such consent not to be unreasonably withheld, delayed or conditioned, to Third Parties who are not Permitted Contractors or Researchers) under the rights exclusively licensed to Sanofi pursuant to Section 3.1, solely to the extent necessary for RevMed to perform its obligations under this Agreement and the Ancillary Agreements.",
+        "text": "Subject to the terms and conditions of this Agreement, Sanofi hereby grants to RevMed a non-exclusive, royalty-free sublicense (which shall only be further sub-licensable (a) to RevMed's Subsidiaries, (b) to the Permitted Contractors or Researchers, and (c) solely with Sanofi's prior written consent, such consent not to be unreasonably withheld, delayed or conditioned, to Third Parties who are not Permitted Contractors or Researchers) under the rights exclusively licensed to Sanofi pursuant to Section 3.1, solely to the extent necessary for RevMed to perform its obligations under this Agreement and the Ancillary Agreements."
+      },
+      {
+        "doc": "cuad/RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.txt",
+        "start": 132844,
+        "end": 133395,
+        "answer": "Sanofi shall have the right, in its sole discretion, to appoint its Affiliates, and Sanofi and its Affiliates shall have the right, in its sole discretion, to appoint any other Persons, in the Licensed Territory to distribute, market, and sell the Products (with or without packaging rights), in circumstances where the Person purchases its requirements of Products from Sanofi or its Affiliates but does not otherwise make any royalty or other payment to Sanofi or its Affiliates with respect to its intellectual property or other proprietary rights.",
+        "text": "Sanofi shall have the right, in its sole discretion, to appoint its Affiliates, and Sanofi and its Affiliates shall have the right, in its sole discretion, to appoint any other Persons, in the Licensed Territory to distribute, market, and sell the Products (with or without packaging rights), in circumstances where the Person purchases its requirements of Products from Sanofi or its Affiliates but does not otherwise make any royalty or other payment to Sanofi or its Affiliates with respect to its intellectual property or other proprietary rights."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.txt",
+        "start": 263340,
+        "end": 263852,
+        "text": " hereby made to that certain Collaborative Research, Development and Commercialization Agreement (the \"Collaboration Agreement\"), dated as of June 8, 2018, by and between Revolution Medicines, Inc. (\"RevMed\") and Aventis, Inc. (\"Sanofi\"). Capitalized terms used but not defined in this letter agreement (this \"Letter\") shall have the meanings assigned to them in the Collaboration Agreement.\n\nEach of RevMed and Sanofi acknowledges and agrees as follows:\n\n1. Amendment to Section 6.5 of the Collaboration Agreeme",
+        "score": 0.8276238441467285
+      },
+      {
+        "doc": "cuad/RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.txt",
+        "start": 262416,
+        "end": 262928,
+        "text": "AINDER OF PAGE INTENTIONALLY LEFT BLANK] 81\n\nSource: REVOLUTION MEDICINES, INC., S-1, 1/17/2020\n\n\n\n\n\nIN WITNESS WHEREOF, the Parties intending to be bound have caused this Collaborative Research, Development and Commercialization Agreement to be executed by their duly authorized representatives as of the Effective Date. Revolution Medicines, Inc. Aventis, Inc.\n\nBy: /s/ Mark A. Goldsmith, M.D., Ph.D. By: /s/ Douglas J. McCormack Name: Mark A. Goldsmith, M.D., Ph.D. Name: Douglas J. McCormack Title: President",
+        "score": 0.7670285701751709
+      },
+      {
+        "doc": "cuad/RevolutionMedicinesInc_20200117_S-1_EX-10.1_11948417_EX-10.1_Development Agreement.txt",
+        "start": 208362,
+        "end": 208874,
+        "text": "and otherwise only with RevMed's prior written consent, under each (1) RevMed Program Invention and (2) [***]. For the avoidance of doubt, the Patent Rights licensed under this Section 12.3(d)(i) do not include any [***]. 64\n\nSource: REVOLUTION MEDICINES, INC., S-1, 1/17/2020\n\n\n\n\n\n(ii) Inventory Sell-Off Period. In the case of a termination of this Agreement, Sanofi (with respect to the Termination Products in the Licensed Territory), shall be entitled, for a period of [***] after termination, to (i) comple",
+        "score": 0.7231640815734863
+      }
+    ]
+  },
+  {
+    "qid": "q3149",
+    "query": "Consider the Distributor Agreement between WatchGuard Technologies, Inc. and European Micro; What is the renewal term for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 12137,
+        "end": 12832,
+        "answer": "The Term will automatically renew for successive additional periods of one (1) year each, provided that: (a) Distributor has made all Guaranteed Minimum Purchases and has complied with the marketing requirements under paragraph 4.1(b); (b) the parties have agreed in writing upon the Guaranteed Minimum Purchase amounts and Product price discounts for the next subsequent one (1) year renewal period; (c) neither party provided the other party with notice of such party's intention not to renew this Agreement at least thirty (30) days prior to any year's Expiration Date; and (d) neither party provided the other party with such notice as may be required pursuant to paragraphs 5.2, 5.3 or 5.4.",
+        "text": "The Term will automatically renew for successive additional periods of one (1) year each, provided that: (a) Distributor has made all Guaranteed Minimum Purchases and has complied with the marketing requirements under paragraph 4.1(b); (b) the parties have agreed in writing upon the Guaranteed Minimum Purchase amounts and Product price discounts for the next subsequent one (1) year renewal period; (c) neither party provided the other party with notice of such party's intention not to renew this Agreement at least thirty (30) days prior to any year's Expiration Date; and (d) neither party provided the other party with such notice as may be required pursuant to paragraphs 5.2, 5.3 or 5.4."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "EXHIBIT 10.6\n\n                                  EXHIBIT 10.06\n\n                          WATCHGUARD TECHNOLOGIES, INC.                               DISTRIBUTOR AGREEMENT\n\nThis Agreement is made and entered into effective as of November 5, 1997 (the \"effective Date), by and between WatchGuard Technologies, Inc., a Delaware corporation (\"WGT\"), and European Micro (\"Distributor\"). WGT and Distributor agree as follows:\n\nSection 1. Definitions\n\n\"Add-On Software Modules\" means those computer software programs th",
+        "score": 0.8252578973770142
+      },
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 24024,
+        "end": 24536,
+        "text": "  Europe\n\nSPECIAL TERMS AND CONDITIONS\n\n                                       9\n\nThese Special Terms and Conditions are part of the Distributor Agreement between WatchGuard Technologies, Inc. (\"WGT\") and Distributor (collectively, the \"Agreement\"). Terms that are defined in the Distributor Agreement will have the same meaning when used in these Special Terms and Conditions.\n\nSection A.1 By joint agreement between WGT and Distributor, Distributor may engage in end user sales in the Territory.\n\nIf it is agre",
+        "score": 0.7474592924118042
+      },
+      {
+        "doc": "cuad/EUROPEANMICROHOLDINGSINC_03_06_1998-EX-10.6-DISTRIBUTOR AGREEMENT.txt",
+        "start": 26334,
+        "end": 26846,
+        "text": " up a minimum of 10 new WatchGuard resellers in the Territory within the Initial Term of the Agreement.\n\n- -------------------------------------------- --------------------------------- Distributor:                                 WatchGuard Technologies, Inc.:\n\nBy:  /s/ LAURENCE GILBERT                    By:  /s/ WATCHGUARD      --------------------------                   ----------------------------- Title: MANAGING DIRECTOR                     Title: SENIOR VICE PRESIDENT/SALES                         ",
+        "score": 0.7143292427062988
+      }
+    ]
+  },
+  {
+    "qid": "q3025",
+    "query": "Consider the Cooperation Agreement between Otkritie Investments Cyprus Limited and QIWI plc for Strategic Partnership in Digital Payments; Is there a cap on liability under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/QIWI_06_16_2017-EX-99.(D)(2)-COOPERATION AGREEMENT.txt",
+        "start": 11401,
+        "end": 12244,
+        "answer": "For two (2) years following the Effective Time, QIWI covenants that at least one half of the total transactions processed by the Contact money transfer system during such two-year period shall be settled through PJSC Khanty-Mansiysk Bank Otkritie, provided that QIWI may terminate its obligation under this Clause 4.1 at any time, in which case it shall pay to Otkritie a fee equal to the demonstrated costs incurred by Otkritie for such period starting from 1 September 2014, until the date of termination of QIWI's obligations under this Clause 4.1 in connection with (i) the transfer of settlement bank function to PJSC Khanty-Mansiysk Bank Otkritie ; and (ii) supporting the settlement bank functionality for the Contact money transfer system, provided further that such fee shall in no event exceed RUB 50 000 000 (fifty million roubles).",
+        "text": "For two (2) years following the Effective Time, QIWI covenants that at least one half of the total transactions processed by the Contact money transfer system during such two-year period shall be settled through PJSC Khanty-Mansiysk Bank Otkritie, provided that QIWI may terminate its obligation under this Clause 4.1 at any time, in which case it shall pay to Otkritie a fee equal to the demonstrated costs incurred by Otkritie for such period starting from 1 September 2014, until the date of termination of QIWI's obligations under this Clause 4.1 in connection with (i) the transfer of settlement bank function to PJSC Khanty-Mansiysk Bank Otkritie ; and (ii) supporting the settlement bank functionality for the Contact money transfer system, provided further that such fee shall in no event exceed RUB 50 000 000 (fifty million roubles)."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/QIWI_06_16_2017-EX-99.(D)(2)-COOPERATION AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 99(d)(2)\n\nCOOPERATION AGREEMENT\n\nThis Cooperation Agreement, dated as of 02 June, 2015, between Otkritie Investments Cyprus Limited, a company incorporated under the laws of the Republic of Cyprus with registration number HE 301373, whose registered address is at Angelou Vlachou, 4A, 6052, Larnaca, Cyprus (\"OICL\" and together with its Affiliates, \"Otkritie\") and QIWI plc, a public company limited by shares incorporated under the laws of the Republic of Cyprus with registration number HE 193010, whos",
+        "score": 0.7798435688018799
+      },
+      {
+        "doc": "cuad/QIWI_06_16_2017-EX-99.(D)(2)-COOPERATION AGREEMENT.txt",
+        "start": 6930,
+        "end": 7442,
+        "text": "eration to Further Business.\n\n2.1 Subject to Applicable Law, fiduciary duties and obligations, the best interests of their respective customers, existing contractual agreements, business and market conditions, the protection of confidential or competitively sensitive information and commercial determinations as to appropriate business, product and marketing efforts, each of Otkritie and QIWI Group agree to strategically cooperate with each other in order to carry out certain joint projects related to certai",
+        "score": 0.7224670648574829
+      },
+      {
+        "doc": "cuad/QIWI_06_16_2017-EX-99.(D)(2)-COOPERATION AGREEMENT.txt",
+        "start": 924,
+        "end": 1436,
+        "text": "he terms of the Deed of Subscription, QIWI will acquire a one hundred (100) percent ownership interest in the charter capital of CIHRUS Limited Liability Company   (\"CIHRUS\"), a limited liability company duly existing and incorporated under the laws of the Russian Federation.\n\n(C) CIHRUS is the parent company of Rapida Ltd   , a company duly existing and incorporated under the laws of the Russian Federation under registration number 1037700111679, which QIWI will acquire as part of the transactions contempl",
+        "score": 0.708949863910675
+      }
+    ]
+  },
+  {
+    "qid": "q2304",
+    "query": "Consider the Marketing and Transportation Services Agreement between Purolator Courier Ltd. and Parcelway Courier Systems Canada Ltd. (Dynamex Inc.); What are the insurance requirements under this contract?",
+    "gold": [
+      {
+        "doc": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 19106,
+        "end": 20201,
+        "answer": "Each Party shall purchase and maintain, at its own expense, the        following insurance coverages:\n\n    (a)     cargo liability insurance, subject to a combined single limit of                not less than One Hundred Thousand dollars ($100,000.00)                inclusive per occurrence. The other Party shall be named as an                additional insured and the policy shall contain a cross                liability clause;\n\n    (b)     automobile, non-owned automobile, fleet, comprehensive general,                public and property liability insurance with a limit of not less                than Two Million dollars ($2,000,000.00) inclusive of bodily                injury and property damage for any one occurrence arising out of                one (1) cause. The policy shall cover all non-air operations,                non-owned automobile, contractual liability and liability                specifically assumed under this Agreement. The other party shall                be named as an additional insured and the policy shall contain a                cross liability clause;",
+        "text": "Each Party shall purchase and maintain, at its own expense, the        following insurance coverages:\n\n    (a)     cargo liability insurance, subject to a combined single limit of                not less than One Hundred Thousand dollars ($100,000.00)                inclusive per occurrence. The other Party shall be named as an                additional insured and the policy shall contain a cross                liability clause;\n\n    (b)     automobile, non-owned automobile, fleet, comprehensive general,                public and property liability insurance with a limit of not less                than Two Million dollars ($2,000,000.00) inclusive of bodily                injury and property damage for any one occurrence arising out of                one (1) cause. The policy shall cover all non-air operations,                non-owned automobile, contractual liability and liability                specifically assumed under this Agreement. The other party shall                be named as an additional insured and the policy shall contain a                cross liability clause;"
+      },
+      {
+        "doc": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 20210,
+        "end": 20643,
+        "answer": "Each Party shall deliver to the other, prior to commencing to provide        the Services and thereafter, annually, a certificate or certificates of        insurance evidencing that the required insurance coverages as        provided for in paragraph 9.1 are in effect and that each Party shall be        given thirty (30) days prior written notice of cancellation or         expiry of or material change to such insurance coverages.",
+        "text": "Each Party shall deliver to the other, prior to commencing to provide        the Services and thereafter, annually, a certificate or certificates of        insurance evidencing that the required insurance coverages as        provided for in paragraph 9.1 are in effect and that each Party shall be        given thirty (30) days prior written notice of cancellation or         expiry of or material change to such insurance coverages."
+      },
+      {
+        "doc": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 20883,
+        "end": 21314,
+        "answer": "Each Party shall maintain the insurance coverages provided for in        paragraph 9.1 hereof, in full force and effect during the term of        this Agreement and covenants that nothing shall be done whereby any        policy will be cancelled and shall pay all renewal premiums thereon on or        before the due date and shall forthwith furnish the other Party with        copies of certificates of insurance of such renewals.",
+        "text": "Each Party shall maintain the insurance coverages provided for in        paragraph 9.1 hereof, in full force and effect during the term of        this Agreement and covenants that nothing shall be done whereby any        policy will be cancelled and shall pay all renewal premiums thereon on or        before the due date and shall forthwith furnish the other Party with        copies of certificates of insurance of such renewals."
+      },
+      {
+        "doc": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 21856,
+        "end": 22071,
+        "answer": "Each Party shall ensure that any subcontractor or other party with whom        it contracts in providing the Services shall carry adequate        insurance coverage, but not less than that provided in paragraph 9.1.",
+        "text": "Each Party shall ensure that any subcontractor or other party with whom        it contracts in providing the Services shall carry adequate        insurance coverage, but not less than that provided in paragraph 9.1."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 462,
+        "end": 974,
+        "text": "  PARCELWAY COURIER SYSTEMS CANADA LTD.                          a subsidiary of Dynamex Inc.                                  (\"Dynamex\")\n\n  WHEREAS Purolator inter alia, is licensed to provide courier services for compensation across Canada and the United States of America;\n\n  AND WHEREAS Dynamex inter alia, is licensed to provide courier services for compensation across Canada and the United States of America;\n\n  AND WHEREAS Purolator's principal business activity is next day or multiple day service:\n\n  ",
+        "score": 0.8120812177658081
+      },
+      {
+        "doc": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "1                                                                     EXHIBIT 10.4\n\n             MARKETING AND TRANSPORTATION SERVICES AGREEMENT\n\n  THIS AGREEMENT made in duplicate this 20 day of November, 1995.\n\nB E T W E E N:\n\n                         PUROLATOR COURIER LTD.                                 (\"Purolator\")                                                                           - and -                                                            PARCELWAY COURIER SYSTEMS CANADA LTD.           ",
+        "score": 0.794837474822998
+      },
+      {
+        "doc": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt",
+        "start": 8778,
+        "end": 9290,
+        "text": "      provided there is no change in control, direct or indirect, in Alltours.\n\n3.10   It is understood and agreed by the Parties that each Party presently        offers a number of services which are complementary to those provided        for herein, including but not limited to mail room management services        and building distribution services. In that regard, Dynamex offers        its services as Dynamex while Purolator offers its services under the        name Distribution Management Services Inc. ",
+        "score": 0.7491090893745422
+      }
+    ]
+  },
+  {
+    "qid": "q1622",
+    "query": "Consider the Consulting Agreement between Slinger Bag Inc. and Aitan Zacharin for Investor Relations and Corporate Development; What happens in the event of a change of control of one of the parties in this contract?",
+    "gold": [
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 26048,
+        "end": 26803,
+        "answer": "Upon any capital reorganization of the Company's capital stock (other than a subdivision, combination, reclassification or exchange of shares provided for elsewhere in this Section 2) or a merger or consolidation of the Company with or into another corporation, then as a part of such reorganization, merger or consolidation, provision shall be made so that the Holder shall thereafter be entitled to receive upon the exercise of this Warrant, the number and kind of securities and property of the Company, or of the successor corporation resulting from such reorganization, merger or consolidation, to which that Holder would have received for the Shares if this Warrant had been exercised immediately before such reorganization, merger or consolidation.",
+        "text": "Upon any capital reorganization of the Company's capital stock (other than a subdivision, combination, reclassification or exchange of shares provided for elsewhere in this Section 2) or a merger or consolidation of the Company with or into another corporation, then as a part of such reorganization, merger or consolidation, provision shall be made so that the Holder shall thereafter be entitled to receive upon the exercise of this Warrant, the number and kind of securities and property of the Company, or of the successor corporation resulting from such reorganization, merger or consolidation, to which that Holder would have received for the Shares if this Warrant had been exercised immediately before such reorganization, merger or consolidation."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 0,
+        "end": 512,
+        "text": "Exhibit 10.7 CONSULTING AGREEMENT THIS AGREEMENT made this 30th day of April (the \"Effective Date\") between Slinger Bag Inc., a Nevada company (the \"Company\") and Aitan Zacharin, an individual residing in Bet Shemesh, Israel (the \"Consultant\") A. The Company is engaging Consultant as a consultant in respect of investor relations, corporate structure, public relations and commercial development. B. The Company and the Consultant wish to formally record the terms and conditions of such engagement. C. Each of ",
+        "score": 0.780306339263916
+      },
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 32340,
+        "end": 32852,
+        "text": "g Inc. Name: Title: Agreed and accepted: Aitan Zacharin\n\n\n\n\n\n14 Appendix 1 SLINGER BAG INC. EXERCISE NOTICE Reference is made to the Warrant Agreement dated 30 April 2020 between Slinger Bag Inc. (the \"Company\") and Aitan Zacharin (the \"Warrant Agreement\"). In accordance with and pursuant to the Warrant Agreement, the undersigned hereby elects to exercise the Warrant to purchase shares of common stock of the Company as set forth below. Capitalized terms used but not defined herein have the meanings assigned",
+        "score": 0.7341651320457458
+      },
+      {
+        "doc": "cuad/SLINGERBAGINC_05_27_2020-EX-10.7-CONSULTING AGREEMENT.txt",
+        "start": 19404,
+        "end": 19916,
+        "text": "OF, the parties hereto have executed this Agreement effective as of the date and year first above written. Slinger Bag Inc. By: Title: Agreed and accepted: Aitan Zacharin\n\n\n\n\n\n9 Annex A THIS WARRANT AND THE SHARES ISSUABLE HEREUNDER HAVE NOT BEEN REGISTERED UNDER THE SECURITIES ACT OF 1933, AS AMENDED (THE \"ACT\"), OR THE SECURITIES LAWS OF ANY STATE AND, EXCEPT AND PURSUANT TO THE PROVISIONS OF ARTICLE 4 BELOW, MAY NOT BE OFFERED, SOLD OR OTHERWISE TRANSFERRED, PLEDGED OR HYPOTHECATED UNLESS AND UNTIL REGIS",
+        "score": 0.714776337146759
+      }
+    ]
+  },
+  {
+    "qid": "q4014",
+    "query": "Consider the First Amendment to Distributor Agreement between Peregrine/Bridge Transfer Corporation, NEON Systems, Inc., and Skunkware, Inc.; What is the governing law for this contract?",
+    "gold": [
+      {
+        "doc": "cuad/NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.txt",
+        "start": 19127,
+        "end": 19227,
+        "answer": "This Amendment shall be governed by and construed under the law governing the Distributor Agreement.",
+        "text": "This Amendment shall be governed by and construed under the law governing the Distributor Agreement."
+      }
+    ],
+    "retrieved": [
+      {
+        "doc": "cuad/NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.txt",
+        "start": 20328,
+        "end": 20840,
+        "text": "                  JOINDER OF SKUNKWARE, INC.\n\n     Skunkware, Inc., a Delaware corporation, hereby joins in that certain Distributor Agreement dated as of January 1, 1996, between Peregrine/Bridge Transfer Corporation (\"PBTC\") and NEON Systems, Inc. (\"NEON\"), as amended by the First Amendment to Distributor Agreement dated as of November 19, 1998 by and between PBTC and NEON, such joinder being for purposes of acknowledging and agreeing to be bound by the terms of the Right of First Refusal set forth in Sec",
+        "score": 0.8418933153152466
+      },
+      {
+        "doc": "cuad/NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.txt",
+        "start": 462,
+        "end": 974,
+        "text": "                                                                DISTRIBUTOR AGREEMENT\n\n     THIS FIRST AMENDMENT TO DISTRIBUTOR AGREEMENT (this \"Amendment\") is made and entered into as of the 1st day of January, 1999, by and between Peregrine/Bridge Transfer Corporation, a Delaware corporation (\"Licensor\"), and NEON Systems, Inc., a Delaware corporation (\"Licensee\").\n\nRECITALS:\n\n     Licensor and Licensee are parties to that certain Distributor Agreement dated as of January 1, 1996 (the \"Distributor Agreeme",
+        "score": 0.8339197039604187
+      },
+      {
+        "doc": "cuad/NEONSYSTEMSINC_03_01_1999-EX-10.5-DISTRIBUTOR AGREEMENT_Amendment.txt",
+        "start": 20790,
+        "end": 21302,
+        "text": "rms of the Right of First Refusal set forth in Section 15.11 of the Distributor Agreement and the Option to Purchase set forth in Section 15.12 of the Distributor Agreement.  Skunkware hereby represents and warrants to NEON that Skunkware is the sole stockholder of PBTC.  Skunkware further agrees that its agreements set forth herein shall be binding on its successors and assigns and inure to the benefit of NEON's successors and assigns.\n\n     Skunkware's address for any notice to it under the terms of the D",
+        "score": 0.7754670977592468
+      }
+    ]
+  }
+]
