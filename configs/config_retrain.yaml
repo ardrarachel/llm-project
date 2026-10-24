@@ -1,6 +1,7 @@
 # Retrain on the data you ALREADY generated (data/processed, M=4, top_k 3): no new retrieval, no new generation.
 # Changes vs config.yaml: lower KL weight + longer warm-up, 10 epochs, 2x more optimizer steps (grad_accum 2),
-# 10x learning rate for the decoder-side latent path, unit-RMS latent key/value. Saves to outputs_retrain/.
+# latent path 5x the (lower) encoder learning rate, small unit-RMS latent key/value, LayerNorm on encoder features.
+# v2: the first version of this config diverged (KL in the tens of thousands); lr lowered and stabilisers added.
 # Phase 1 configuration: diverse grounded RAG with a latent-variable (CVAE) module.
 # Edit values here, not in the scripts.
 
@@ -31,6 +32,9 @@ model:
   num_query_tokens: 4               # paper: four-token latent query
   encoder_layers: 2                 # paper: embedding + first two transformer layers of the backbone
   adapter_norm: true        # our addition: unit-RMS latent key/value (see model.py)
+  adapter_gain_init: 0.1          # start size of the latent key/value when adapter_norm is on
+  mu_bound: 5.0            # bound on the posterior mean (our stabiliser); 0 = off
+  feature_norm: true           # stabiliser: LayerNorm on the encoder features
   adapter_hidden: 256               # hidden size of the per-layer latent adapter MLPs
   max_prompt_tokens: 640
   max_response_tokens: 180
@@ -48,13 +52,14 @@ generation_data:
 
 training:
   epochs: 10
-  lr: 1.0e-4
+  lr: 2.0e-5
   weight_decay: 0.01
-  latent_lr_mult: 10.0           # learning-rate multiplier for adapter + G-Skip FFN
+  latent_lr_mult: 5.0           # learning-rate multiplier for adapter + G-Skip FFN
   kl_weight: 0.5
-  kl_warmup_steps: 150              # beta ramps 0 -> kl_weight (extra safeguard against collapse)
+  kl_warmup_steps: 100              # beta ramps 0 -> kl_weight (extra safeguard against collapse)
   grad_accum: 2                     # questions per optimizer step (each question = a group of M responses)
   grad_clip: 1.0
+  kl_abort: 500                     # stop early if KL(inst) stays above this (divergence guard)
   fp16: true
   use_wandb: false
   log_every: 10

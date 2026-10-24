@@ -30,6 +30,9 @@ model:
   num_query_tokens: 4               # paper: four-token latent query
   encoder_layers: 2                 # paper: embedding + first two transformer layers of the backbone
   adapter_norm: true        # our addition: unit-RMS latent key/value (see model.py)
+  adapter_gain_init: 1.0          # start size of the latent key/value when adapter_norm is on
+  mu_bound: 5.0            # bound on the posterior mean (our stabiliser); 0 = off
+  feature_norm: false           # stabiliser: LayerNorm on the encoder features
   adapter_hidden: 256               # hidden size of the per-layer latent adapter MLPs
   max_prompt_tokens: 420
   max_response_tokens: 120
@@ -54,6 +57,7 @@ training:
   kl_warmup_steps: 150               # beta ramps 0 -> kl_weight (extra safeguard against collapse)
   grad_accum: 4                     # questions per optimizer step (each question = a group of M responses)
   grad_clip: 1.0
+  kl_abort: 500                     # stop early if KL(inst) stays above this (divergence guard)
   fp16: true
   use_wandb: false
   log_every: 10

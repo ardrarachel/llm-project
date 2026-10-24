@@ -9,6 +9,8 @@ Outputs: outputs/phase1_latent.pt (best validation loss), outputs/ckpt_last.pt, 
 """
 import argparse
 import os
+
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")   # fewer fragmentation OOMs
 import random
 import sys
 import time
@@ -83,7 +85,10 @@ def train(cfg, resume=False):
     mcfg = cfg["model"]
     model = LatentCVAE(backbone, mcfg["latent_dim"], mcfg["num_query_tokens"], mcfg["encoder_layers"],
                        mcfg["adapter_hidden"], use_amp=use_amp,
-                       adapter_norm=mcfg.get("adapter_norm", False)).to(device)
+                       adapter_norm=mcfg.get("adapter_norm", False),
+                       adapter_gain_init=mcfg.get("adapter_gain_init", 1.0),
+                       feature_norm=mcfg.get("feature_norm", False),
+                       mu_bound=mcfg.get("mu_bound", 0.0)).to(device)
     model.train()
     params = model.trainable_parameters()
     print(f"Trainable parameters: {sum(p.numel() for p in params) / 1e6:.1f}M "
@@ -125,6 +130,8 @@ def train(cfg, resume=False):
         wandb = _wandb
 
     accum = tcfg["grad_accum"]
+    kl_abort = float(tcfg.get("kl_abort", 500))        # stop early if KL stays above this for 3 log intervals
+    bad_kl, bad_loss = 0, 0
     rng = random.Random(cfg["seed"])
     for epoch in range(start_epoch, tcfg["epochs"]):
         order = list(range(len(train_items)))
@@ -137,8 +144,17 @@ def train(cfg, resume=False):
                            end_id, pad_id, device)
             out = model.compute_loss(*g, beta=beta)
             if not torch.isfinite(out["loss"]):
+                bad_loss += 1
                 print("Non-finite loss, skipping this group")
+                del out, g                      # free the graph, otherwise the next group runs out of memory
+                opt.zero_grad(set_to_none=True)
+                if torch.cuda.is_available():
+                    torch.cuda.empty_cache()
+                if bad_loss >= 8:
+                    raise RuntimeError("Training diverged (8 non-finite losses in a row). Lower training.lr, "
+                                       "turn on model.feature_norm and lower model.adapter_gain_init, then retrain.")
                 continue
+            bad_loss = 0
             scaler.scale(out["loss"] / accum).backward()
             for k in ["loss", "recon_per_token", "kl_group", "kl_instance"]:
                 run[k] += float(out[k].detach())
@@ -158,6 +174,11 @@ def train(cfg, resume=False):
                           f"| KL(group) {avg['kl_group']:.2f} | KL(inst) {avg['kl_instance']:.2f} | beta {beta:.2f} "
                           f"| {time.time() - t0:.0f}s{mem}")
                     log.append({"epoch": epoch + 1, "step": step, "beta": beta, **avg})
+                    bad_kl = bad_kl + 1 if avg["kl_instance"] > kl_abort else 0
+                    if bad_kl >= 3:
+                        plot_curves(log, out_dir)
+                        raise RuntimeError(f"KL exploded (KL(inst) {avg['kl_instance']:.0f} for 3 log intervals in a row). "
+                                           "Stopping early. Lower training.lr, enable model.feature_norm, lower model.adapter_gain_init.")
                     if wandb:
                         wandb.log({"step": step, "beta": beta, **avg})
                     run = {"loss": 0.0, "recon_per_token": 0.0, "kl_group": 0.0, "kl_instance": 0.0, "n": 0}

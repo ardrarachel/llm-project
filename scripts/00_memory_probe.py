@@ -28,7 +28,10 @@ def probe(cfg):
     use_amp = bool(tcfg["fp16"] and device.type == "cuda")
     model = LatentCVAE(backbone, mcfg["latent_dim"], mcfg["num_query_tokens"], mcfg["encoder_layers"],
                        mcfg["adapter_hidden"], use_amp=use_amp,
-                       adapter_norm=mcfg.get("adapter_norm", False)).to(device)
+                       adapter_norm=mcfg.get("adapter_norm", False),
+                       adapter_gain_init=mcfg.get("adapter_gain_init", 1.0),
+                       feature_norm=mcfg.get("feature_norm", False),
+                       mu_bound=mcfg.get("mu_bound", 0.0)).to(device)
     model.train()
     params = model.trainable_parameters()
     n_train = sum(p.numel() for p in params) / 1e6

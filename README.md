@@ -41,6 +41,8 @@ Tests (CPU, no downloads): `python tests/test_data_pipeline.py`, `python tests/t
 2. Quick retrain on the SAME data, about an hour on a T4 (my estimate): `python scripts/03_train.py --config configs/config_retrain.yaml`,
    then `04_evaluate.py` and `05_diagnose_latent.py` with the same `--config`. New knobs: `training.latent_lr_mult`
    (higher learning rate for adapter + G-Skip) and `model.adapter_norm` (unit-RMS latent key/value, our addition).
+   v1 of this config diverged on Kaggle (KL 300 -> 33,000, then NaN). v2 lowers `lr` to 2e-5, adds `model.feature_norm` (LayerNorm on the encoder
+   features), starts the latent key/value small (`adapter_gain_init: 0.1`), and stops by itself if KL(inst) stays above `training.kl_abort` (500).
 3. If still collapsed: more data per question, `configs/config_m8.yaml` (M=8; regenerates the data, several hours).
 
 ## Troubleshooting

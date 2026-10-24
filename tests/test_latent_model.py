@@ -30,9 +30,9 @@ def make_batch(M=3, Lp=10, Lr=6, V=100):
     return enc_ids, enc_mask, dec_ids, dec_mask, labels
 
 
-def build(adapter_norm=False):
+def build(adapter_norm=False, **kw):
     return LatentCVAE(tiny_backbone(), latent_dim=8, num_query_tokens=4, encoder_layers=2, adapter_hidden=16,
-                      adapter_norm=adapter_norm)
+                      adapter_norm=adapter_norm, **kw)
 
 
 def test_loss_and_grads():
@@ -152,6 +152,45 @@ def test_adapter_norm():
     # the default (adapter_norm=False) keeps the old checkpoint layout
     assert not any("adapter_gain" in k for k in build().trainable_state())
     print("ok adapter_norm (scale-free latent K/V, gradients, decoding consistent, old checkpoints still load)")
+
+
+def test_feature_norm_keeps_posterior_small_even_for_huge_features():
+    m = build(adapter_norm=True, adapter_gain_init=0.1, feature_norm=True)
+    assert torch.allclose(m.adapter_gain, torch.full_like(m.adapter_gain, 0.1))
+    # blow up the encoder's output scale: without feature_norm mu would explode, with it mu stays bounded
+    with torch.no_grad():
+        for p in m.encoder.parameters():
+            p.mul_(3.0)
+        m.encoder.norm.weight.mul_(1000.0)
+    enc_ids, enc_mask, *_ = make_batch()
+    mu, logvar = m.encode(enc_ids, enc_mask)
+    assert mu.abs().max() < 5.0, mu.abs().max()
+    m2 = build(adapter_norm=True)                       # same abuse, no feature_norm
+    with torch.no_grad():
+        for p in m2.encoder.parameters():
+            p.mul_(3.0)
+        m2.encoder.norm.weight.mul_(1000.0)
+    mu2, _ = m2.encode(enc_ids, enc_mask)
+    assert mu2.abs().max() > 5 * mu.abs().max()
+    out = m.compute_loss(*make_batch()); out["loss"].backward()
+    assert m.feat_norm.weight.grad is not None
+    print(f"ok feature_norm (max|mu| {mu.abs().max():.2f} vs {mu2.abs().max():.1f} without it)")
+
+
+def test_mu_bound_stops_kl_explosion():
+    batch = make_batch()
+    def kl_after_blowup(bound):
+        m = LatentCVAE(tiny_backbone(), latent_dim=8, num_query_tokens=4, encoder_layers=2, adapter_hidden=16, mu_bound=bound)
+        with torch.no_grad():                      # imitate the divergence: encoder outputs become huge
+            m.post_head[2].weight.mul_(1000.0)
+        torch.manual_seed(3)
+        return m.compute_loss(*batch, beta=0.5)
+    off, on = kl_after_blowup(0.0), kl_after_blowup(5.0)
+    assert off["kl_instance"] > 5000, off["kl_instance"]                 # the failure is reproduced...
+    assert on["kl_instance"] < 800 and torch.isfinite(on["loss"])         # ...and contained by the bound
+    assert on["mu"].abs().max() <= 5.0 + 1e-4
+    on["loss"].backward()
+    print(f"ok mu_bound (KL after blow-up: {off['kl_instance'].item():.0f} without the bound, {on['kl_instance'].item():.0f} with it)")
 
 
 def test_save_load():

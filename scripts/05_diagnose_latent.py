@@ -67,7 +67,10 @@ def main(config_path="configs/config.yaml", ckpt_name="phase1_latent.pt", max_va
     use_amp = bool(cfg["training"]["fp16"] and device.type == "cuda")
     model = LatentCVAE(backbone, mcfg["latent_dim"], mcfg["num_query_tokens"], mcfg["encoder_layers"],
                        mcfg["adapter_hidden"], use_amp=use_amp,
-                       adapter_norm=mcfg.get("adapter_norm", False)).to(device)
+                       adapter_norm=mcfg.get("adapter_norm", False),
+                       adapter_gain_init=mcfg.get("adapter_gain_init", 1.0),
+                       feature_norm=mcfg.get("feature_norm", False),
+                       mu_bound=mcfg.get("mu_bound", 0.0)).to(device)
     ck = torch.load(os.path.join(cfg["paths"]["output_dir"], ckpt_name), map_location="cpu")
     model.load_trainable(ck["model"])
     model.eval()

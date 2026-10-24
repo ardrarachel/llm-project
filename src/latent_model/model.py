@@ -59,7 +59,7 @@ def sample_top_p(logits, temperature, top_p):
 
 class LatentCVAE(nn.Module):
     def __init__(self, backbone, latent_dim=32, num_query_tokens=4, encoder_layers=2,
-                 adapter_hidden=256, use_amp=False, adapter_norm=False):
+                 adapter_hidden=256, use_amp=False, adapter_norm=False, adapter_gain_init=1.0, feature_norm=False, mu_bound=0.0):
         super().__init__()
         self.backbone = backbone
         for p in self.backbone.parameters():
@@ -74,6 +74,8 @@ class LatentCVAE(nn.Module):
         self.head_dim = getattr(cfg, "head_dim", None) or d // cfg.num_attention_heads
         self.use_amp = use_amp
         self.adapter_norm = adapter_norm
+        self.feature_norm = feature_norm
+        self.mu_bound = mu_bound
 
         # --- III-A latent encoder: first `encoder_layers` backbone layers (trainable copies) ---
         ecfg = copy.deepcopy(cfg)
@@ -90,6 +92,13 @@ class LatentCVAE(nn.Module):
         self.encoder = enc.float()
         self.query = nn.Parameter(torch.randn(num_query_tokens, d) * 0.02)       # N(0, 0.02) as in the paper
         self.post_head = nn.Sequential(nn.Linear(num_query_tokens * d, 512), nn.GELU(), nn.Linear(512, 2 * latent_dim))
+        if feature_norm:
+            # Our stabiliser: the backbone's last hidden states can be very large, which made mu explode (KL in the
+            # thousands). Normalise the 4 query features and start the mu/logvar layer small, so the posterior starts near the prior.
+            self.feat_norm = nn.LayerNorm(num_query_tokens * d)
+            with torch.no_grad():
+                self.post_head[2].weight.mul_(0.1)
+                self.post_head[2].bias.zero_()
 
         # --- III-B latent adapter: one small MLP per layer ---
         self.adapter = nn.ModuleList([
@@ -99,7 +108,7 @@ class LatentCVAE(nn.Module):
         if adapter_norm:
             # Our addition (not in the paper): rescale each adapter output to unit RMS before W_K / W_V, so the
             # latent key/value has the size of a normal token's and the decoder can notice it early in training.
-            self.adapter_gain = nn.Parameter(torch.ones(self.n_layers, d))
+            self.adapter_gain = nn.Parameter(torch.full((self.n_layers, d), float(adapter_gain_init)))
         # --- III-D G-Skip feed-forward network ---
         self.skip = nn.Sequential(nn.Linear(latent_dim, d), nn.GELU(), nn.Linear(d, d))
 
@@ -137,7 +146,12 @@ class LatentCVAE(nn.Module):
             pos = (m.cumsum(-1) - 1).clamp(min=0)
             feats = self.encoder(inputs_embeds=x, attention_mask=m, position_ids=pos, use_cache=False).last_hidden_state
             feats = feats[:, -self.Q:].reshape(B, -1)
+            if self.feature_norm:
+                feats = self.feat_norm(feats.float())
             mu, logvar = self.post_head(feats).float().chunk(2, dim=-1)
+        if self.mu_bound > 0:
+            # Our stabiliser: |mu| <= mu_bound and a modest variance, so KL is bounded (about 600 nats at most) and cannot explode.
+            return self.mu_bound * torch.tanh(mu / self.mu_bound), logvar.clamp(-6.0, 2.0)
         return mu, logvar.clamp(-8.0, 4.0)
 
     # ------------------------------------------------------------------ III-B

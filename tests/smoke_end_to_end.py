@@ -47,7 +47,7 @@ def main():
                              "output_dir": os.path.join(tmp, "outputs")})
         cfg["data"].update({"max_train_queries": 12, "max_val_queries": 4, "max_test_queries": 4})
         cfg["retrieval"].update({"chunk_size": 200, "chunk_overlap": 20})
-        cfg["model"].update({"adapter_norm": True, "backbone": model_dir, "latent_dim": 8, "adapter_hidden": 16, "max_prompt_tokens": 400, "max_response_tokens": 30})
+        cfg["model"].update({"mu_bound": 5.0, "adapter_norm": True, "adapter_gain_init": 0.1, "feature_norm": True, "backbone": model_dir, "latent_dim": 8, "adapter_hidden": 16, "max_prompt_tokens": 400, "max_response_tokens": 30})
         cfg["generation_data"].update({"max_new_tokens": 12, "batch_size": 8})
         cfg["training"].update({"latent_lr_mult": 5.0, "epochs": 2, "grad_accum": 2, "fp16": False, "log_every": 2, "kl_warmup_steps": 3})
         cfg["eval"].update({"num_samples": 3, "max_new_tokens": 12})
@@ -68,6 +68,13 @@ def main():
         assert json.load(open(os.path.join(out, "train_log.json")))[-1]["epoch"] == 3
         print("\n### memory probe (CPU: just checks it runs)"); load_script("00_memory_probe").probe(cfg)
         print("\n### diagnose latent"); r = load_script("05_diagnose_latent").main(cfg_path); assert set(r["nll"]) == {"none", "zero", "prior", "swapped", "posterior"}
+        print("\n### divergence guard: an absurdly low kl_abort must stop training early with a clear message")
+        bad = json.loads(json.dumps(cfg)); bad["paths"]["output_dir"] = os.path.join(tmp, "outputs_bad")
+        bad["training"].update({"kl_abort": 1e-9, "log_every": 1, "epochs": 3})
+        try:
+            t.train(bad); raise AssertionError("guard did not trigger")
+        except RuntimeError as e:
+            assert "KL exploded" in str(e), e; print("guard ok:", str(e)[:60])
         print("\n### step 4: evaluate"); load_script("04_evaluate").main(cfg_path)
         s = json.load(open(os.path.join(out, "eval_summary.json"))); assert set(s) == {"baseline", "latent"}
         smp = json.load(open(os.path.join(out, "eval_samples.json"))); assert len(smp[0]["latent"]) == 3
