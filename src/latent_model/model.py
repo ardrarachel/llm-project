@@ -59,7 +59,7 @@ def sample_top_p(logits, temperature, top_p):
 
 class LatentCVAE(nn.Module):
     def __init__(self, backbone, latent_dim=32, num_query_tokens=4, encoder_layers=2,
-                 adapter_hidden=256, use_amp=False):
+                 adapter_hidden=256, use_amp=False, adapter_norm=False):
         super().__init__()
         self.backbone = backbone
         for p in self.backbone.parameters():
@@ -73,6 +73,7 @@ class LatentCVAE(nn.Module):
         self.kv_heads = cfg.num_key_value_heads
         self.head_dim = getattr(cfg, "head_dim", None) or d // cfg.num_attention_heads
         self.use_amp = use_amp
+        self.adapter_norm = adapter_norm
 
         # --- III-A latent encoder: first `encoder_layers` backbone layers (trainable copies) ---
         ecfg = copy.deepcopy(cfg)
@@ -95,6 +96,10 @@ class LatentCVAE(nn.Module):
             nn.Sequential(nn.Linear(latent_dim, adapter_hidden), nn.GELU(), nn.Linear(adapter_hidden, d))
             for _ in range(self.n_layers)
         ])
+        if adapter_norm:
+            # Our addition (not in the paper): rescale each adapter output to unit RMS before W_K / W_V, so the
+            # latent key/value has the size of a normal token's and the decoder can notice it early in training.
+            self.adapter_gain = nn.Parameter(torch.ones(self.n_layers, d))
         # --- III-D G-Skip feed-forward network ---
         self.skip = nn.Sequential(nn.Linear(latent_dim, d), nn.GELU(), nn.Linear(d, d))
 
@@ -142,6 +147,8 @@ class LatentCVAE(nn.Module):
         cache = DynamicCache()
         for l, layer in enumerate(self.backbone.model.layers):
             h = self.adapter[l](z)
+            if self.adapter_norm:
+                h = h * torch.rsqrt(h.float().pow(2).mean(-1, keepdim=True) + 1e-6).to(h.dtype) * self.adapter_gain[l].to(h.dtype)
             k = layer.self_attn.k_proj(h).view(B, 1, self.kv_heads, self.head_dim).transpose(1, 2)
             v = layer.self_attn.v_proj(h).view(B, 1, self.kv_heads, self.head_dim).transpose(1, 2)
             cache.update(k, v, l)

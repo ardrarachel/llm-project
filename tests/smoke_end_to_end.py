@@ -47,9 +47,9 @@ def main():
                              "output_dir": os.path.join(tmp, "outputs")})
         cfg["data"].update({"max_train_queries": 12, "max_val_queries": 4, "max_test_queries": 4})
         cfg["retrieval"].update({"chunk_size": 200, "chunk_overlap": 20})
-        cfg["model"].update({"backbone": model_dir, "latent_dim": 8, "adapter_hidden": 16, "max_prompt_tokens": 400, "max_response_tokens": 30})
+        cfg["model"].update({"adapter_norm": True, "backbone": model_dir, "latent_dim": 8, "adapter_hidden": 16, "max_prompt_tokens": 400, "max_response_tokens": 30})
         cfg["generation_data"].update({"max_new_tokens": 12, "batch_size": 8})
-        cfg["training"].update({"epochs": 2, "grad_accum": 2, "fp16": False, "log_every": 2, "kl_warmup_steps": 3})
+        cfg["training"].update({"latent_lr_mult": 5.0, "epochs": 2, "grad_accum": 2, "fp16": False, "log_every": 2, "kl_warmup_steps": 3})
         cfg["eval"].update({"num_samples": 3, "max_new_tokens": 12})
         cfg_path = os.path.join(tmp, "config.yaml"); yaml.safe_dump(cfg, open(cfg_path, "w"))
         os.chdir(tmp)
@@ -66,6 +66,8 @@ def main():
         print("\n### step 3b: resume (epochs=3 -> runs 1 more epoch)"); cfg["training"]["epochs"] = 3
         t.train(cfg, resume=True)
         assert json.load(open(os.path.join(out, "train_log.json")))[-1]["epoch"] == 3
+        print("\n### memory probe (CPU: just checks it runs)"); load_script("00_memory_probe").probe(cfg)
+        print("\n### diagnose latent"); r = load_script("05_diagnose_latent").main(cfg_path); assert set(r["nll"]) == {"none", "zero", "prior", "swapped", "posterior"}
         print("\n### step 4: evaluate"); load_script("04_evaluate").main(cfg_path)
         s = json.load(open(os.path.join(out, "eval_summary.json"))); assert set(s) == {"baseline", "latent"}
         smp = json.load(open(os.path.join(out, "eval_samples.json"))); assert len(smp[0]["latent"]) == 3

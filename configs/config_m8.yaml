@@ -1,0 +1,65 @@
+# 1B run with M = 8 responses per question (instead of 4) and a weaker KL pull, to fight posterior collapse.
+# With the group-level KL, the saving over an ordinary KL is at most ln(M): ln(4)=1.4 nats, ln(8)=2.1 nats (paper uses M=32).
+# Shorter prompt/response keep M=8 inside one T4: run scripts/00_memory_probe.py --config configs/config_m8.yaml first.
+# Use:  --config configs/config_m8.yaml  on every script. Separate folders, nothing mixes with the M=4 run.
+
+seed: 42
+
+paths:
+  # Folders searched (recursively) for the LegalBench-RAG "corpus" and "benchmarks" folders.
+  data_root_candidates: ["data/raw", "/kaggle/input", "/kaggle/working/data/raw"]
+  processed_dir: "data/processed_m8"
+  output_dir: "outputs_m8"
+
+data:
+  dataset_name: "cuad"              # picks benchmark files whose name contains this
+  max_train_queries: 400            # keep small so everything finishes today
+  max_val_queries: 40
+  max_test_queries: 40
+  restrict_corpus_to_query_docs: true   # index only the contracts used by the selected queries (faster)
+
+retrieval:
+  embedding_model: "BAAI/bge-small-en-v1.5"
+  chunk_size: 512                   # characters
+  chunk_overlap: 50
+  top_k: 2
+
+model:
+  backbone: "meta-llama/Llama-3.2-1B-Instruct"   # gated: needs HF_TOKEN
+  latent_dim: 32                    # paper: Dim = 32
+  num_query_tokens: 4               # paper: four-token latent query
+  encoder_layers: 2                 # paper: embedding + first two transformer layers of the backbone
+  adapter_norm: true        # our addition: unit-RMS latent key/value (see model.py)
+  adapter_hidden: 256               # hidden size of the per-layer latent adapter MLPs
+  max_prompt_tokens: 420
+  max_response_tokens: 120
+
+# Self-supervised training data: the backbone writes M responses per question (as in the paper,
+# which samples responses from the backbone itself). Style hints are used ONLY while writing
+# the data; the training prompt does not contain them, so z has to learn the variation.
+generation_data:
+  styles: ["plain", "plain", "technical", "technical", "concise", "concise", "cautious", "cautious"]   # M = 8 (2 samples per style)
+  temperature: 0.9
+  top_p: 0.95
+  max_new_tokens: 120
+  batch_size: 8
+  min_words: 5
+
+training:
+  epochs: 15
+  lr: 1.0e-4
+  weight_decay: 0.01
+  latent_lr_mult: 10.0           # learning-rate multiplier for adapter + G-Skip FFN
+  kl_weight: 0.5
+  kl_warmup_steps: 150               # beta ramps 0 -> kl_weight (extra safeguard against collapse)
+  grad_accum: 4                     # questions per optimizer step (each question = a group of M responses)
+  grad_clip: 1.0
+  fp16: true
+  use_wandb: false
+  log_every: 10
+
+eval:
+  num_samples: 4                    # diverse answers per test question
+  temperature: 1.0
+  top_p: 0.95
+  max_new_tokens: 120

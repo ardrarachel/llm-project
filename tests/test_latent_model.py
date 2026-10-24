@@ -30,8 +30,9 @@ def make_batch(M=3, Lp=10, Lr=6, V=100):
     return enc_ids, enc_mask, dec_ids, dec_mask, labels
 
 
-def build():
-    return LatentCVAE(tiny_backbone(), latent_dim=8, num_query_tokens=4, encoder_layers=2, adapter_hidden=16)
+def build(adapter_norm=False):
+    return LatentCVAE(tiny_backbone(), latent_dim=8, num_query_tokens=4, encoder_layers=2, adapter_hidden=16,
+                      adapter_norm=adapter_norm)
 
 
 def test_loss_and_grads():
@@ -118,6 +119,39 @@ def test_generate():
     g2 = m.generate(prompt, num_samples=2, z=z, max_new_tokens=9, temperature=0.0, top_p=1.0, eos_ids=[], pad_id=0)
     assert torch.equal(g2[0], g2[1])
     print("ok generate (latent + baseline, deterministic for fixed z)")
+
+
+def test_adapter_norm():
+    m = build(adapter_norm=True); m.train()
+    out = m.compute_loss(*make_batch(), beta=1.0)
+    out["loss"].backward()
+    assert torch.isfinite(out["loss"]) and m.adapter_gain.grad is not None and m.adapter_gain.grad.abs().sum() > 0
+    # latent key/value must now have a size independent of the adapter's output scale
+    z = torch.randn(2, 8)
+    c1 = m.build_cache(z)
+    with torch.no_grad():
+        for p in m.adapter.parameters():
+            p.mul_(50.0)
+    c2 = m.build_cache(z)
+    k1 = c1.layers[0].keys if hasattr(c1, "layers") else c1.key_cache[0]
+    k2 = c2.layers[0].keys if hasattr(c2, "layers") else c2.key_cache[0]
+    assert abs(k1.norm().item() - k2.norm().item()) / k1.norm().item() < 0.2, (k1.norm(), k2.norm())
+    # incremental decoding must still equal teacher forcing with the normalisation on
+    m.eval(); torch.manual_seed(2)
+    ids = torch.randint(3, 100, (1, 14)); zz = torch.randn(1, 8)
+    with torch.no_grad():
+        full = m.backbone.lm_head(m.decode_hidden(ids, torch.ones_like(ids), zz))
+        cache = m.build_cache(zz); attn = torch.ones(1, 1 + 8, dtype=torch.long)
+        o = m.backbone.model(input_ids=ids[:, :8], attention_mask=attn, past_key_values=cache, use_cache=True)
+        cache, logits = o.past_key_values, [m.backbone.lm_head(o.last_hidden_state)]
+        for t in range(8, 14):
+            attn = torch.cat([attn, torch.ones(1, 1, dtype=torch.long)], 1)
+            o = m.backbone.model(input_ids=ids[:, t:t + 1], attention_mask=attn, past_key_values=cache, use_cache=True)
+            cache = o.past_key_values; logits.append(m.backbone.lm_head(o.last_hidden_state))
+    assert torch.allclose(full, torch.cat(logits, 1), atol=1e-4)
+    # the default (adapter_norm=False) keeps the old checkpoint layout
+    assert not any("adapter_gain" in k for k in build().trainable_state())
+    print("ok adapter_norm (scale-free latent K/V, gradients, decoding consistent, old checkpoints still load)")
 
 
 def test_save_load():

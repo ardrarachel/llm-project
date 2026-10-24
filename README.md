@@ -12,6 +12,7 @@ scaled down to one Kaggle T4.
 | 3 | `python scripts/02_generate_training_data.py` | Llama writes 4 styled answers per question | data/processed/*_responses.jsonl |
 | 4 | `python scripts/03_train.py` (`--resume`) | train latent encoder + adapter + G-Skip with DG-ELBo | outputs/phase1_latent.pt |
 | 5 | `python scripts/04_evaluate.py` | latent sampling vs plain RAG on test contracts | outputs/eval_summary.json, eval_samples.json |
+| 6 | `python scripts/05_diagnose_latent.py` | is z actually used? NLL under different z, style probe, spread of mu | printed report |
 
 Tests (CPU, no downloads): `python tests/test_data_pipeline.py`, `python tests/test_latent_model.py`, `python tests/smoke_end_to_end.py`.
 
@@ -29,6 +30,18 @@ Tests (CPU, no downloads): `python tests/test_data_pipeline.py`, `python tests/t
 - KL warm-up (beta 0 -> 1 over 50 steps) added as an extra anti-collapse safeguard.
 - Llama-3.2-1B instead of Llama-3-8B; encoder shares the frozen embedding table instead of copying it.
 - Adapter hidden size 256 and the MLP head sizes are our choices (paper does not fix them in the text we used).
+
+## Reading the training log (posterior collapse)
+- KL(group) is almost equal to KL(inst), and `active_units` is 0: the posteriors of one question's responses are identical, so z carries no response-specific information.
+  The group-level KL can save at most ln(M) nats over an ordinary KL (M=4: 1.4, M=8: 2.1, paper M=32), so a small M behaves almost like a plain VAE.
+- Run `scripts/05_diagnose_latent.py`. Then try `configs/config_m8.yaml` (M=8, kl_weight 0.5, longer warm-up, 15 epochs), after `scripts/00_memory_probe.py --config configs/config_m8.yaml`.
+
+## After a collapsed run (KL ~ 1-2, active_units 0, latent answers = baseline answers)
+1. `python scripts/05_diagnose_latent.py` (records the evidence: NLL with / without z, style probe).
+2. Quick retrain on the SAME data, about an hour on a T4 (my estimate): `python scripts/03_train.py --config configs/config_retrain.yaml`,
+   then `04_evaluate.py` and `05_diagnose_latent.py` with the same `--config`. New knobs: `training.latent_lr_mult`
+   (higher learning rate for adapter + G-Skip) and `model.adapter_norm` (unit-RMS latent key/value, our addition).
+3. If still collapsed: more data per question, `configs/config_m8.yaml` (M=8; regenerates the data, several hours).
 
 ## Troubleshooting
 - **CUDA out of memory** in step 3/4: lower `model.max_prompt_tokens` (e.g. 480), `retrieval.top_k` to 2, or use fewer styles (M=3). Rerun steps 2-4.

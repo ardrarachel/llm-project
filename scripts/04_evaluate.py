@@ -53,7 +53,8 @@ def main(config_path="configs/config.yaml", ckpt_name="phase1_latent.pt"):
     tok, backbone, eos_ids, end_id, pad_id = load_backbone(mcfg["backbone"], device, fp16=cfg["training"]["fp16"])
     use_amp = bool(cfg["training"]["fp16"] and device.type == "cuda")
     model = LatentCVAE(backbone, mcfg["latent_dim"], mcfg["num_query_tokens"], mcfg["encoder_layers"],
-                       mcfg["adapter_hidden"], use_amp=use_amp).to(device)
+                       mcfg["adapter_hidden"], use_amp=use_amp,
+                       adapter_norm=mcfg.get("adapter_norm", False)).to(device)
     ck = torch.load(os.path.join(cfg["paths"]["output_dir"], ckpt_name), map_location="cpu")
     model.load_trainable(ck["model"])
     model.eval()
@@ -84,4 +85,8 @@ def main(config_path="configs/config.yaml", ckpt_name="phase1_latent.pt"):
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--config", default="configs/config.yaml")
+    a = ap.parse_args()
+    main(a.config)

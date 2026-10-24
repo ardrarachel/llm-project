@@ -27,6 +27,7 @@ model:
   latent_dim: 32                    # paper: Dim = 32
   num_query_tokens: 4               # paper: four-token latent query
   encoder_layers: 2                 # paper: embedding + first two transformer layers of the backbone
+  adapter_norm: false        # our addition: unit-RMS latent key/value (see model.py)
   adapter_hidden: 256               # hidden size of the per-layer latent adapter MLPs
   max_prompt_tokens: 640
   max_response_tokens: 180
@@ -46,6 +47,7 @@ training:
   epochs: 5
   lr: 1.0e-4
   weight_decay: 0.01
+  latent_lr_mult: 1.0           # learning-rate multiplier for adapter + G-Skip FFN
   kl_weight: 1.0
   kl_warmup_steps: 50               # beta ramps 0 -> kl_weight (extra safeguard against collapse)
   grad_accum: 4                     # questions per optimizer step (each question = a group of M responses)

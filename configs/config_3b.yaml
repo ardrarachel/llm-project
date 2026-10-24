@@ -1,0 +1,64 @@
+# Phase 1 with Llama-3.2-3B-Instruct on one Kaggle T4 (15 GB). Reduced settings so it fits:
+# top_k 2, 3 styles (M=3), shorter prompt/response, 1 encoder layer. Separate folders so nothing mixes with the 1B run.
+# Run order is the same, but add: --config configs/config_3b.yaml  (and run scripts/00_memory_probe.py first).
+
+seed: 42
+
+paths:
+  # Folders searched (recursively) for the LegalBench-RAG "corpus" and "benchmarks" folders.
+  data_root_candidates: ["data/raw", "/kaggle/input", "/kaggle/working/data/raw"]
+  processed_dir: "data/processed_3b"
+  output_dir: "outputs_3b"
+
+data:
+  dataset_name: "cuad"              # picks benchmark files whose name contains this
+  max_train_queries: 250            # keep small so everything finishes today
+  max_val_queries: 40
+  max_test_queries: 40
+  restrict_corpus_to_query_docs: true   # index only the contracts used by the selected queries (faster)
+
+retrieval:
+  embedding_model: "BAAI/bge-small-en-v1.5"
+  chunk_size: 512                   # characters
+  chunk_overlap: 50
+  top_k: 2
+
+model:
+  backbone: "meta-llama/Llama-3.2-3B-Instruct"   # gated: request access on its own HF page
+  latent_dim: 32                    # paper: Dim = 32
+  num_query_tokens: 4               # paper: four-token latent query
+  encoder_layers: 1                 # paper uses 2; 1 saves ~1.6 GB of optimizer memory on the 3B model
+  adapter_norm: false        # our addition: unit-RMS latent key/value (see model.py)
+  adapter_hidden: 128               # hidden size of the per-layer latent adapter MLPs
+  max_prompt_tokens: 420
+  max_response_tokens: 120
+
+# Self-supervised training data: the backbone writes M responses per question (as in the paper,
+# which samples responses from the backbone itself). Style hints are used ONLY while writing
+# the data; the training prompt does not contain them, so z has to learn the variation.
+generation_data:
+  styles: ["plain", "technical", "cautious"]   # M = number of styles (3 to save memory)
+  temperature: 0.9
+  top_p: 0.95
+  max_new_tokens: 120
+  batch_size: 6
+  min_words: 5
+
+training:
+  epochs: 5
+  lr: 1.0e-4
+  weight_decay: 0.01
+  latent_lr_mult: 1.0           # learning-rate multiplier for adapter + G-Skip FFN
+  kl_weight: 1.0
+  kl_warmup_steps: 50               # beta ramps 0 -> kl_weight (extra safeguard against collapse)
+  grad_accum: 4                     # questions per optimizer step (each question = a group of M responses)
+  grad_clip: 1.0
+  fp16: true
+  use_wandb: false
+  log_every: 10
+
+eval:
+  num_samples: 4                    # diverse answers per test question
+  temperature: 1.0
+  top_p: 0.95
+  max_new_tokens: 120
